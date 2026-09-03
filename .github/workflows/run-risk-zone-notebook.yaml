@@ -37,5 +37,5 @@ jobs:
       - name: Upload report as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: notebook-report
+          name: model-risk-zone-notebook-report
           path: output/Model_Risk_Zone.html
