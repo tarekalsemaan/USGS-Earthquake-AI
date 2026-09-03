@@ -1,6 +1,9 @@
 pandas
+papermill
 numpy
 matplotlib
 scikit-learn
 requests
 jupyter
+seaborn
+nbconvert
