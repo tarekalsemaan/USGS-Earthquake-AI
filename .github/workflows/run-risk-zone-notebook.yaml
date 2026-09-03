@@ -1,11 +1,11 @@
 name: Run Model_Risk_Zone
+
 on:
   push:
     branches:
       - main
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    paths:
+      - 'notebooks/02_Model_Risk_Zone.ipynb'
 
 jobs:
   execute-notebook:
@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5.1.0
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -27,14 +27,15 @@ jobs:
 
       - name: Execute notebook with Papermill
         run: |
+          mkdir -p output
           papermill notebooks/02_Model_Risk_Zone.ipynb output/output.ipynb
 
       - name: Convert notebook to HTML report
         run: |
-          jupyter nbconvert --to html output/output.ipynb --output output.html
+          jupyter nbconvert --to html output/output.ipynb --output Model_Risk_Zone.html
 
       - name: Upload report as artifact
         uses: actions/upload-artifact@v4
         with:
           name: notebook-report
-          path: output/output.html
+          path: output/Model_Risk_Zone.html
