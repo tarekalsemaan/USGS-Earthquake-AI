@@ -10,3 +10,4 @@ nbconvert
 joblib
 streamlit
 pydeck
+geopy

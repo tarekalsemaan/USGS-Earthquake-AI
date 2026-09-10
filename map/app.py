@@ -3,6 +3,7 @@ import pandas as pd
 import pydeck as pdk
 import joblib
 import numpy as np
+from geopy.geocoders import Nominatim
 
 # ============================================================
 # PAGE
@@ -31,51 +32,51 @@ damage_model = joblib.load(
 
 
 # ============================================================
-# LOCATIONS
-# ============================================================
-
-locations = {
-    "Montreal, Canada": (45.5017, -73.5673),
-    "Vancouver, Canada": (49.2827, -123.1207),
-    "Los Angeles, USA": (34.0522, -118.2437),
-    "San Francisco, USA": (37.7749, -122.4194),
-    "Mexico City, Mexico": (19.4326, -99.1332),
-    "Tokyo, Japan": (35.6762, 139.6503),
-    "Istanbul, Turkey": (41.0082, 28.9784),
-    "Athens, Greece": (37.9838, 23.7275),
-    "Rome, Italy": (41.9028, 12.4964),
-    "Jakarta, Indonesia": (-6.2088, 106.8456),
-    "Santiago, Chile": (-33.4489, -70.6693),
-    "Lima, Peru": (-12.0464, -77.0428),
-    "Kathmandu, Nepal": (27.7172, 85.3240),
-    "Manila, Philippines": (14.5995, 120.9842)
-}
-
-
-# ============================================================
-# CHOOSE PLACE
+# SEARCH PLACE
 # ============================================================
 
 st.subheader("1. Choose a place")
 
-place = st.selectbox(
-    "Location",
-    list(locations.keys())
+geolocator = Nominatim(
+    user_agent="usgs_earthquake_ai"
 )
 
-latitude, longitude = locations[place]
-
-col_lat, col_lon = st.columns(2)
-
-col_lat.metric(
-    "Latitude",
-    latitude
+place = st.text_input(
+    "Search for a city or place",
+    value="Montreal, Canada"
 )
 
-col_lon.metric(
-    "Longitude",
-    longitude
-)
+location = geolocator.geocode(place)
+
+if location:
+
+    latitude = location.latitude
+    longitude = location.longitude
+
+    st.success(
+        f"Location found: {location.address}"
+    )
+
+    col_lat, col_lon = st.columns(2)
+
+    col_lat.metric(
+        "Latitude",
+        round(latitude, 4)
+    )
+
+    col_lon.metric(
+        "Longitude",
+        round(longitude, 4)
+    )
+
+else:
+
+    st.error(
+        "Location not found. Try another city or place."
+    )
+
+    st.stop()
+
 
 
 # ============================================================
