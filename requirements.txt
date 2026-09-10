@@ -11,3 +11,5 @@ joblib
 streamlit
 pydeck
 geopy
+folium
+streamlit-folium

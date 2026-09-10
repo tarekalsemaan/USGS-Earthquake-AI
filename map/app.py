@@ -1,12 +1,15 @@
 import streamlit as st
 import pandas as pd
-import pydeck as pdk
-import joblib
 import numpy as np
-from geopy.geocoders import Nominatim
+import joblib
+import folium
+
+from datetime import date
+from streamlit_folium import st_folium
+
 
 # ============================================================
-# PAGE
+# PAGE CONFIGURATION
 # ============================================================
 
 st.set_page_config(
@@ -17,8 +20,9 @@ st.set_page_config(
 st.title("USGS Earthquake AI — Damage Prediction")
 
 st.write(
-    "Choose a location and enter the earthquake characteristics "
-    "to estimate the expected damage level."
+    "Choose a date, click a location on the map, "
+    "enter the earthquake characteristics, "
+    "and let the AI estimate the expected damage level."
 )
 
 
@@ -32,60 +36,172 @@ damage_model = joblib.load(
 
 
 # ============================================================
-# SEARCH PLACE
+# SESSION STATE
 # ============================================================
 
-st.subheader("1. Choose a place")
+if "latitude" not in st.session_state:
+    st.session_state.latitude = 45.5017
 
-geolocator = Nominatim(
-    user_agent="usgs_earthquake_ai"
+if "longitude" not in st.session_state:
+    st.session_state.longitude = -73.5673
+
+if "prediction" not in st.session_state:
+    st.session_state.prediction = None
+
+
+# ============================================================
+# 1. CHOOSE DATE
+# ============================================================
+
+st.subheader("1. Choose a date")
+
+selected_date = st.date_input(
+    "Date",
+    value=date.today()
 )
 
-place = st.text_input(
-    "Search for a city or place",
-    value="Montreal, Canada"
+st.info(
+    f"Selected date: {selected_date}"
 )
 
-location = geolocator.geocode(place)
-
-if location:
-
-    latitude = location.latitude
-    longitude = location.longitude
-
-    st.success(
-        f"Location found: {location.address}"
-    )
-
-    col_lat, col_lon = st.columns(2)
-
-    col_lat.metric(
-        "Latitude",
-        round(latitude, 4)
-    )
-
-    col_lon.metric(
-        "Longitude",
-        round(longitude, 4)
-    )
-
-else:
-
-    st.error(
-        "Location not found. Try another city or place."
-    )
-
-    st.stop()
-
+st.caption(
+    "The selected date identifies the prediction scenario. "
+    "The current Random Forest model does not use the date "
+    "as an input variable."
+)
 
 
 # ============================================================
-# EARTHQUAKE CHARACTERISTICS
+# 2. CLICK LOCATION ON MAP
 # ============================================================
 
-st.subheader("2. Enter earthquake characteristics")
+st.subheader("2. Click a location on the map")
+
+st.write(
+    "Click anywhere on the map to select the location "
+    "where you want to estimate earthquake damage."
+)
+
+
+# ============================================================
+# CREATE SELECTION MAP
+# ============================================================
+
+selection_map = folium.Map(
+    location=[
+        st.session_state.latitude,
+        st.session_state.longitude
+    ],
+    zoom_start=3
+)
+
+
+# ============================================================
+# CURRENT LOCATION CIRCLE
+# ============================================================
+
+folium.CircleMarker(
+    location=[
+        st.session_state.latitude,
+        st.session_state.longitude
+    ],
+    radius=8,
+    color="blue",
+    fill=True,
+    fill_color="blue",
+    fill_opacity=0.8,
+    tooltip="Selected location",
+    popup=(
+        f"Latitude: {st.session_state.latitude:.4f}<br>"
+        f"Longitude: {st.session_state.longitude:.4f}"
+    )
+).add_to(selection_map)
+
+
+# ============================================================
+# DISPLAY CLICKABLE MAP
+# ============================================================
+
+map_data = st_folium(
+    selection_map,
+    width=None,
+    height=500,
+    key="selection_map",
+    returned_objects=[
+        "last_clicked"
+    ]
+)
+
+
+# ============================================================
+# READ MAP CLICK
+# ============================================================
+
+if map_data and map_data.get("last_clicked"):
+
+    clicked_latitude = map_data["last_clicked"]["lat"]
+    clicked_longitude = map_data["last_clicked"]["lng"]
+
+    location_changed = (
+        abs(
+            clicked_latitude
+            - st.session_state.latitude
+        ) > 0.0001
+        or
+        abs(
+            clicked_longitude
+            - st.session_state.longitude
+        ) > 0.0001
+    )
+
+    if location_changed:
+
+        st.session_state.latitude = clicked_latitude
+        st.session_state.longitude = clicked_longitude
+
+        # Remove the previous prediction when location changes
+        st.session_state.prediction = None
+
+        st.rerun()
+
+
+# ============================================================
+# SHOW SELECTED COORDINATES
+# ============================================================
+
+col_lat, col_lon = st.columns(2)
+
+col_lat.metric(
+    "Selected Latitude",
+    round(
+        st.session_state.latitude,
+        4
+    )
+)
+
+col_lon.metric(
+    "Selected Longitude",
+    round(
+        st.session_state.longitude,
+        4
+    )
+)
+
+
+# ============================================================
+# 3. EARTHQUAKE CHARACTERISTICS
+# ============================================================
+
+st.subheader(
+    "3. Enter earthquake characteristics"
+)
 
 col1, col2, col3 = st.columns(3)
+
+
+# ============================================================
+# COLUMN 1
+# ============================================================
 
 with col1:
 
@@ -100,6 +216,7 @@ with col1:
     depth = st.number_input(
         "Depth (km)",
         min_value=0.0,
+        max_value=800.0,
         value=10.0,
         step=1.0
     )
@@ -112,6 +229,10 @@ with col1:
         step=0.1
     )
 
+
+# ============================================================
+# COLUMN 2
+# ============================================================
 
 with col2:
 
@@ -138,49 +259,115 @@ with col2:
     )
 
 
+# ============================================================
+# COLUMN 3
+# ============================================================
+
 with col3:
 
     tsunami_option = st.selectbox(
         "Tsunami",
-        ["No", "Yes"]
+        [
+            "No",
+            "Yes"
+        ]
     )
 
-    tsunami = 1 if tsunami_option == "Yes" else 0
+    tsunami = (
+        1
+        if tsunami_option == "Yes"
+        else 0
+    )
+
+    st.write("Prediction location")
+
+    st.write(
+        f"Latitude: "
+        f"{st.session_state.latitude:.4f}"
+    )
+
+    st.write(
+        f"Longitude: "
+        f"{st.session_state.longitude:.4f}"
+    )
 
 
 # ============================================================
-# PREDICTION
+# 4. AI PREDICTION
 # ============================================================
 
-st.subheader("3. AI prediction")
+st.subheader("4. AI prediction")
 
-if st.button("Predict Damage", type="primary"):
+if st.button(
+    "Predict Damage",
+    type="primary"
+):
 
-    # Same transformation used during training
-    felt_log_imputed = np.log1p(felt)
+    # ========================================================
+    # SAME PREPROCESSING USED DURING TRAINING
+    # ========================================================
+
+    felt_log_imputed = np.log1p(
+        felt
+    )
 
     cdi_imputed = cdi
 
-    features = pd.DataFrame([{
-        "mag": mag,
-        "depth": depth,
-        "mmi": mmi,
-        "cdi_imputed": cdi_imputed,
-        "felt_log_imputed": felt_log_imputed,
-        "sig": sig,
-        "tsunami": tsunami,
-        "latitude": latitude,
-        "longitude": longitude
-    }])
 
-    prediction = damage_model.predict(features)[0]
+    # ========================================================
+    # CREATE MODEL INPUT
+    # ========================================================
+
+    features = pd.DataFrame(
+        [
+            {
+                "mag": mag,
+                "depth": depth,
+                "mmi": mmi,
+                "cdi_imputed": cdi_imputed,
+                "felt_log_imputed": felt_log_imputed,
+                "sig": sig,
+                "tsunami": tsunami,
+                "latitude": st.session_state.latitude,
+                "longitude": st.session_state.longitude
+            }
+        ]
+    )
 
 
     # ========================================================
-    # RESULT
+    # MODEL PREDICTION
     # ========================================================
 
-    st.write("### Prediction for", place)
+    prediction = damage_model.predict(
+        features
+    )[0]
+
+    st.session_state.prediction = prediction
+
+
+# ============================================================
+# SHOW PREDICTION
+# ============================================================
+
+if st.session_state.prediction is not None:
+
+    prediction = st.session_state.prediction
+
+    st.write(
+        f"### Prediction for {selected_date}"
+    )
+
+    st.write(
+        f"Location: "
+        f"{st.session_state.latitude:.4f}, "
+        f"{st.session_state.longitude:.4f}"
+    )
+
+
+    # ========================================================
+    # RESULT COLOR
+    # ========================================================
 
     if prediction == "Faible":
 
@@ -188,7 +375,7 @@ if st.button("Predict Damage", type="primary"):
             "Predicted Damage: FAIBLE"
         )
 
-        color = [0, 180, 0, 220]
+        marker_color = "green"
 
 
     elif prediction == "Modéré":
@@ -197,7 +384,7 @@ if st.button("Predict Damage", type="primary"):
             "Predicted Damage: MODÉRÉ"
         )
 
-        color = [255, 165, 0, 220]
+        marker_color = "orange"
 
 
     else:
@@ -206,68 +393,78 @@ if st.button("Predict Damage", type="primary"):
             "Predicted Damage: SÉVÈRE"
         )
 
-        color = [220, 0, 0, 220]
+        marker_color = "red"
 
 
     # ========================================================
-    # MAP DATA
+    # RESULT MAP
     # ========================================================
 
-    map_df = pd.DataFrame([{
-        "place": place,
-        "latitude": latitude,
-        "longitude": longitude,
-        "mag": mag,
-        "depth": depth,
-        "mmi": mmi,
-        "prediction": prediction,
-        "color": color
-    }])
+    st.subheader(
+        "Prediction on map"
+    )
 
-
-    # ========================================================
-    # MAP POINT
-    # ========================================================
-
-    layer = pdk.Layer(
-        "ScatterplotLayer",
-        data=map_df,
-        get_position="[longitude, latitude]",
-        get_fill_color="color",
-        get_radius=50000,
-        pickable=True,
-        auto_highlight=True
+    result_map = folium.Map(
+        location=[
+            st.session_state.latitude,
+            st.session_state.longitude
+        ],
+        zoom_start=6
     )
 
 
-    view_state = pdk.ViewState(
-        latitude=latitude,
-        longitude=longitude,
-        zoom=4
+    # ========================================================
+    # PREDICTION CIRCLE
+    # ========================================================
+
+    folium.CircleMarker(
+        location=[
+            st.session_state.latitude,
+            st.session_state.longitude
+        ],
+
+        radius=15,
+
+        color=marker_color,
+
+        fill=True,
+
+        fill_color=marker_color,
+
+        fill_opacity=0.8,
+
+        popup=folium.Popup(
+            f"""
+            <b>Date:</b> {selected_date}<br>
+            <b>Latitude:</b> {st.session_state.latitude:.4f}<br>
+            <b>Longitude:</b> {st.session_state.longitude:.4f}<br>
+            <b>Magnitude:</b> {mag}<br>
+            <b>Depth:</b> {depth} km<br>
+            <b>MMI:</b> {mmi}<br>
+            <b>CDI:</b> {cdi}<br>
+            <b>Felt reports:</b> {felt}<br>
+            <b>SIG:</b> {sig}<br>
+            <b>Tsunami:</b> {tsunami_option}<br>
+            <b>Predicted Damage:</b> {prediction}
+            """,
+            max_width=350
+        ),
+
+        tooltip=(
+            f"Predicted Damage: {prediction}"
+        )
+
+    ).add_to(result_map)
+
+
+    # ========================================================
+    # DISPLAY RESULT MAP
+    # ========================================================
+
+    st_folium(
+        result_map,
+        width=None,
+        height=500,
+        key="result_map",
+        returned_objects=[]
     )
-
-
-    tooltip = {
-        "html": """
-        <b>{place}</b><br>
-        Magnitude: {mag}<br>
-        Depth: {depth} km<br>
-        MMI: {mmi}<br>
-        Predicted Damage: {prediction}
-        """,
-        "style": {
-            "backgroundColor": "black",
-            "color": "white"
-        }
-    }
-
-
-    deck = pdk.Deck(
-        layers=[layer],
-        initial_view_state=view_state,
-        tooltip=tooltip,
-        map_style=None
-    )
-
-
-    st.pydeck_chart(deck)
