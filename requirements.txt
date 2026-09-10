@@ -8,3 +8,5 @@ jupyter
 seaborn
 nbconvert
 joblib
+streamlit
+pydeck
