@@ -1,4 +1,4 @@
-name: Run Model_Risk_Zone
+name: Run EDA_Preprocessing
 
 on:
   push:
