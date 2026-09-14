@@ -1,0 +1,735 @@
+event_id,mag,depth,sig,latitude,longitude,tsunami,place,economic_loss
+us7000q9fs,5.4,10.0,449,29.3062,129.3422,0,"98 km NNW of Tatsugō, Japan",0.0
+us7000q9f3,5.2,10.0,419,30.3495,69.7968,0,"56 km NNE of Barkhan, Pakistan",68378.0
+us7000q9b5,6.6,10.0,670,-60.9793,-38.9672,1,Scotia Sea,0.0
+us7000q99p,5.5,229.0,465,-19.8818,-176.0335,0,"161 km NNW of Houma, Tonga",0.0
+us7000q97d,6.0,99.77,594,5.2888,126.0425,0,"65 km E of Sarangani, Philippines",0.0
+us7000q8tw,6.2,10.0,591,-35.7221,-17.0441,0,southern Mid-Atlantic Ridge,0.0
+us7000q8l7,5.4,10.0,449,9.4363,93.8934,0,"276 km SSE of Port Blair, India",0.0
+pr2025175000,5.7,68.0,1100,19.2245,-68.1103,0,"77 km NNE of Punta Cana, Dominican Republic",0.0
+us7000q8be,5.5,39.859,465,-10.9655,162.6253,0,"95 km SE of Kirakira, Solomon Islands",0.0
+us7000q8bd,6.2,10.0,596,7.9765,129.9606,0,east of the Philippine Islands,0.0
+us7000q89a,5.4,146.154,453,13.7816,144.6729,0,"34 km NNW of Dededo Village, Guam",0.0
+us6000qlnz,6.0,18.0,554,42.8951,146.4037,0,"82 km SE of Nemuro, Japan",0.0
+us6000ql8u,5.5,37.0,465,-6.171,147.856,0,"42 km N of Finschhafen, Papua New Guinea",0.0
+us6000ql4i,5.9,19.0,536,42.9403,146.4787,0,"84 km ESE of Nemuro, Japan",0.0
+us6000ql15,5.4,10.0,449,-47.5843,165.542,0,"232 km SW of Riverton, New Zealand",0.0
+us6000ql02,5.4,79.464,458,13.0775,-88.5694,0,"22 km S of Puerto El Triunfo, El Salvador",0.0
+us6000qkzh,5.8,9.0,518,14.7728,-94.0883,0,"123 km SW of El Palmarcito, Mexico",0.0
+us6000qkg7,5.6,40.0,755,-12.1764,-77.4434,0,"37 km WSW of Callao, Peru",1143778.0
+us6000qka3,5.3,10.0,432,2.2015,66.8265,0,Carlsberg Ridge,0.0
+us6000qk90,5.6,10.0,482,-36.5978,-110.5689,0,southern East Pacific Rise,0.0
+us6000qk7h,5.7,10.0,500,-36.397,-110.8137,0,southern East Pacific Rise,0.0
+us6000qk4v,6.0,35.0,554,46.1842,153.426,0,Kuril Islands,0.0
+us6000qjrq,5.5,10.0,465,-63.2081,-164.4234,0,Pacific-Antarctic Ridge,0.0
+us6000qjr3,5.7,10.0,500,-63.2412,-163.7581,0,Pacific-Antarctic Ridge,0.0
+us6000qjj5,5.9,29.331,565,23.3659,121.6239,0,"67 km S of Hualien City, Taiwan",0.0
+us6000qja6,5.6,11.592,482,-55.3523,-28.0375,0,South Sandwich Islands region,0.0
+us6000qj9w,5.4,15.227,449,-55.4483,-28.168,0,South Sandwich Islands region,0.0
+us6000qj0l,5.5,10.0,465,-47.8884,115.9579,0,western Indian-Antarctic Ridge,0.0
+us6000qj0h,5.9,9.0,536,-47.8029,116.0489,0,western Indian-Antarctic Ridge,0.0
+us6000qixr,6.3,9.0,972,4.4852,-73.1248,0,"15 km NE of Paratebueno, Colombia",18604051.0
+us6000qisj,6.2,10.0,591,-47.8272,115.9955,0,western Indian-Antarctic Ridge,0.0
+us6000qiq1,5.4,10.093,491,40.2717,24.1669,0,"6 km WNW of Karyes, Greece",269.0
+us6000qipm,5.3,10.0,432,-57.2756,-66.8962,0,"288 km SSE of Ushuaia, Argentina",0.0
+us6000qinr,5.5,10.0,465,-14.9216,66.7948,0,Mid-Indian Ridge,0.0
+us6000qiig,5.9,359.0,536,-22.0335,-178.0449,0,"299 km WSW of Houma, Tonga",0.0
+us6000qigd,6.4,75.0,684,-26.639,-70.4039,1,"45 km SW of Diego de Almagro, Chile",4824051.0
+us6000qi0w,5.6,10.0,482,5.3502,-82.6724,0,"297 km S of Burica, Panama",0.0
+us6000qhiq,5.8,72.0,745,36.7258,28.1891,0,"8 km SSW of İçmeler, Turkey",2.0
+us6000qhaf,5.8,27.0,518,41.7431,143.6866,0,"68 km SSE of Hiroo, Japan",0.0
+us6000qh5j,6.2,10.0,591,-27.8491,-178.1234,0,Kermadec Islands region,0.0
+us6000qh59,6.0,10.0,554,-28.1865,-178.5389,0,Kermadec Islands region,0.0
+us6000qh35,6.1,10.0,572,-27.7396,-177.9502,0,Kermadec Islands region,0.0
+us6000qh1r,6.0,21.0,554,42.2705,144.4895,0,"78 km S of Kushiro, Japan",0.0
+us6000qgts,6.2,10.0,591,-53.2836,9.1051,0,southwest of Africa,0.0
+us6000qgsb,5.4,60.428,449,43.8477,147.3295,0,"49 km E of Shikotan, Russia",0.0
+us6000qgeq,5.8,28.0,573,12.7347,144.957,0,"63 km SSE of Inarajan Village, Guam",0.0
+us6000qgdb,5.4,10.0,449,19.7156,-109.3426,0,Revilla Gigedo Islands region,0.0
+us6000qgd9,5.9,190.0,536,-14.1835,167.3309,0,"41 km SW of Sola, Vanuatu",0.0
+us6000qgb5,5.8,10.0,518,19.5611,-109.1593,0,Revilla Gigedo Islands region,0.0
+us6000qga6,5.8,10.0,518,19.688,-109.194,0,Revilla Gigedo Islands region,0.0
+us7000q1ni,5.3,10.0,433,-10.2116,110.3,0,"249 km S of Pundong, Indonesia",0.0
+us7000q1h3,5.7,105.0,521,-19.6168,-69.4505,0,"33 km S of Camiña, Chile",0.0
+us7000q1e7,6.0,48.0,555,-22.8374,-175.8016,0,"187 km SSW of ‘Ohonua, Tonga",0.0
+us7000q14k,6.1,10.0,572,-56.5536,147.6655,0,west of Macquarie Island,0.0
+us7000q0yk,5.4,48.0,449,41.9147,142.532,0,"33 km SW of Urakawa, Japan",0.0
+us7000q0w7,5.7,47.0,507,-3.9908,102.2539,0,"21 km S of Bengkulu, Indonesia",1380.0
+us7000q0re,5.7,10.0,500,-37.4859,51.3609,0,South Indian Ocean,0.0
+us7000q0pq,6.2,64.0,1223,35.8915,25.9159,0,"66 km SE of Emporeío, Greece",39154855.0
+us7000q0gl,5.2,10.0,418,-56.9634,-67.0983,0,"251 km SSE of Ushuaia, Argentina",0.0
+us7000q0bm,6.5,16.819,662,-3.7575,144.8116,1,"89 km ENE of Angoram, Papua New Guinea",151052.0
+us7000q09z,5.6,10.0,482,35.3444,-36.01,0,northern Mid-Atlantic Ridge,0.0
+us7000q053,5.4,10.0,449,-35.7217,-102.9882,0,southeast of Easter Island,0.0
+us7000pztw,5.9,101.0,554,-14.7608,-74.1437,0,"5 km W of San Pedro, Peru",78.0
+us7000pzcp,5.5,10.0,465,-54.5498,-135.3414,0,Pacific-Antarctic Ridge,0.0
+us7000pzaa,5.9,476.627,536,-7.136,126.1331,0,"152 km NNW of Baukau, Timor Leste",0.0
+us7000pz41,6.4,260.0,632,-18.7126,-175.3343,0,"142 km W of Neiafu, Tonga",0.0
+us7000pz2p,6.0,76.202,1122,35.237,26.9951,0,"20 km SSE of Fry, Greece",2418.0
+us7000pz23,5.9,11.902,537,18.6822,-107.2678,0,"240 km SW of La Cruz de Loreto, Mexico",0.0
+us7000pyzs,5.6,445.198,482,27.2228,140.058,0,"Bonin Islands, Japan region",0.0
+us7000pyqf,5.4,10.0,449,-20.4984,-174.1371,0,"79 km SSE of Pangai, Tonga",0.0
+us7000pyq7,5.5,9.0,663,29.0536,87.6068,0,"126 km W of Rikaze, China",36129754.0
+us7000pyn1,5.9,60.0,567,-17.6883,168.3085,0,"5 km N of Port-Vila, Vanuatu",213.0
+us7000pyjn,5.7,85.754,535,3.7925,97.0065,0,"19 km ENE of Blangpidie, Indonesia",0.0
+us7000py39,5.7,10.0,500,-60.5475,160.0246,0,Macquarie Island region,0.0
+us7000pxx7,5.4,45.0,453,-3.8399,-80.7011,0,"12 km NNW of Cañaveral, Peru",0.0
+us7000pxwq,5.4,10.0,449,-35.4083,-103.7898,0,southeast of Easter Island,0.0
+us7000pxjh,5.7,10.0,500,-4.0452,-104.1959,0,central East Pacific Rise,0.0
+us7000pxj7,5.5,102.0,466,-19.9606,169.4788,0,"50 km SSE of Isangel, Vanuatu",0.0
+us7000px8h,5.6,27.0,488,23.909,121.9671,0,"37 km ESE of Hualien City, Taiwan",0.0
+us7000px7i,5.8,261.0,520,16.5292,-92.5534,0,"5 km NNE of Nuevo León, Mexico",0.0
+us7000px6v,6.0,10.0,554,-35.1429,-107.4203,0,southern East Pacific Rise,0.0
+tx2025iqwk,5.4,7.5354,979,31.647,-104.458,0,"59 km S of Whites City, New Mexico",4.0
+us7000pwvy,5.9,92.0,541,0.5053,121.636,0,"158 km W of Gorontalo, Indonesia",0.0
+us7000pwu9,5.2,10.0,421,-3.1894,141.0465,0,"62 km SSW of Vanimo, Papua New Guinea",0.0
+us7000pwrl,5.3,10.0,432,-57.1328,-67.2677,0,"266 km SSE of Ushuaia, Argentina",0.0
+us7000pwpu,6.4,8.0,634,-57.304,-67.0168,1,"289 km SSE of Ushuaia, Argentina",0.0
+us7000pwl6,5.3,10.0,432,-57.2793,-67.5325,0,"279 km S of Ushuaia, Argentina",0.0
+us7000pwl0,5.6,10.0,482,-57.121,-67.4986,0,"262 km SSE of Ushuaia, Argentina",0.0
+us7000pwkz,5.7,10.0,500,-57.2358,-67.2023,0,"278 km SSE of Ushuaia, Argentina",0.0
+us7000pwl1,5.4,10.0,449,-56.8541,-68.5794,0,"228 km S of Ushuaia, Argentina",0.0
+us7000pwt4,5.5,10.0,465,-57.0575,-67.3954,0,"256 km SSE of Ushuaia, Argentina",0.0
+us7000pwkn,7.4,10.0,890,-56.8094,-68.1019,1,2025 Drake Passage Earthquake,0.0
+us7000pwjw,5.8,43.0,518,-7.164,156.1376,0,"118 km SE of Panguna, Papua New Guinea",0.0
+us7000pwdl,5.4,11.0,456,-28.5676,-67.4699,0,"56 km S of Tinogasta, Argentina",216.0
+us7000pw2m,5.4,74.502,449,-5.6091,151.0556,0,"101 km E of Kimbe, Papua New Guinea",0.0
+us7000pvtr,6.8,18.957,711,-54.2616,155.6446,1,Macquarie Island region,0.0
+us7000pvta,5.6,10.0,482,-28.1396,-175.2966,0,Kermadec Islands region,0.0
+us7000pvt7,6.2,10.595,591,-48.1824,165.3571,0,"285 km SW of Bluff, New Zealand",0.0
+us7000pvqh,5.4,35.0,449,-6.2542,149.8973,0,"39 km E of Kandrian, Papua New Guinea",0.0
+us7000pvfd,5.6,18.0,484,19.2068,121.1565,0,"65 km N of Namuac, Philippines",0.0
+us7000pvfb,5.5,20.0,465,19.2094,121.0904,0,"66 km N of Claveria, Philippines",0.0
+us7000pvd8,5.9,10.0,536,-56.1563,147.0791,0,west of Macquarie Island,0.0
+us7000pv06,6.3,18.0,695,1.0835,-79.5319,0,"19 km NE of Esmeraldas, Ecuador",3368425.0
+us7000pux2,5.7,10.0,500,-46.3555,95.9761,0,southeast Indian Ridge,0.0
+us7000pufs,6.2,12.736,1684,40.8342,28.1897,0,"24 km SE of Marmara Ereğlisi, Turkey",484277066.0
+us7000pua3,5.7,197.0,500,-13.1236,167.1763,0,"92 km NNW of Sola, Vanuatu",0.0
+us7000pu7q,5.7,199.0,501,-5.498,146.9905,0,"135 km N of Lae, Papua New Guinea",0.0
+us7000pu62,6.2,104.0,594,4.5538,127.831,0,"271 km SE of Pondaguitan, Philippines",0.0
+us7000pu5z,5.2,41.502,418,-8.1895,106.94,0,"122 km SSW of Banjar, Indonesia",0.0
+us6000q7ex,5.4,10.0,449,-3.3667,130.9957,0,"152 km WSW of Fakfak, Indonesia",0.0
+us6000q78n,5.5,36.899,467,-15.1316,-173.5079,0,"96 km NNE of Hihifo, Tonga",0.0
+us6000q78l,5.9,12.0,561,5.8328,124.1463,0,"39 km SW of Malisbeng, Philippines",0.0
+us6000q787,5.6,10.0,482,7.2218,-34.3576,0,central Mid-Atlantic Ridge,0.0
+us6000q76g,5.7,98.0,509,36.2223,71.2246,0,"58 km SSW of Ashkāsham, Afghanistan",0.0
+us6000q72m,5.4,10.0,449,55.3765,164.4654,0,"156 km SE of Ust’-Kamchatsk Staryy, Russia",0.0
+us6000q6xh,5.6,137.0,484,-23.4826,-67.9999,0,"66 km SSE of San Pedro de Atacama, Chile",0.0
+us7000pwmg,5.4,10.0,449,-10.9801,115.5206,0,"243 km S of Nusa Dua, Indonesia",0.0
+us6000q6n2,5.5,21.676,465,0.3501,124.8572,0,"48 km ESE of Modisi, Indonesia",0.0
+us6000q6kn,5.4,58.661,449,-33.8625,-179.3438,0,south of the Kermadec Islands,0.0
+us6000q6fi,5.6,10.0,482,-32.4828,-14.2721,0,southern Mid-Atlantic Ridge,0.0
+us6000q6cs,6.6,10.0,670,-47.8089,99.613,0,southeast Indian Ridge,0.0
+us6000q6c3,5.6,99.0,540,35.9493,70.5792,0,"66 km NNW of Pārūn, Afghanistan",0.0
+us6000q6br,5.6,10.0,487,5.8038,124.2362,0,"37 km SSW of Maguling, Philippines",0.0
+ci40925991,5.21,14.29,1028,33.0358333,-116.5948333,1,"5 km S of Julian, CA",9544.0
+us6000q5tp,6.5,271.0,650,-25.9815,-178.3309,1,south of the Fiji Islands,0.0
+us6000q5re,5.9,369.0,536,48.7331,149.7932,0,northwest of the Kuril Islands,0.0
+us6000q5q8,5.8,8.0,673,38.8992,70.8325,0,"42 km ESE of Rasht, Tajikistan",3965198.0
+us6000q5q0,5.4,63.058,450,-6.7172,147.414,0,"46 km E of Lae, Papua New Guinea",0.0
+us6000q5ps,5.3,10.0,1023,21.2292,96.0897,0,"41 km S of Kyaukse, Burma (Myanmar)",200903241.0
+us6000q5ka,6.1,52.0,574,-4.7074,153.1423,0,"104 km ESE of Kokopo, Papua New Guinea",0.0
+us6000q52k,5.3,35.0,433,-5.9218,138.6803,0,"73 km SE of Agats, Indonesia",10.0
+us6000q526,5.4,10.0,449,-29.4766,-112.2139,0,Easter Island region,0.0
+us6000q519,5.3,10.0,432,-6.1735,151.4633,0,"162 km ESE of Kimbe, Papua New Guinea",0.0
+us6000q4vv,5.4,10.0,449,8.0867,-38.0993,0,central Mid-Atlantic Ridge,0.0
+us6000q4rh,5.3,123.918,448,24.8643,123.1405,0,"46 km NNE of Yonakuni, Japan",0.0
+us6000q4lv,5.8,18.0,518,2.0388,96.7622,0,"64 km SE of Sinabang, Indonesia",0.0
+us6000q4gt,5.3,59.051,432,49.321,155.5222,0,"156 km SSW of Severo-Kuril’sk, Russia",0.0
+us6000q4di,5.0,10.0,385,83.5411,113.5862,0,north of Severnaya Zemlya,0.0
+us6000q48h,5.6,24.567,482,-57.2438,-25.508,0,South Sandwich Islands region,0.0
+us6000q48d,5.5,27.985,465,-57.2671,-25.624,0,South Sandwich Islands region,0.0
+us6000q47u,5.4,10.0,449,-6.4253,151.5526,0,"184 km ESE of Kimbe, Papua New Guinea",0.0
+us6000q47k,5.5,10.0,465,52.488,-32.0879,0,Reykjanes Ridge,0.0
+us6000q66u,5.4,10.0,449,-6.1528,151.6096,0,"176 km ESE of Kimbe, Papua New Guinea",0.0
+us6000q41n,6.9,9.0,739,-6.3025,151.6257,1,"184 km ESE of Kimbe, Papua New Guinea",1.0
+us6000q3w4,5.6,201.0,482,-15.6272,-174.4737,0,"81 km WNW of Hihifo, Tonga",0.0
+us6000q3qi,5.4,10.0,449,52.7835,-34.8664,0,Reykjanes Ridge,0.0
+us6000q3nw,6.9,10.0,732,52.4538,-32.1071,1,Reykjanes Ridge,0.0
+us6000q3l2,5.5,10.0,465,-65.1723,179.3367,0,Balleny Islands region,0.0
+us6000q3iu,5.8,44.0,518,2.1324,126.7258,0,"149 km WNW of Tobelo, Indonesia",0.0
+us7000ppga,5.5,14.015,465,53.2407,172.961,1,"46 km NNW of Attu Station, Alaska",0.0
+us7000ppfy,6.1,29.0,581,30.9792,131.522,0,"56 km ENE of Nishinoomote, Japan",0.0
+us7000ppd9,6.3,10.0,611,-57.0079,-142.2862,0,Pacific-Antarctic Ridge,0.0
+us7000pp7n,5.7,143.585,504,-7.4362,128.5286,0,"207 km NE of Lospalos, Timor Leste",0.0
+us7000pp13,5.6,11.867,483,-10.0069,119.0489,0,"67 km SSW of Tambolaka, Indonesia",0.0
+us7000pnvv,5.9,27.136,536,-20.2249,-174.0813,0,"53 km SSE of Pangai, Tonga",0.0
+us7000pnvp,6.2,17.0,591,-20.3816,-174.0115,0,"72 km SSE of Pangai, Tonga",0.0
+us7000pntq,7.0,29.0,773,-20.3036,-174.0718,1,"61 km SSE of Pangai, Tonga",23.0
+us7000pnf2,6.6,12.323,671,0.7561,-29.7635,0,central Mid-Atlantic Ridge,0.0
+us7000pn9z,6.7,10.0,2105,21.6975,95.969,0,Burma (Myanmar),1083286491.0
+us7000pn9s,7.7,10.0,2910,22.011,95.9363,0,"2025 Mandalay, Burma (Myanmar) Earthquake",52991751137.0
+us7000pn8m,5.7,37.0,500,-19.2093,168.8176,0,"61 km NW of Isangel, Vanuatu",0.0
+us7000pn7g,6.1,10.0,572,0.7055,-29.665,0,central Mid-Atlantic Ridge,0.0
+us7000pmxp,5.7,123.592,500,-56.1929,-27.4264,0,South Sandwich Islands region,0.0
+us7000pmm9,5.3,99.584,448,-20.2166,-69.1246,0,"57 km ENE of La Tirana, Chile",0.0
+us7000pmfb,5.4,10.0,449,-46.6837,165.7542,0,"177 km W of Riverton, New Zealand",0.0
+us7000pmem,6.7,21.0,728,-46.7305,165.8632,1,"170 km WSW of Riverton, New Zealand",0.0
+us7000plu1,5.6,20.0,482,51.1545,-176.1067,1,"88 km SSE of Adak, Alaska",0.0
+us7000plrn,5.5,347.281,465,-26.0219,-178.7644,0,south of the Fiji Islands,0.0
+us7000pllx,5.9,26.674,536,51.1563,-176.1097,0,"87 km SSE of Adak, Alaska",0.0
+us7000pllu,6.2,17.0,594,51.1558,-176.0703,1,"88 km SSE of Adak, Alaska",0.0
+us7000pllt,6.2,10.0,641,6.9863,-82.4666,1,"124 km SSE of Burica, Panama",0.0
+us7000plf7,5.4,10.0,449,-16.4872,66.6054,0,Mid-Indian Ridge,0.0
+us6000pzxi,5.7,24.071,500,-60.4288,-27.2551,0,South Sandwich Islands region,0.0
+us6000pzwx,5.4,35.0,449,51.0945,-176.0968,1,"94 km SSE of Adak, Alaska",0.0
+us6000pzwb,5.6,17.0,484,51.1094,-176.0641,1,"93 km SSE of Adak, Alaska",0.0
+us6000pznk,5.6,36.839,482,-55.378,-28.9052,0,South Sandwich Islands region,0.0
+us6000pzf4,5.4,46.856,464,1.8751,99.1323,0,"41 km ENE of Sibolga, Indonesia",0.0
+us6000pzdn,5.8,18.0,518,-2.831,130.1617,0,"142 km ENE of Masohi, Indonesia",0.0
+us6000pzam,5.5,10.0,466,19.4443,-109.0828,0,Revilla Gigedo Islands region,0.0
+us6000pz7g,5.4,10.0,471,9.379,40.0784,0,"44 km NNW of Āwash, Ethiopia",231.0
+us6000pyyq,5.6,62.0,508,17.3361,-97.4253,0,"5 km W of San Pedro Tidaá, Mexico",0.0
+us6000pyxv,5.9,13.0,536,-55.8177,-27.07,0,South Sandwich Islands region,0.0
+us6000pysg,5.4,27.644,449,1.1243,120.2572,0,"228 km N of Palu, Indonesia",0.0
+us6000pybu,5.5,9.0,466,8.3112,127.3806,0,"105 km E of Barcelona, Philippines",0.0
+us6000py97,6.0,23.0,554,6.9701,92.5548,0,"Nicobar Islands, India region",0.0
+us6000py4l,5.6,648.298,482,-10.479,-70.6352,0,"126 km WNW of Iñapari, Peru",0.0
+us6000py3p,5.4,10.0,450,11.4145,-81.6185,0,Western Caribbean Sea,0.0
+us6000pxvx,6.5,10.0,656,71.176,-8.1733,1,"34 km NE of Olonkinbyen, Svalbard and Jan Mayen",0.0
+us6000pxxd,5.4,10.0,449,-61.4813,153.9598,0,Balleny Islands region,0.0
+us6000pxpv,5.7,26.0,500,28.7303,130.2922,0,"74 km ENE of Tatsugō, Japan",0.0
+us6000pxnp,5.7,24.0,500,28.6865,130.192,0,"63 km ENE of Tatsugō, Japan",0.0
+us6000pxef,5.0,65.385,385,5.4937,94.6405,0,"76 km W of Banda Aceh, Indonesia",0.0
+us6000pxeb,5.4,114.325,450,-14.5617,-72.0456,0,"12 km NNW of Cayarani, Peru",0.0
+us6000px89,6.0,96.0,582,-23.3399,-69.0636,0,"98 km S of Calama, Chile",0.0
+us6000px0a,5.5,28.681,467,15.6001,-95.0945,0,"60 km SSE of Santa Gertrudis Miramar, Mexico",0.0
+us6000pwz6,5.4,88.157,459,24.5491,94.6954,0,"64 km E of Wāngjing, India",0.0
+us6000pw69,5.6,126.0,483,-6.0227,130.652,0,"236 km W of Tual, Indonesia",0.0
+us6000pvwf,5.0,10.0,589,27.8626,85.9232,0,"11 km SSW of Kodāri̇̄, Nepal",258.0
+us6000pvty,5.4,10.0,449,-58.0333,-10.3519,0,east of the South Sandwich Islands,0.0
+us6000pvm4,5.8,8.142,518,55.4821,164.5402,0,"153 km ESE of Ust’-Kamchatsk Staryy, Russia",0.0
+us6000pvj5,5.8,388.0,520,33.6039,136.3654,0,"38 km ESE of Shingū, Japan",0.0
+us6000pvgx,6.1,21.726,573,0.3994,124.8407,0,"45 km E of Modisi, Indonesia",0.0
+pr2025056002,5.85,46.0,747,19.4565,-68.0846,0,"102 km NNE of Punta Cana, Dominican Republic",0.0
+us6000pv78,5.4,10.0,451,17.5702,-82.7176,0,"237 km SW of George Town, Cayman Islands",0.0
+us7000pfmk,6.0,36.0,554,-11.3195,166.2902,0,"85 km SE of Lata, Solomon Islands",0.0
+us7000pfjq,5.4,35.0,449,-7.3335,155.9272,0,"122 km SSE of Panguna, Papua New Guinea",0.0
+us7000pfjc,5.6,35.0,482,-7.4856,155.8717,0,"126 km WNW of Gizo, Solomon Islands",0.0
+us7000pfih,5.4,10.0,449,-45.5785,-76.6977,0,"Off the coast of Aisen, Chile",0.0
+us7000pexi,5.4,10.0,449,-42.9086,-82.9086,0,West Chile Rise,0.0
+us7000pexc,5.5,111.0,467,-15.3291,-173.9471,0,"71 km NNW of Hihifo, Tonga",0.0
+us7000penh,5.5,10.0,465,-9.0969,152.7728,0,"285 km NE of Samarai, Papua New Guinea",2253.0
+us7000pemi,5.7,13.0,500,-3.3656,131.0386,0,"148 km WSW of Fakfak, Indonesia",0.0
+us7000peiq,5.6,31.0,483,-26.2533,-70.9825,0,"94 km W of Diego de Almagro, Chile",0.0
+us7000pe6v,5.5,10.0,466,-15.9621,-75.1169,0,"66 km S of San Juan, Peru",0.0
+tx2025deqh,5.0,6.0999,915,31.661,-104.18,0,"53 km NW of Toyah, Texas",8.0
+us7000pdvt,5.7,13.0,507,49.9991,88.2237,0,"32 km W of Kosh-Agach, Russia",422766.0
+us7000pdu6,5.9,25.0,543,8.9453,39.9058,0,"5 km NNW of Metahāra, Ethiopia",39767.0
+ak025215oy3m,5.7,13.3,500,55.6151,-154.9176,1,"155 km SSW of Akhiok, Alaska",0.0
+us7000pctm,5.3,10.0,432,-32.2873,75.136,0,Mid-Indian Ridge,0.0
+us7000pck3,5.4,35.0,449,-7.0353,155.6069,0,"80 km S of Panguna, Papua New Guinea",0.0
+us7000pck0,5.3,10.0,433,-17.4323,167.731,0,"70 km WNW of Port-Vila, Vanuatu",0.0
+us7000pcjx,5.9,18.0,540,-17.5011,167.8757,0,"53 km WNW of Port-Vila, Vanuatu",0.0
+us7000pcdl,7.6,14.326,1182,17.6506,-82.395,1,"210 km SSW of George Town, Cayman Islands",42.0
+us7000pc2p,5.9,65.0,536,-23.9351,-176.2264,0,south of the Fiji Islands,0.0
+us7000pc0e,5.8,21.0,518,-9.7073,97.5703,0,"southwest of Sumatra, Indonesia",0.0
+us7000pbt5,5.2,56.008,416,4.3939,126.6197,0,"170 km SE of Sarangani, Philippines",0.0
+us7000pbfb,5.6,58.159,577,13.9242,-91.5982,0,"44 km SW of Nueva Concepción, Guatemala",0.0
+us7000pbdp,5.5,99.0,466,1.6173,127.118,0,"96 km NNW of Ternate, Indonesia",0.0
+us7000pb59,5.7,10.0,500,-38.8932,-92.3973,0,West Chile Rise,0.0
+us7000pb3j,5.9,103.0,536,3.0383,128.2254,0,"146 km N of Tobelo, Indonesia",0.0
+us7000pb2l,5.4,10.0,449,28.6536,130.9358,0,"132 km E of Tatsugō, Japan",0.0
+us7000pb0i,5.5,10.0,465,-22.8251,171.3889,0,southeast of the Loyalty Islands,0.0
+us7000pahy,5.5,8.0,484,-0.8609,-78.0956,0,"32 km W of Archidona, Ecuador",0.0
+us7000paai,5.4,10.0,449,-10.5642,163.2435,0,"145 km E of Kirakira, Solomon Islands",0.0
+us7000pa9d,5.7,53.0,502,3.2918,97.1235,0,"58 km SSE of Blangpidie, Indonesia",0.0
+us7000pa8p,5.7,10.0,500,0.4304,-25.1449,0,central Mid-Atlantic Ridge,0.0
+us7000p9yj,5.1,10.0,412,23.1643,120.5775,0,"12 km ENE of Yujing, Taiwan",0.0
+us7000p9qx,5.2,10.0,416,-53.41,-41.5824,0,South Atlantic Ocean,0.0
+us6000pmsr,5.4,99.753,449,0.4934,121.1903,0,"208 km W of Gorontalo, Indonesia",0.0
+us6000pmru,5.2,46.425,440,-40.7113,175.886,0,"22 km NE of Kopuaranga, New Zealand",1.0
+us6000pmqw,5.8,13.0,518,-28.0098,-176.486,0,Kermadec Islands region,0.0
+us6000pmpq,5.6,10.0,482,-41.1978,-90.224,0,southeast of Easter Island,0.0
+us6000pmgt,5.6,59.0,501,53.2062,-167.2003,1,"86 km SSW of Unalaska, Alaska",0.0
+us6000pmct,5.2,10.0,435,23.1079,120.4471,0,"2 km SW of Yujing, Taiwan",7.0
+us6000pm5y,5.7,10.0,500,-3.9381,150.7581,0,"150 km S of Kavieng, Papua New Guinea",0.0
+us6000plst,5.6,598.0,482,-12.7706,168.8952,0,"190 km NE of Sola, Vanuatu",0.0
+us6000plrc,5.4,62.013,453,7.7025,122.2079,0,"8 km E of Siocon, Philippines",0.0
+us6000plql,5.7,9.0,521,10.0899,125.1492,0,"3 km NNW of San Francisco, Philippines",8482.0
+us6000plel,5.5,10.0,465,-3.7665,151.551,0,"83 km NW of Rabaul, Papua New Guinea",0.0
+us6000pldh,5.5,10.0,465,-27.5196,-13.4234,0,southern Mid-Atlantic Ridge,0.0
+us6000pldf,5.5,130.0,485,13.4452,144.3602,0,"33 km WNW of Agat Village, Guam",0.0
+us6000pl8h,6.0,16.0,748,23.1816,120.5448,0,"10 km NE of Yujing, Taiwan",28.0
+us6000pl89,5.3,10.0,432,-23.793,-112.0023,0,Easter Island region,0.0
+us6000pl78,5.4,100.0,456,13.9035,120.5676,0,"6 km WSW of Talisay, Philippines",0.0
+us6000pl6q,5.5,36.358,465,-11.2826,165.8611,0,"62 km S of Lata, Solomon Islands",0.0
+us6000pk9u,5.7,42.0,500,-10.8585,165.9976,0,"26 km SE of Lata, Solomon Islands",0.0
+us6000pjym,5.6,10.0,483,7.2664,-35.4561,0,central Mid-Atlantic Ridge,0.0
+us6000pjxl,5.3,37.94,433,31.7088,131.8103,0,"43 km ENE of Nichinan, Japan",0.0
+us6000pjny,6.8,39.0,742,31.8326,131.5525,1,"15 km SE of Miyazaki, Japan",10598.0
+us6000pjlq,5.4,541.546,450,6.6712,123.8527,0,"20 km W of Taguisa, Philippines",0.0
+us6000pjk4,5.0,608.249,385,-17.8504,-178.4485,0,"237 km E of Levuka, Fiji",0.0
+us6000pjig,6.2,39.0,966,18.5019,-103.3631,0,"18 km SE of Aquila, Mexico",19364.0
+us6000pj4s,5.6,18.0,483,5.9461,-77.4683,0,"31 km SSW of Bahía Solano, Colombia",0.0
+us6000pixh,5.8,95.0,545,13.599,-89.7339,0,"10 km E of Acajutla, El Salvador",0.0
+us6000pijd,5.5,10.0,653,34.8006,97.4685,0,"Southern Qinghai, China",2811477.0
+us6000pida,5.6,358.0,485,31.6194,138.4289,0,"Izu Islands, Japan region",0.0
+us6000pks1,5.4,10.0,449,28.7537,87.1968,0,"96 km NNE of Lobuche, Nepal",16274.0
+us6000pi9w,7.1,10.0,2787,28.6036,87.3781,0,2025 Southern Tibetan Plateau Earthquake,1149651303.0
+us6000pi09,6.2,46.0,663,13.0007,-89.1775,0,"56 km SSE of La Libertad, El Salvador",238213.0
+us6000phrk,5.7,8.0,671,9.4591,40.1219,0,"52 km N of Āwash, Ethiopia",100779.0
+us6000phnz,5.5,10.0,481,9.3575,40.3457,0,"45 km NNE of Āwash, Ethiopia",35961.0
+us6000phce,5.5,86.0,465,-58.7696,-25.9578,0,South Sandwich Islands region,0.0
+us6000phc9,5.1,10.0,400,-3.7423,151.7104,0,"71 km NW of Rabaul, Papua New Guinea",0.0
+us6000phap,6.1,99.0,606,-21.7109,-69.1069,0,"84 km NNW of Calama, Chile",0.0
+us6000ph16,5.4,10.0,449,-3.7199,151.7189,0,"72 km NW of Rabaul, Papua New Guinea",0.0
+us6000pgzq,5.5,10.0,465,-62.3342,155.7048,0,Balleny Islands region,0.0
+us6000pgv4,6.1,70.0,572,-56.4095,-26.7059,0,South Sandwich Islands region,0.0
+us6000pgsd,5.5,22.0,466,-20.9273,169.3819,0,"153 km S of Isangel, Vanuatu",0.0
+us7000rlhy,5.1,5.0,401,60.4206,-139.56,0,"97 km N of Yakutat, Alaska",0.0
+us7000rlha,5.5,11.0,468,27.549,128.7241,0,"19 km NNE of Wadomari, Japan",0.0
+us7000rl57,6.2,58.0,693,-8.9834,-79.039,0,"43 km W of Puerto Santa, Peru",783278.0
+us7000rl2n,6.6,63.0,916,24.6841,122.0354,1,"29 km ESE of Yilan, Taiwan",50.0
+us7000rl1p,5.6,593.431,482,-28.2562,-63.1342,0,"37 km NW of Añatuya, Argentina",0.0
+us7000rkyz,5.4,25.0,449,-5.5456,102.3691,0,"193 km S of Bengkulu, Indonesia",0.0
+us7000rkvc,5.6,10.0,482,-14.5577,-176.9372,0,"129 km ESE of Alo, Wallis and Futuna",0.0
+us7000rkqm,5.6,54.143,482,41.2106,142.4687,0,"103 km E of Yokohama, Japan",0.0
+us7000rkkk,5.7,12.0,500,11.7846,143.3634,0,"216 km SW of Merizo Village, Guam",0.0
+us7000rkjm,6.0,8.0,600,22.8982,121.2494,0,"2025 Taitung, Taiwan Earthquake",23829.0
+us7000rkfp,5.6,157.0,483,-14.5564,167.1377,0,"54 km N of Port-Olry, Vanuatu",0.0
+us6000rwgh,6.5,107.0,657,-5.7036,145.5368,0,"45 km NNE of Goroka, Papua New Guinea",48.0
+us6000rwcs,5.6,9.0,482,8.3759,127.6817,0,"139 km E of Barcelona, Philippines",0.0
+us6000rwbl,5.5,44.0,466,1.4457,126.392,0,"132 km WNW of Ternate, Indonesia",0.0
+us6000rw94,5.4,57.224,450,40.8014,142.0514,0,"57 km ENE of Misawa, Japan",0.0
+us6000rw5u,5.6,10.0,482,-63.8087,172.771,0,Balleny Islands region,0.0
+us6000rvx4,5.7,10.0,500,-15.7203,-179.5763,0,"138 km NE of Labasa, Fiji",0.0
+us6000rvnm,5.9,38.0,536,52.8123,159.953,0,"93 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rvmn,5.5,18.0,466,19.9353,121.2672,0,"92 km SW of Basco, Philippines",0.0
+us6000rvkl,5.6,10.0,483,6.7182,-82.5956,0,"148 km SSE of Burica, Panama",0.0
+us6000rvhm,5.4,400.264,449,-16.7324,-177.4109,0,"278 km SSE of Alo, Wallis and Futuna",0.0
+us6000rvhe,5.6,35.0,482,-58.6643,-25.2234,0,South Sandwich Islands region,0.0
+us6000rv5e,5.4,16.436,449,37.4097,20.1314,0,"70 km WSW of Lithakiá, Greece",0.0
+us6000rv4q,5.6,80.0,496,14.17,145.8188,0,"90 km SSE of San Jose Village, Northern Mariana Islands",0.0
+us6000rv1u,5.7,34.0,500,51.7312,161.2012,0,"229 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000ruxv,5.3,10.0,432,51.8362,160.4527,0,"184 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000run8,5.4,90.292,455,-21.2293,-68.984,0,"75 km W of Ollagüe, Chile",0.0
+us6000rumi,5.5,108.0,465,52.1512,178.3529,0,"Rat Islands, Aleutian Islands, Alaska",0.0
+us6000rucc,5.3,32.637,432,40.997,142.937,0,"125 km S of Honchō, Japan",0.0
+us6000ruc4,6.7,19.0,701,40.8899,142.8131,1,"117 km NE of Kuji, Japan",0.0
+us6000rtw5,5.7,33.0,500,40.9018,142.6725,0,"108 km ENE of Hachinohe, Japan",0.0
+us6000rtuk,5.5,164.124,510,6.7742,-73.0156,0,"5 km WNW of Cepitá, Colombia",0.0
+us6000rtj4,5.6,47.786,482,40.8255,142.7591,0,"109 km NE of Kuji, Japan",0.0
+us6000rtie,6.6,19.0,672,40.9761,143.1504,0,"129 km S of Honchō, Japan",0.0
+us6000rtgd,6.0,22.788,554,40.9878,143.1226,0,"127 km S of Honchō, Japan",0.0
+us6000rtg8,5.5,29.994,465,-58.8007,-25.4875,0,South Sandwich Islands region,0.0
+us6000rtdz,5.5,35.0,466,40.8889,142.4766,0,"93 km ENE of Hachinohe, Japan",0.0
+us6000rtdt,7.6,40.72,1122,40.9984,142.1836,1,"2025 Aomori Prefecture, Japan Earthquake",7655248.0
+us6000rt9w,5.8,10.0,518,60.3454,-139.6253,1,"89 km N of Yakutat, Alaska",0.0
+us6000rt9a,5.1,5.0,402,60.5259,-139.9162,0,"109 km N of Yakutat, Alaska",0.0
+us6000rt68,5.6,59.342,482,50.239,156.8911,0,"72 km SE of Severo-Kuril’sk, Russia",0.0
+us6000rt4z,5.2,10.0,416,-14.675,166.6608,0,"60 km NW of Port-Olry, Vanuatu",2.0
+us6000rt1y,5.2,7.321,417,60.5616,-140.0066,0,"114 km N of Yakutat, Alaska",0.0
+ak2025xzwrbu,5.087666993181132,10.75879955291748,403,60.31888580322266,-139.35723876953125,1,"88 km NNE of Yakutat, Alaska",0.0
+us6000rsy4,5.2,5.0,416,60.3673,-139.4012,0,"93 km NNE of Yakutat, Alaska",0.0
+us6000rsy1,7.0,10.317,1384,60.3127,-139.5412,1,2025 Hubbard Glacier Earthquake,2.0
+us6000rsti,5.5,10.0,465,18.6143,-106.7426,0,"201 km SW of José María Morelos, Mexico",0.0
+us7000rfr9,5.2,10.0,416,-60.1833,-62.065,0,Drake Passage,0.0
+us7000rfgy,5.8,9.0,654,41.0099,78.4441,0,"136 km NNW of Tumxuk, China",11538322.0
+us7000rfg1,5.5,10.0,465,-55.3824,-128.1034,0,Pacific-Antarctic Ridge,0.0
+us6000rs3k,5.6,620.0,482,-20.8566,-178.9541,0,Fiji region,0.0
+us7000renh,5.3,36.374,432,-27.1631,-176.5717,0,Kermadec Islands region,0.0
+us7000rena,5.8,10.0,518,-56.5108,147.4508,0,west of Macquarie Island,0.0
+us7000rekp,5.9,10.0,536,-52.366,151.8084,0,west of Macquarie Island,0.0
+us7000rehl,5.8,153.161,520,15.3677,-92.1037,0,"7 km S of Amatenango de la Frontera, Mexico",0.0
+us7000rea0,5.6,263.0,482,-15.3351,-174.8407,0,"131 km WNW of Hihifo, Tonga",0.0
+ak2025xjbvhj,6.0,69.43339538574219,1134,61.56951904296875,-150.75079345703125,1,"12 km WNW of Susitna, Alaska",6.0
+us7000re2g,6.4,17.0,635,2.7191,95.9543,0,"54 km WNW of Sinabang, Indonesia",77917.0
+us7000rdmx,5.4,71.508,452,6.3406,126.1995,0,"3 km SE of Pondaguitan, Philippines",0.0
+us7000rdmh,5.3,10.0,442,33.0317,131.0814,0,"10 km N of Aso, Japan",4366.0
+us6000rq0u,5.3,10.0,432,7.5142,-37.0622,0,central Mid-Atlantic Ridge,0.0
+us6000rq2y,5.4,3.0,449,13.588,40.672,0,"116 km WSW of Edd, Eritrea",0.0
+us6000rq2x,5.5,3.0,465,13.588,40.672,0,"116 km WSW of Edd, Eritrea",0.0
+us6000rpxa,5.5,33.0,467,51.3114,-177.0161,0,"67 km SSW of Adak, Alaska",0.0
+us6000rpwf,5.3,10.0,432,1.2954,128.5754,0,"72 km NNE of Maba, Indonesia",2.0
+us6000rpql,5.6,12.0,482,49.6656,158.5579,0,"206 km SE of Severo-Kuril’sk, Russia",0.0
+us6000rpjb,5.6,515.967,482,-24.2434,179.8473,0,south of the Fiji Islands,0.0
+us6000rpja,5.5,11.0,465,39.6845,143.5003,0,"133 km E of Miyako, Japan",0.0
+us6000rpht,5.4,27.0,1234,23.8578,90.5404,0,"14 km ESE of Tungi, Bangladesh",20244653.0
+us6000rpc0,5.4,109.129,449,-25.5159,-176.3853,0,south of the Fiji Islands,0.0
+us6000rpai,5.8,130.856,518,-3.7152,128.4005,0,"24 km E of Ambon, Indonesia",0.0
+us6000rpa3,5.1,132.062,400,1.5341,127.1321,0,"86 km NNW of Ternate, Indonesia",0.0
+us6000rp1a,5.5,10.0,468,8.8279,-84.0117,0,"55 km WSW of Puerto Cortés, Costa Rica",0.0
+us6000rnxp,5.3,10.0,432,-11.981,65.7464,0,Mid-Indian Ridge,0.0
+us6000rntu,5.2,17.622,416,39.7639,143.2167,0,"110 km E of Miyako, Japan",0.0
+us6000rneu,5.3,35.0,432,4.0236,126.6366,0,"200 km SE of Sarangani, Philippines",0.0
+us6000rnd3,5.7,5.177,500,-15.3422,-175.6983,0,"214 km WNW of Hihifo, Tonga",0.0
+us6000rn4x,5.7,10.0,500,-56.8484,-142.1304,0,Pacific-Antarctic Ridge,0.0
+us6000rmwv,5.7,10.0,500,73.1876,6.4773,0,Greenland Sea,0.0
+us6000rmvh,5.3,35.0,432,39.8001,143.2245,0,"111 km E of Miyako, Japan",0.0
+us6000rmki,5.4,52.408,459,-23.4587,-70.4225,0,"21 km N of Antofagasta, Chile",0.0
+us6000rmk2,6.0,11.0,555,39.5665,143.4526,0,"129 km E of Yamada, Japan",0.0
+us6000rmjg,5.4,10.0,449,39.2059,143.0813,0,"101 km ESE of Yamada, Japan",0.0
+us6000rmj3,5.3,9.114,432,39.2464,143.5133,0,"136 km E of Yamada, Japan",0.0
+us6000rmia,5.3,106.009,458,13.7161,144.8924,0,"19 km N of Yigo Village, Guam",0.0
+us6000rmfg,5.3,27.718,432,51.5504,159.5788,0,"173 km SSE of Vilyuchinsk, Russia",0.0
+us6000rmex,5.7,10.0,500,39.612,143.4497,0,"129 km E of Miyako, Japan",0.0
+us6000rmet,5.4,10.0,449,39.4919,143.385,0,"123 km E of Yamada, Japan",0.0
+us6000rmep,6.4,10.0,635,39.4971,143.3097,0,"117 km E of Yamada, Japan",0.0
+us6000rmeh,5.6,10.0,482,39.4599,143.3924,0,"124 km E of Yamada, Japan",0.0
+us6000rmed,5.9,10.0,536,39.3485,143.4026,0,"125 km E of Yamada, Japan",0.0
+us6000rmee,5.5,10.0,465,39.5772,143.2297,0,"110 km E of Yamada, Japan",0.0
+us6000rmea,6.8,18.0,724,39.485,143.3782,1,"122 km E of Yamada, Japan",0.0
+us6000rmdj,5.4,132.652,449,12.4989,93.7511,0,"143 km NE of Port Blair, India",0.0
+us6000rmaw,5.6,16.186,483,39.5022,143.416,0,"126 km E of Yamada, Japan",0.0
+us6000rmai,5.4,12.152,449,39.4294,143.3379,0,"119 km E of Yamada, Japan",0.0
+us6000rm7z,5.6,496.098,482,-18.5156,-177.797,0,Fiji region,0.0
+us6000rm2p,5.6,10.0,488,27.9293,-111.8864,0,"75 km NNE of Santa Rosalía, Mexico",0.0
+us6000rls2,5.6,23.0,482,-57.9633,-25.2205,0,South Sandwich Islands region,0.0
+us6000rlji,5.7,71.01,500,49.7248,155.8574,0,"107 km S of Severo-Kuril’sk, Russia",0.0
+us6000rlim,5.9,114.629,536,-0.1246,123.0647,0,"73 km S of Gorontalo, Indonesia",0.0
+us6000rlik,6.0,28.0,554,52.1115,160.1897,0,"149 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rlcd,6.0,65.0,558,12.3924,143.1427,0,"191 km WSW of Merizo Village, Guam",0.0
+us6000rlc6,5.4,10.0,449,52.215,160.4139,0,"153 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rlbm,5.5,10.0,465,52.3774,160.2958,0,"136 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rlbe,5.9,20.0,536,52.1744,160.4064,0,"155 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rl8b,5.3,68.205,432,51.7565,158.237,0,"123 km ENE of Ozernovskiy, Russia",0.0
+us6000rl7b,5.5,24.772,467,-27.4251,-71.4617,0,"111 km W of Copiapó, Chile",0.0
+us6000rl5i,6.1,29.0,572,52.2143,160.2108,0,"142 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rpn4,5.7,35.0,500,52.1303,160.2121,0,"149 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rl55,5.9,22.0,536,52.2583,160.0415,0,"131 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rl31,6.2,28.0,1042,36.5461,67.3886,0,"30 km SE of Mazār-e Sharīf, Afghanistan",759805.0
+us6000rl2n,5.5,114.908,473,9.6799,122.7895,0,"13 km WSW of Mabinay, Philippines",0.0
+us6000rktg,5.9,8.0,536,-45.2902,96.8417,0,southeast Indian Ridge,0.0
+us6000rkpc,5.4,529.356,449,-23.433,179.9604,0,south of the Fiji Islands,0.0
+ak025dxe5mlz,5.4,23.6,1009,59.6308,-150.2328,1,"48 km ESE of Fox River, Alaska",0.0
+us6000rkc0,5.5,288.531,465,-27.447,-178.3345,0,Kermadec Islands region,0.0
+us6000rk65,5.4,10.0,449,64.6209,-17.2809,0,"107 km WNW of Höfn, Iceland",0.0
+us6000rk5r,5.4,10.0,451,44.381,-129.6821,1,off the coast of Oregon,0.0
+us6000rk4f,5.5,10.0,465,-47.2049,-12.216,0,southern Mid-Atlantic Ridge,0.0
+us6000rjx3,6.4,142.0,635,-6.7001,129.9887,0,Banda Sea,0.0
+us6000rjvf,5.6,31.0,482,50.2426,157.3965,0,"102 km ESE of Severo-Kuril’sk, Russia",0.0
+us6000rjsu,6.0,8.0,799,39.1937,28.2425,0,"7 km SE of Sındırgı, Turkey",32074226.0
+us6000rjr7,5.4,10.0,449,16.5098,-59.6184,0,"157 km E of Beauséjour, Guadeloupe",0.0
+us6000rjqj,5.7,10.0,503,16.5156,-59.5269,0,"166 km E of Beauséjour, Guadeloupe",0.0
+us6000rjq8,6.5,9.0,702,16.5419,-59.5574,1,"164 km E of Beauséjour, Guadeloupe",0.0
+us6000rjkv,6.2,75.0,595,-8.8524,123.9887,0,"57 km NW of Pante Makasar, Timor Leste",0.0
+us6000rjhm,6.0,34.0,554,-12.3757,166.4018,0,"194 km SSE of Lata, Solomon Islands",0.0
+us6000rjgf,5.3,10.0,432,-45.2564,96.7593,0,southeast Indian Ridge,0.0
+us6000rjf1,5.3,60.22,432,49.9754,156.0133,0,"78 km S of Severo-Kuril’sk, Russia",0.0
+us6000rj9f,5.7,34.0,500,42.9716,145.7509,0,"41 km SSE of Nemuro, Japan",0.0
+us6000riuj,5.6,85.0,483,-6.2493,130.9239,0,"213 km WSW of Tual, Indonesia",0.0
+us6000risn,5.6,16.0,482,51.4164,159.4696,0,"183 km SSE of Vilyuchinsk, Russia",0.0
+us6000ril5,5.9,20.0,650,9.2522,-84.2408,0,"21 km SSW of Quepos, Costa Rica",9.0
+us6000rik7,5.5,77.13,477,-3.6137,-79.8408,0,"19 km WNW of Piñas, Ecuador",2.0
+us6000ri9x,5.8,10.0,518,6.9992,127.3725,0,"93 km ESE of Santiago, Philippines",0.0
+us6000ri11,5.4,55.726,456,8.883,126.4567,0,"16 km E of Aras-asan, Philippines",0.0
+us6000rhs3,5.5,8.0,466,36.7572,72.8064,0,"48 km ESE of Khandūd, Afghanistan",1.0
+us6000rhqe,5.1,46.31,400,-2.2666,139.0248,0,"182 km WNW of Abepura, Indonesia",0.0
+us6000rhpx,5.1,68.877,400,53.1938,159.8295,0,"81 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rhns,6.0,32.0,571,9.7909,126.1163,0,"3 km N of Union, Philippines",80.0
+us6000rhg5,6.4,18.0,632,-2.168,138.9531,1,"192 km WNW of Abepura, Indonesia",3000.0
+us6000rhf2,6.3,8.0,611,-59.9658,-61.8649,1,Drake Passage,0.0
+us6000rha2,5.4,10.0,449,-34.0182,-178.7328,0,south of the Kermadec Islands,0.0
+us6000rh9m,5.6,37.151,499,-30.7202,-71.5158,0,"33 km WSW of Ovalle, Chile",0.0
+us6000rh9c,5.4,10.0,449,7.2572,141.5367,0,"299 km SSE of Fais, Micronesia",0.0
+us6000rgz6,5.5,35.0,466,7.3744,127.0611,0,"53 km E of Baculin, Philippines",0.0
+us6000rgul,5.9,10.0,536,7.2599,141.5991,0,"State of Yap, Federated States of Micronesia",0.0
+us6000rgst,5.5,60.257,465,48.8917,154.9013,0,"217 km SSW of Severo-Kuril’sk, Russia",0.0
+us6000rgrd,5.8,10.0,651,10.9522,123.9606,0,"4 km ESE of Tambongon, Philippines",336803.0
+us6000rglb,5.6,10.0,487,13.8064,39.8822,0,"55 km NE of Mek'ele, Ethiopia",1194.0
+us6000rgkr,6.0,67.657,573,8.9231,126.323,0,"3 km ESE of Bacolod, Philippines",0.0
+us6000rgk9,5.6,44.856,482,-56.2675,-26.4357,0,South Sandwich Islands region,0.0
+us6000rgjt,5.8,48.0,518,50.2419,156.7337,0,"64 km SE of Severo-Kuril’sk, Russia",0.0
+us6000rgj4,5.5,31.0,468,7.2849,126.8271,0,"28 km E of Santiago, Philippines",0.0
+us6000rgil,5.5,51.03,465,-56.2003,-26.3886,0,South Sandwich Islands region,0.0
+us6000rghy,5.7,75.086,500,53.2897,159.6701,0,"74 km ENE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rggf,5.4,10.0,449,-60.0705,-62.4539,0,Drake Passage,0.0
+us6000rgge,5.7,10.0,500,-60.0663,-62.3619,0,Drake Passage,0.0
+us6000rgf4,7.6,5.639,893,-60.1875,-61.8164,1,Drake Passage,0.0
+us6000rg2s,5.6,66.9,482,50.3065,156.5865,0,"52 km SE of Severo-Kuril’sk, Russia",0.0
+us6000rg2r,6.7,47.0,746,7.2127,126.6578,1,"12 km SE of Santiago, Philippines",145.0
+us6000rg2a,5.4,159.477,449,-7.0057,129.5203,0,"Kepulauan Babar, Indonesia",0.0
+us6000rg29,5.4,10.0,449,11.4783,141.6121,0,"223 km NNE of Fais, Micronesia",0.0
+us6000rg02,5.5,72.22,465,7.073,126.8243,0,"35 km ESE of Manay, Philippines",0.0
+us6000rfyw,5.6,67.847,483,7.0145,126.7102,0,"27 km ESE of San Ignacio, Philippines",0.0
+us6000rfye,6.3,10.0,611,-3.0764,147.9714,0,"139 km SE of Lorengau, Papua New Guinea",0.0
+us6000rfx2,5.9,63.43,537,7.0654,126.8348,0,"36 km ESE of Manay, Philippines",0.0
+us6000rfwz,7.4,59.425,1155,7.2866,126.6902,1,"12 km E of Santiago, Philippines",759883.0
+us6000rftu,5.4,10.0,449,-52.2527,14.3795,0,southwest of Africa,0.0
+us6000rft9,6.1,56.51,572,51.6683,158.2328,0,"121 km E of Ozernovskiy, Russia",7.0
+us6000rfs1,5.5,10.0,654,30.8826,99.8979,0,"208 km N of Daocheng, China",3960670.0
+us6000rfjc,5.6,10.0,482,-57.744,-24.2683,0,South Sandwich Islands region,0.0
+us6000rfhk,5.7,10.0,500,-15.5734,168.1814,0,"100 km ENE of Norsup, Vanuatu",0.0
+us6000rfbw,5.1,10.0,650,37.2837,69.6738,0,"20 km SSE of Yangī Qal‘ah, Afghanistan",9985.0
+us6000rfb2,6.6,98.0,710,-6.7359,146.8404,1,"17 km W of Lae, Papua New Guinea",9.0
+us6000rf2j,5.6,581.934,482,-21.1011,175.5205,0,south of the Fiji Islands,0.0
+us6000resn,5.9,54.164,560,37.4213,141.5524,0,"48 km ENE of Tomioka, Japan",0.0
+us6000rerp,5.5,10.0,465,8.3588,-103.8947,0,northern East Pacific Rise,0.0
+us6000rei1,6.1,19.0,572,51.6275,159.9083,0,"177 km SE of Vilyuchinsk, Russia",0.0
+us6000recz,5.7,559.2,500,-27.0643,-63.3875,0,"15 km WSW of El Hoyo, Argentina",0.0
+us6000re62,5.4,25.0,451,-30.6076,-71.8337,0,"60 km W of Ovalle, Chile",0.0
+us6000rdz7,5.6,146.835,483,-7.322,128.3436,0,"199 km NE of Lospalos, Timor Leste",0.0
+us6000rdta,6.0,19.498,581,-7.2032,114.1844,0,"31 km ESE of Kalianget, Indonesia",1502.0
+us6000rdrz,6.9,10.0,1592,11.1557,124.111,1,"8 km ESE of Calape, Philippines",292254060.0
+us6000rdnq,5.5,42.0,466,52.9637,159.9446,0,"89 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rdf2,5.2,10.0,435,39.238,28.9377,0,"16 km NNW of Simav, Turkey",327030.0
+us6000rdex,5.5,573.583,465,-23.8765,178.8114,0,south of the Fiji Islands,0.0
+us6000rdan,5.5,33.0,465,-13.6974,166.7322,0,"90 km WNW of Sola, Vanuatu",0.0
+us6000rd1w,5.9,10.0,543,43.4524,-127.3203,1,"239 km W of Bandon, Oregon",0.0
+us6000rcyv,5.4,49.94,449,-20.1733,169.0959,0,"72 km SSW of Isangel, Vanuatu",0.0
+us6000rcsb,5.7,10.0,500,17.9793,-105.8786,0,"183 km SSW of Emiliano Zapata, Mexico",0.0
+us6000rcrj,5.3,12.195,664,9.8621,-70.7516,0,"19 km E of Mene Grande, Venezuela",5788731.0
+us6000rcqw,6.3,14.0,766,9.9355,-70.7081,1,"25 km ENE of Mene Grande, Venezuela",55224481.0
+us6000rcnw,6.2,9.0,859,9.8668,-70.8781,1,"5 km ENE of Mene Grande, Venezuela",41024467.0
+us6000rcdc,5.6,12.0,483,-15.7737,-75.2969,0,"47 km SSW of San Juan, Peru",0.0
+us6000rc9h,5.2,65.3,416,-31.5242,-178.5902,0,Kermadec Islands region,0.0
+us6000rc4t,5.6,17.0,482,51.5235,159.4482,0,"172 km SSE of Vilyuchinsk, Russia",0.0
+us6000rc2r,5.5,17.0,465,51.5296,159.5182,0,"173 km SSE of Vilyuchinsk, Russia",0.0
+us7000qxtz,5.4,10.0,449,18.6883,-106.5503,0,"180 km SW of José María Morelos, Mexico",0.0
+us7000qxp1,5.5,30.0,467,51.1987,-178.0221,1,"122 km SW of Adak, Alaska",0.0
+us7000qxm7,5.6,10.0,482,52.9362,161.0947,0,"166 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qxcr,5.9,13.0,536,52.9112,161.2436,0,"176 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000rge8,6.0,58.287,554,51.2463,157.8629,0,"98 km ESE of Ozernovskiy, Russia",0.0
+us7000qxcd,5.9,45.0,536,51.1828,157.9936,0,"109 km ESE of Ozernovskiy, Russia",0.0
+us7000qxat,5.5,10.0,465,52.2418,160.6452,0,"164 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx91,5.4,10.0,449,-58.7504,-24.6648,0,South Sandwich Islands region,0.0
+us7000qx7a,5.5,96.269,483,-20.2393,-69.258,0,"42 km ENE of La Tirana, Chile",0.0
+us7000qx5t,5.4,10.0,449,52.4951,160.8899,0,"165 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx5p,5.4,10.0,449,52.8545,161.1417,0,"170 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx52,5.5,35.0,465,53.0067,160.8847,0,"151 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx4q,5.7,47.898,500,52.9373,160.7052,0,"140 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx4p,5.2,10.0,416,52.3527,160.7563,0,"164 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx3d,5.5,35.714,465,52.9284,160.7605,0,"144 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx33,5.6,10.0,482,52.4163,160.6915,0,"156 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx2y,5.4,35.0,456,16.8635,120.0268,0,"38 km WNW of Bacnotan, Philippines",0.0
+us7000qx2s,5.5,10.0,465,52.7596,160.965,0,"160 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx2r,5.4,32.356,449,52.9469,160.7987,0,"146 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx2q,5.8,10.0,518,52.9863,160.7735,0,"144 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qx2n,5.4,10.0,449,-60.4185,-31.5333,0,Scotia Sea,0.0
+us7000qx2g,7.8,27.0,1021,53.1426,160.7206,1,"140 km E of Petropavlovsk-Kamchatsky, Russia",111975069.0
+us7000qx1z,6.0,28.0,558,-3.5961,135.4658,0,"26 km S of Nabire, Indonesia",65227.0
+us7000qwst,5.4,54.177,449,52.6317,159.302,0,"66 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qwir,6.0,31.0,554,-5.5179,153.7354,0,"208 km SE of Kokopo, Papua New Guinea",0.0
+us7000qwch,6.0,15.0,554,52.6973,160.6791,0,"144 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qw56,5.5,29.0,1072,26.7097,92.2103,0,"11 km ESE of Udalguri, India",283675539.0
+us7000qw4k,5.4,10.0,470,6.8248,-76.1391,0,"5 km N of Frontino, Colombia",0.0
+us7000qvx7,5.4,34.514,449,-55.6948,-28.0794,0,South Sandwich Islands region,0.0
+us7000qvw5,7.4,58.0,861,53.1969,160.1901,1,"105 km E of Petropavlovsk-Kamchatsky, Russia",110555.0
+us7000qvrf,5.6,10.0,482,-39.4342,-15.621,0,Tristan da Cunha region,0.0
+us7000qv0n,5.3,10.0,432,-37.4955,78.1132,0,Mid-Indian Ridge,0.0
+us7000quwy,5.7,10.0,520,42.36,-126.5618,1,"174 km WSW of Port Orford, Oregon",0.0
+us7000quvp,6.4,10.0,630,-21.0025,173.7046,1,Vanuatu region,0.0
+us7000qug7,5.4,37.69,449,52.3153,-169.4988,1,"81 km SSW of Nikolski, Alaska",0.0
+us7000qufv,5.0,43.92,385,-37.4133,178.6202,0,"35 km NE of Hicks Bay, New Zealand",0.0
+us7000qu91,5.4,3.061,451,-1.821,-81.0466,0,"44 km NNW of Salinas, Ecuador",0.0
+us7000qtst,5.6,16.505,2066,34.6972,70.758,0,"40 km WSW of Asadābād, Afghanistan",37415863.0
+us7000qtpj,5.9,182.0,546,-24.1304,-67.1572,0,"85 km W of San Antonio de los Cobres, Argentina",0.0
+us7000qtm0,5.9,18.0,536,52.207,-169.5044,1,"92 km SSW of Nikolski, Alaska",0.0
+ak025b7povrc,5.6,12.0,482,56.2482,-151.9738,1,"133 km SE of Old Harbor, Alaska",0.0
+us7000qsvj,6.0,8.0,2149,34.7106,70.8087,0,"35 km WSW of Asadābād, Afghanistan",403792873.0
+us7000qsu5,5.6,67.461,482,-58.3758,-25.6202,0,South Sandwich Islands region,0.0
+us7000qsly,5.5,60.034,465,-11.5525,166.3607,0,"110 km SE of Lata, Solomon Islands",0.0
+us7000qrw3,5.5,51.698,476,38.4534,142.0646,0,"53 km E of Onagawa Chō, Japan",0.0
+us7000qru7,5.1,81.285,400,51.7122,179.5965,1,"260 km W of Adak, Alaska",0.0
+us7000qrj0,5.9,130.0,536,52.1251,179.9386,1,"237 km W of Adak, Alaska",0.0
+us7000qr8h,6.0,40.0,556,50.7675,157.4273,0,"92 km E of Severo-Kuril’sk, Russia",0.0
+us7000qr6h,5.4,66.28,659,42.443,48.2426,0,"21 km ENE of Novokayakent, Russia",7438346.0
+us7000qqxt,5.6,614.102,482,-17.8109,-178.5196,0,"230 km E of Levuka, Fiji",0.0
+us7000qqx7,5.6,31.0,482,49.1051,156.0996,0,"174 km S of Severo-Kuril’sk, Russia",0.0
+us6000r3l7,6.1,9.0,572,49.3726,160.0428,0,east of the Kuril Islands,0.0
+us6000r3g6,5.4,352.442,449,-18.7929,-177.1958,0,Fiji region,0.0
+us6000r3f5,5.2,10.0,416,52.1491,160.3446,0,"154 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000r3dw,5.3,35.0,432,52.2154,160.3044,0,"147 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000r3bg,5.8,18.0,518,2.0106,96.5997,0,"57 km SSE of Sinabang, Indonesia",1.0
+us6000r3at,6.0,17.0,576,13.0601,-90.4343,0,"88 km SW of Acajutla, El Salvador",353.0
+us6000r39a,5.4,45.0,449,50.763,157.3228,0,"85 km E of Severo-Kuril’sk, Russia",0.0
+us6000r385,5.5,10.0,465,-24.6736,-175.8881,0,south of Tonga,0.0
+us6000r30q,5.4,213.944,449,-17.6286,168.6842,0,"41 km ENE of Port-Vila, Vanuatu",0.0
+us6000r2xq,7.5,10.0,876,-60.3187,-61.9221,1,2025 Southern Drake Passage Earthquake,0.0
+us6000r2uz,5.6,40.0,485,38.757,142.309,0,"62 km SE of Ōfunato, Japan",0.0
+us6000r2s3,5.8,10.0,518,51.8817,160.125,0,"165 km SE of Vilyuchinsk, Russia",0.0
+us6000r22u,5.4,10.0,449,-62.122,164.6961,0,Balleny Islands region,0.0
+us6000r222,5.4,10.0,449,-24.2547,-175.9875,0,south of Tonga,0.0
+us6000r201,5.2,10.0,416,-57.1412,-67.2466,0,"267 km SSE of Ushuaia, Argentina",0.0
+us6000r1yq,5.6,12.0,482,-24.3735,-175.9688,0,south of Tonga,0.0
+us6000r1uh,5.2,42.226,417,-15.2513,-173.2669,0,"96 km NE of Hihifo, Tonga",0.0
+us6000r1ud,5.6,10.0,483,-44.7541,-79.9408,0,"Off the coast of Aisen, Chile",0.0
+us6000r1qp,5.5,20.1,465,2.1675,127.1307,0,"109 km WNW of Tobelo, Indonesia",0.0
+us6000r1p8,5.4,10.0,449,13.1891,-91.1097,0,"87 km SSW of Puerto San José, Guatemala",0.0
+us6000r1n6,5.3,10.0,432,-24.3545,-176.0169,0,south of the Fiji Islands,0.0
+us6000r1n3,5.8,8.0,675,-1.2749,120.7206,0,"13 km NNW of Poso, Indonesia",80836393.0
+us6000r1mt,5.5,30.0,470,32.0131,131.811,0,"32 km ESE of Takanabe, Japan",0.0
+us6000r1l5,5.6,11.0,482,-23.1833,170.8077,0,southeast of the Loyalty Islands,0.0
+us6000r1vi,5.4,10.0,449,-38.8752,78.0637,0,Mid-Indian Ridge,0.0
+us6000r0yd,5.7,43.0,500,52.7866,159.9421,0,"93 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000r0y7,5.4,10.0,449,-65.0002,177.8542,0,Balleny Islands region,0.0
+us6000r0sa,6.3,44.99,611,-11.6933,166.2048,0,"115 km SSE of Lata, Solomon Islands",0.0
+us6000r0l4,5.6,24.0,483,-18.4141,-172.5723,0,"151 km E of Neiafu, Tonga",0.0
+us6000r04e,5.4,524.126,449,-6.8616,125.2616,0,"190 km N of Dili, Timor Leste",0.0
+us6000r03i,5.6,36.0,484,-15.2362,-173.3285,0,"93 km NNE of Hihifo, Tonga",0.0
+us6000r02g,5.4,35.0,450,42.2972,144.7893,0,"82 km S of Akkeshi, Japan",0.0
+us6000r01m,6.3,14.0,622,-2.0302,138.966,1,"195 km WNW of Abepura, Indonesia",139164.0
+us6000qzqn,5.8,9.0,518,14.8228,-94.3855,0,"138 km SW of Manuel Ávila Camacho (Ponte Duro), Mexico",0.0
+us6000qznb,6.1,10.0,1188,39.3709,28.0168,0,"10 km WSW of Bigadiç, Turkey",552850745.0
+us6000qzkp,5.2,10.0,419,12.9896,145.4727,0,"84 km ESE of Inarajan Village, Guam",0.0
+us6000qzki,5.9,16.0,558,12.9438,145.6375,0,"103 km ESE of Inarajan Village, Guam",0.0
+us6000qzin,5.9,9.0,542,13.48,-92.3994,0,"104 km SSW of Champerico, Guatemala",0.0
+us6000qzh9,6.0,11.0,554,50.0723,159.7364,0,"265 km ESE of Severo-Kuril’sk, Russia",0.0
+us6000qywk,5.9,19.0,537,-4.2241,152.9274,0,"74 km E of Kokopo, Papua New Guinea",33.0
+us6000qyt7,5.5,113.505,474,24.6133,122.9664,0,"16 km NNW of Yonakuni, Japan",0.0
+us6000qyki,5.5,10.0,465,51.4249,159.6929,0,"189 km SSE of Vilyuchinsk, Russia",0.0
+us6000qykf,5.8,16.0,518,51.5638,159.448,0,"167 km SSE of Vilyuchinsk, Russia",0.0
+us6000qy6g,5.6,76.745,484,28.0709,59.0117,0,"131 km SSE of Bam, Iran",0.0
+us6000qxzw,6.2,16.0,591,48.8586,156.3666,0,"202 km S of Severo-Kuril’sk, Russia",0.0
+us6000qxxc,5.6,9.0,482,52.4978,160.6678,0,"151 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qxw9,5.4,10.0,449,-47.7857,115.9829,0,western Indian-Antarctic Ridge,0.0
+us6000qxvr,5.6,10.0,482,52.4283,160.6912,0,"156 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qxt4,6.8,30.0,717,50.5853,157.8643,1,"123 km E of Severo-Kuril’sk, Russia",9707.0
+us6000qxsv,6.3,10.0,611,-55.2284,-128.6508,0,Pacific-Antarctic Ridge,0.0
+us6000qxsd,5.8,10.0,518,-55.3641,-127.8359,0,Pacific-Antarctic Ridge,0.0
+us6000qxpd,5.8,62.566,557,17.1124,-96.2645,0,"4 km S of Xagacía, Mexico",0.0
+us6000qxp3,5.0,55.875,385,50.1751,157.2812,0,"99 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qxn6,6.0,17.0,554,51.5911,159.4631,0,"165 km SSE of Vilyuchinsk, Russia",0.0
+us6000qxme,5.4,28.403,449,51.5932,159.6045,0,"169 km SSE of Vilyuchinsk, Russia",0.0
+us6000qxja,5.4,25.169,449,42.3163,145.5206,0,"96 km SE of Akkeshi, Japan",0.0
+us6000qxj2,5.4,10.0,449,52.1037,160.2698,0,"154 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qxi9,5.6,79.264,482,50.4404,156.3974,0,"32 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qxhm,5.4,88.462,449,50.4968,156.3237,0,"24 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qxgb,5.5,10.0,465,52.7977,161.4392,0,"191 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qxfn,6.1,10.0,572,50.2099,159.0659,0,"215 km ESE of Severo-Kuril’sk, Russia",0.0
+us6000qxae,5.6,23.0,482,51.9877,158.3749,0,"104 km S of Vilyuchinsk, Russia",0.0
+us6000qx9t,5.4,10.0,449,52.4567,160.7463,0,"158 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qx9r,5.9,19.0,536,51.7269,160.0431,0,"174 km SE of Vilyuchinsk, Russia",0.0
+us6000qx98,5.7,23.0,500,50.527,157.8481,0,"122 km E of Severo-Kuril’sk, Russia",0.0
+us6000qx8k,5.7,28.0,500,52.8059,160.146,0,"106 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qx6a,5.4,10.0,449,52.811,161.3826,0,"187 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qx2r,5.7,14.0,500,52.5859,160.9806,0,"167 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qwy7,5.2,10.0,416,51.587,159.8294,0,"178 km SSE of Vilyuchinsk, Russia",0.0
+us6000qwxr,5.4,10.0,449,52.3254,160.6254,0,"158 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qwvb,5.5,43.871,465,49.871,157.4706,0,"131 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qwuv,5.4,36.975,449,49.7989,156.4616,0,"100 km SSE of Severo-Kuril’sk, Russia",0.0
+us6000qwuh,6.2,15.0,591,49.5,158.6499,0,"222 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qwrs,5.8,10.0,518,52.4118,160.7681,0,"161 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qwr5,5.7,17.0,500,52.2321,160.2649,0,"144 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qwqx,5.1,25.289,400,52.4865,160.998,0,"172 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qwqs,5.3,33.667,432,50.0368,157.5188,0,"121 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qwqm,5.6,10.0,482,49.4969,158.6625,0,"223 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qwle,5.6,10.0,482,49.8958,157.5715,0,"134 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qwlc,5.7,10.0,500,50.4224,159.7368,0,"256 km ESE of Ozernovskiy, Russia",0.0
+us6000qwk1,6.0,35.0,554,49.6696,157.2746,0,"138 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qwiq,5.9,23.309,537,50.0671,157.7699,0,"135 km ESE of Severo-Kuril’sk, Russia",0.0
+us6000r1cz,5.4,35.0,449,51.3138,159.6768,0,"199 km SSE of Vilyuchinsk, Russia",0.0
+us6000qwfe,6.1,10.445,572,51.6041,160.0013,0,"183 km SE of Vilyuchinsk, Russia",0.0
+us6000qwex,5.5,126.3,465,-58.926,-26.2034,0,South Sandwich Islands region,0.0
+us6000qwd7,5.6,10.0,482,48.8612,156.301,0,"202 km S of Severo-Kuril’sk, Russia",0.0
+us6000qwbi,5.4,10.0,449,51.376,159.6812,0,"193 km SSE of Vilyuchinsk, Russia",0.0
+us6000qwbb,5.4,10.0,449,51.4188,158.7366,0,"155 km E of Ozernovskiy, Russia",0.0
+us6000qwb4,5.6,61.759,482,50.7377,157.8617,0,"122 km E of Severo-Kuril’sk, Russia",0.0
+us6000qwah,5.6,35.0,482,49.3297,156.5319,0,"152 km S of Severo-Kuril’sk, Russia",0.0
+us6000qw9z,5.4,10.0,449,52.497,160.7237,0,"154 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw94,5.5,35.0,465,51.8385,159.1797,0,"132 km SSE of Vilyuchinsk, Russia",0.0
+us6000qw8v,5.4,10.0,449,49.6826,157.3207,0,"139 km SE of Severo-Kuril’sk, Russia",0.0
+us6000qw92,5.3,10.0,432,52.7151,160.8644,0,"155 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000r1gk,5.5,24.949,465,52.8756,160.8815,0,"152 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw8r,5.5,35.0,465,51.7321,159.309,0,"146 km SSE of Vilyuchinsk, Russia",0.0
+us6000qw8p,5.3,27.95,432,52.8384,160.9578,0,"158 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw87,5.9,37.52,536,50.6541,157.4441,0,"93 km E of Severo-Kuril’sk, Russia",0.0
+us6000qw86,5.7,10.0,500,52.1134,162.0791,0,"256 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw7l,5.3,35.0,432,51.6833,159.3075,0,"151 km SSE of Vilyuchinsk, Russia",0.0
+us6000qw7h,5.5,35.0,465,50.1868,157.2929,0,"99 km ESE of Severo-Kuril’sk, Russia",0.0
+us6000qw7g,5.4,10.0,449,51.9929,160.593,0,"178 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw7f,5.6,35.0,482,51.0169,158.3088,0,"136 km ESE of Ozernovskiy, Russia",0.0
+us6000qw7d,5.4,10.0,449,52.5706,160.5659,0,"141 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw7b,5.3,35.0,432,52.338,160.0971,0,"128 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw75,5.7,35.0,500,51.6577,158.8083,0,"144 km S of Vilyuchinsk, Russia",0.0
+us6000qw74,5.7,10.0,500,51.585,159.8996,0,"181 km SSE of Vilyuchinsk, Russia",0.0
+us6000qw73,5.1,38.813,400,51.5583,159.1846,0,"161 km SSE of Vilyuchinsk, Russia",0.0
+us6000qw6z,5.7,35.0,500,51.9131,159.255,0,"127 km SSE of Vilyuchinsk, Russia",0.0
+us6000qw6y,5.4,35.0,449,52.3338,160.1487,0,"131 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000r1d7,5.4,35.0,449,50.9849,158.6593,0,"161 km ESE of Ozernovskiy, Russia",0.0
+us6000qw6s,6.2,35.0,591,52.1048,159.692,0,"126 km SE of Vilyuchinsk, Russia",0.0
+us6000r1em,5.8,25.681,518,51.7857,159.8227,0,"159 km SE of Vilyuchinsk, Russia",0.0
+us6000qw6q,6.9,36.622,736,52.1946,159.8008,0,"125 km SE of Petropavlovsk-Kamchatsky, Russia",11202158.0
+us6000r0pw,5.7,10.0,500,50.8049,158.7836,0,"177 km ESE of Ozernovskiy, Russia",0.0
+us6000qw6m,5.4,35.0,449,52.6478,160.2382,0,"117 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw6g,5.6,10.0,482,51.7599,160.1586,0,"176 km SE of Vilyuchinsk, Russia",0.0
+us6000qwi3,5.7,35.0,500,49.4264,156.1591,0,"138 km S of Severo-Kuril’sk, Russia",0.0
+us6000r0qb,5.4,10.0,449,51.6288,159.6054,0,"166 km SSE of Vilyuchinsk, Russia",0.0
+us6000r0pv,5.4,39.461,449,50.8173,157.7211,0,"113 km E of Severo-Kuril’sk, Russia",0.0
+us6000qwhh,5.7,10.0,500,49.2988,156.5191,0,"155 km S of Severo-Kuril’sk, Russia",0.0
+us6000r0qg,5.8,10.0,518,51.0614,159.0547,0,"184 km ESE of Ozernovskiy, Russia",0.0
+us6000r0ql,5.7,35.0,500,52.3144,159.5397,0,"103 km SE of Vilyuchinsk, Russia",0.0
+us6000qwhj,6.0,35.0,554,51.5092,159.126,0,"165 km SSE of Vilyuchinsk, Russia",0.0
+us6000r0qc,6.0,35.0,554,51.7541,158.2503,0,"124 km ENE of Ozernovskiy, Russia",0.0
+us6000r0q2,5.9,35.0,536,51.8593,159.121,0,"128 km SSE of Vilyuchinsk, Russia",0.0
+us6000r0xt,5.9,42.734,536,53.665,160.4312,0,"137 km ENE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000r0xw,6.1,25.423,572,52.6498,159.5787,0,"78 km SE of Petropavlovsk-Kamchatsky, Russia",8.0
+us6000r0y5,6.3,16.375,611,52.5195,159.7031,0,"94 km SE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qw60,8.8,35.0,2114,52.4948,160.2395,1,"2025 Kamchatka Peninsula, Russia Earthquake",10238972670.0
+us6000qw5x,5.2,10.0,419,14.0537,-89.8537,0,"9 km SE of Comapa, Guatemala",336840.0
+us6000qw59,5.7,10.0,656,14.0663,-89.8711,0,"6 km SE of Comapa, Guatemala",3035854.0
+us6000qw58,5.6,11.913,701,14.0993,-89.791,0,"4 km WNW of Jerez, Guatemala",1022184.0
+us6000qw1a,6.6,553.0,670,-23.4497,178.858,1,south of the Fiji Islands,0.0
+us6000qw18,5.8,550.0,518,-23.5094,178.9624,0,south of the Fiji Islands,0.0
+us6000qvup,5.4,33.218,449,-57.9045,157.8263,0,Macquarie Island region,0.0
+us6000qvsl,5.3,34.854,432,-57.8059,157.7149,0,Macquarie Island region,0.0
+us6000qvvp,5.8,10.0,518,-57.9072,157.6187,0,Macquarie Island region,0.0
+us6000qvsf,7.0,31.0,754,-57.605,157.0388,1,Macquarie Island region,0.0
+us6000qvpp,6.4,21.0,638,6.6907,93.0637,0,"264 km WNW of Sabang, Indonesia",0.0
+us6000qvj2,5.3,83.0,447,54.0969,-166.602,1,"23 km N of Dutch Harbor, Alaska",0.0
+us6000qvbw,6.2,17.0,591,-57.7718,157.7252,1,Macquarie Island region,0.0
+us6000qv9l,5.6,10.0,483,-0.3955,131.5362,0,"61 km NNE of Sorong, Indonesia",0.0
+us6000qv9g,5.3,89.851,432,51.6717,178.3992,1,"Rat Islands, Aleutian Islands, Alaska",0.0
+us6000qv7n,5.8,80.0,518,2.0241,126.873,0,"130 km WNW of Tobelo, Indonesia",0.0
+us6000qv3y,5.7,10.0,500,-55.3251,146.4375,0,west of Macquarie Island,0.0
+us6000qv1b,6.2,10.0,592,-55.4066,146.5854,0,west of Macquarie Island,0.0
+us6000quyn,5.5,10.0,468,37.7163,-18.008,0,Azores-Cape St. Vincent Ridge,0.0
+us6000quy1,6.6,314.151,670,-14.9093,-175.7016,1,"187 km SSE of Mata-Utu, Wallis and Futuna",0.0
+us6000quxr,5.8,10.0,518,52.9584,161.0863,0,"165 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000quxn,6.0,14.0,554,53.0151,161.0626,0,"163 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000quqk,5.4,144.0,449,18.1939,145.684,0,"Pagan region, Northern Mariana Islands",0.0
+us6000qun0,5.7,108.0,502,-4.2084,143.7515,0,"38 km WSW of Angoram, Papua New Guinea",0.0
+us6000qulk,5.6,10.0,483,-2.0235,120.66,0,"69 km NNE of Masamba, Indonesia",41.0
+us6000qulb,5.5,10.0,467,-1.9763,120.7566,0,"64 km S of Poso, Indonesia",13900.0
+us6000qugg,6.3,142.0,613,0.4411,122.0874,0,"109 km W of Gorontalo, Indonesia",0.0
+us6000qubl,5.2,10.0,416,-2.9867,130.2673,0,"148 km ENE of Masohi, Indonesia",0.0
+us6000quaf,5.6,532.691,482,-23.4563,-179.9105,0,south of the Fiji Islands,0.0
+us6000qu9h,5.4,28.0,449,52.8406,160.816,0,"149 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qu2u,5.5,10.0,465,-4.827,68.7987,0,Chagos Archipelago region,0.0
+us6000qu2r,6.0,12.308,554,52.4133,160.6453,0,"154 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qu1q,5.3,10.0,432,52.5395,160.7864,0,"156 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us6000qtxh,5.8,94.0,526,-5.8623,146.6039,0,"94 km ENE of Kainantu, Papua New Guinea",0.0
+us7000qe51,6.2,40.0,605,54.6051,-159.8382,1,"91 km SSE of Sand Point, Alaska",0.0
+us7000qdz8,5.9,10.0,536,52.9657,161.0597,0,"163 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qdz2,6.5,34.991,650,52.8915,160.7461,0,"143 km E of Petropavlovsk-Kamchatsky, Russia",3.0
+us7000qdz0,5.7,10.0,500,52.7333,160.9824,0,"162 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qdzf,5.6,10.0,482,52.8415,161.0175,0,"162 km E of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qdyw,6.6,10.0,671,52.6981,160.8332,0,"153 km ESE of Petropavlovsk-Kamchatsky, Russia",1.0
+us6000qxca,5.6,10.0,482,52.6641,160.7552,0,"150 km ESE of Petropavlovsk-Kamchatsky, Russia",0.0
+us7000qdyl,7.4,34.0,2018,52.8301,160.6816,1,"2025 Eastern Kamchatka, Russia Earthquake",3364212631.0
+us7000qdye,6.6,23.0,671,52.9286,160.6233,1,"134 km E of Petropavlovsk-Kamchatsky, Russia",33.0
+us7000qdxz,5.5,45.853,466,19.6495,121.5052,0,"100 km SSW of Basco, Philippines",0.0
+us7000qdwb,5.1,10.0,406,36.821,54.9294,0,"30 km E of Qarnābād, Iran",21173.0
+us7000qduj,5.4,10.0,449,8.1924,127.5937,0,"127 km ENE of Kinablangan, Philippines",0.0
+us7000qdue,5.6,10.0,482,8.3465,-103.0158,0,northern East Pacific Rise,0.0
+us7000qdu5,5.4,10.0,449,8.515,-102.8357,0,northern East Pacific Rise,0.0
+us7000qddu,5.1,10.0,652,22.6707,95.9569,0,"28 km ENE of Shwebo, Burma (Myanmar)",1202702.0
+us7000qd6b,5.6,24.0,484,-10.1195,119.1925,0,"76 km S of Tambolaka, Indonesia",0.0
+us7000qd4n,5.6,35.0,482,54.5012,-160.1181,1,"96 km SSE of Sand Point, Alaska",0.0
+us7000qd56,5.4,43.905,449,54.5973,-159.8086,0,"93 km SSE of Sand Point, Alaska",0.0
+us7000qd1y,7.3,38.0,962,54.5652,-160.4689,1,"2025 Sand Point, Alaska Earthquake",1109.0
+us7000qd00,5.0,69.829,386,52.1732,-173.3679,1,"57 km E of Atka, Alaska",0.0
+us7000qctd,5.8,8.0,518,83.2703,-33.136,0,near the north coast of Greenland,0.0
+us7000qcrv,5.7,48.15,500,-30.0661,-177.9432,0,"Kermadec Islands, New Zealand",0.0
+us7000qcqe,5.4,50.0,454,18.1482,120.6989,0,"2 km SW of Piddig, Philippines",0.0
+us7000qcp2,5.8,74.0,518,46.5459,151.4305,0,Kuril Islands,0.0
+us7000qclp,6.2,10.0,592,6.1706,-82.7372,1,"206 km S of Burica, Panama",0.0
+us7000qcik,6.7,70.687,715,-6.2201,131.2331,1,"180 km WSW of Tual, Indonesia",0.0
+us7000qcet,5.2,10.771,416,9.3388,93.8813,0,"285 km SSE of Port Blair, India",0.0
+us7000qbgp,5.1,79.767,403,-6.2841,104.7897,0,"107 km SSW of Bandar Lampung, Indonesia",0.0
+us7000qbfv,5.7,10.0,768,14.4503,-90.6483,0,"3 km SSW of Amatitlán, Guatemala",33083120.0
+us7000qb4s,6.2,22.0,604,-47.1735,165.4962,0,"213 km WSW of Riverton, New Zealand",0.0
+us7000qb20,5.5,10.0,465,-20.9353,-174.3501,0,"77 km NE of ‘Ohonua, Tonga",0.0
+us7000qazs,5.1,10.0,401,-5.5489,-77.0114,0,"53 km N of Moyobamba, Peru",50.0
+us7000qayf,5.5,10.0,465,29.3813,129.5412,0,"103 km N of Tatsugō, Japan",0.0
+us7000qavc,5.5,10.0,465,6.2844,95.0881,0,"50 km NNW of Sabang, Indonesia",0.0
+us7000qarl,5.4,10.0,449,29.3862,129.3214,0,"107 km NNW of Tatsugō, Japan",0.0
+us7000qamr,5.6,10.0,483,-57.0542,-67.4161,0,"256 km SSE of Ushuaia, Argentina",0.0
+us7000qaeh,5.4,10.0,449,-62.5065,-158.8092,0,Pacific-Antarctic Ridge,0.0
+us7000qadp,5.5,10.0,465,29.3808,129.4093,0,"104 km N of Tatsugō, Japan",0.0
+us7000qad7,5.4,194.757,450,-21.3567,-67.2971,0,"100 km E of Ollagüe, Chile",0.0
+us7000qa5h,5.6,526.92,482,-17.6546,-178.9462,0,"189 km ENE of Levuka, Fiji",0.0
+us7000qa5e,5.6,10.0,483,29.2518,129.1665,0,"98 km NNW of Tatsugō, Japan",0.0
+us7000qa4b,5.4,10.0,449,-26.8607,-176.3594,0,south of the Fiji Islands,0.0
+us7000qa3y,5.5,10.0,466,-33.6025,-72.5628,0,"88 km W of San Antonio, Chile",0.0

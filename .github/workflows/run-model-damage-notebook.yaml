@@ -1,0 +1,50 @@
+name: Run Model_Damage
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'notebooks/05_Model_Damage.ipynb'
+      - 'data/usgs_damage_2025.csv'
+      - 'requirements.txt'
+
+jobs:
+  run-notebook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create output folder
+        run: mkdir -p output
+
+      - name: Run Model Damage notebook
+        working-directory: notebooks
+        run: |
+          papermill 05_Model_Damage.ipynb ../output/05_Model_Damage_output.ipynb
+
+      - name: Convert notebook to HTML
+        working-directory: notebooks
+        run: |
+          jupyter nbconvert \
+            --to html \
+            ../output/05_Model_Damage_output.ipynb \
+            --output ../output/Model_Damage.html
+
+      - name: Upload notebook report
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-damage-notebook-report
+          path: output/
