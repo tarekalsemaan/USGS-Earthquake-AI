@@ -1,0 +1,41 @@
+name: Run Model_Risk_Zone
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'notebooks/01_EDA_Preprocessing.ipynb'
+
+jobs:
+  execute-notebook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute notebook with Papermill
+        run: |
+          mkdir -p output
+          papermill notebooks/01_EDA_Preprocessing.ipynb output/output.ipynb
+
+      - name: Convert notebook to HTML report
+        run: |
+          jupyter nbconvert --to html output/output.ipynb --output EDA_Preprocessing.html
+
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: eda-preprocessing-notebook-report
+          path: output/EDA_Preprocessing.html
