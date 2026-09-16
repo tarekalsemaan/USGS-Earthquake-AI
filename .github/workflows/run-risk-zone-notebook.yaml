@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - 'notebooks/02_Model_Risk_Zone-2.ipynb'
+      - 'data/usgs_earthquakes_2025.csv'
+      - 'requirements.txt'
 
 jobs:
   execute-notebook:
@@ -28,7 +30,7 @@ jobs:
       - name: Execute notebook with Papermill
         run: |
           mkdir -p output
-          papermill notebooks/02_Model_Risk_Zone-2.ipynb output/output.ipynb
+          papermill notebooks/02_Model_Risk_Zone-2.ipynb ../output/02_Model_Risk_Zone-2_output.ipynb
 
       - name: Convert notebook to HTML report
         run: |
