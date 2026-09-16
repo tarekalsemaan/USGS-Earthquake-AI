@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'notebooks/02_Model_Risk_Zone - II.ipynb'
+      - 'notebooks/02_Model_Risk_Zone-2.ipynb'
 
 jobs:
   execute-notebook:
@@ -28,7 +28,7 @@ jobs:
       - name: Execute notebook with Papermill
         run: |
           mkdir -p output
-          papermill notebooks/02_Model_Risk_Zone - II.ipynb output/output.ipynb
+          papermill notebooks/02_Model_Risk_Zone-2.ipynb output/output.ipynb
 
       - name: Convert notebook to HTML report
         run: |
