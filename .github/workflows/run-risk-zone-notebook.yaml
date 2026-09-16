@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'notebooks/02_Model_Risk_Zone.ipynb'
+      - 'notebooks/02_Model_Risk_Zone - II.ipynb'
 
 jobs:
   execute-notebook:
