@@ -30,14 +30,14 @@ jobs:
       - name: Execute notebook with Papermill
         run: |
           mkdir -p output
-          papermill notebooks/02_Model_Risk_Zone-2.ipynb ../output/02_Model_Risk_Zone-2_output.ipynb
+          papermill notebooks/02_Model_Risk_Zone-2.ipynb output/02_Model_Risk_Zone-2_output.ipynb
 
       - name: Convert notebook to HTML report
         run: |
-          jupyter nbconvert --to html ../output/02_Model_Risk_Zone-2_output.ipynb --output Model_Risk_Zone.html
+          jupyter nbconvert --to html output/02_Model_Risk_Zone-2_output.ipynb --output Model_Risk_Zone.html
 
       - name: Upload report as artifact
         uses: actions/upload-artifact@v4
         with:
           name: model-risk-zone-notebook-report
-          path: ../output/Model_Risk_Zone.html
+          path: output/Model_Risk_Zone.html
