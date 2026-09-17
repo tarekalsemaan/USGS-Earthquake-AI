@@ -1,121 +1,184 @@
-# USGS-Earthquake-AI
+Risques Sismiques
 
-Projet de Machine Learning réalisé à partir des données sismiques de l’USGS.
+Projet de Machine Learning réalisé à partir de données sismiques de l'USGS.
 
-Le projet permet d’analyser les séismes et de faire des prédictions concernant :
+Le projet contient plusieurs modèles pour étudier les risques et les conséquences possibles des séismes.
 
-* les zones de risque ;
-* le PGA ;
-* les dommages ;
-* les actions à prendre ;
-* les pertes économiques.
+Application
 
-## Application
-
-L’application est disponible en ligne avec Streamlit :
+Application Streamlit :
 
 https://usgs-earthquake-ai-9zbupyrcn6cwtmhms5xa9p.streamlit.app
 
----
+Modèles
+Model 1 — Zone de risque
 
-## Model 7 — Economic Loss Prediction
+Classification des séismes en trois niveaux :
 
-This model estimates the economic losses associated with significant earthquakes.
+Faible
+Modéré
+Sévère
+Model 3 — PGA
 
-### Data
+Prédiction du Peak Ground Acceleration (PGA).
 
-Earthquake characteristics are obtained from the **USGS 2025 earthquake dataset**.
+Model 4 — Facteurs de risque
 
-Economic-loss targets are obtained from **USGS PAGER (Prompt Assessment of Global Earthquakes for Response)**.
+Étude des variables liées au niveau de risque d'un séisme.
 
-PAGER provides estimated economic impacts for significant earthquakes.
+Model 5 — Dommages
 
-After matching the available PAGER information with the USGS earthquake events:
+Prédiction du niveau de dommages :
 
-- Significant earthquakes analyzed: 2,122
-- Events with available PAGER economic-loss estimates: 734
-- Events without economic-loss estimates: 1,388
+Faible
+Modéré
+Sévère
 
-The final Machine Learning dataset therefore contains **734 earthquakes**.
+Les principales variables utilisées sont la magnitude, la profondeur, la MMI, le CDI, le nombre de signalements, le SIG, le tsunami et la position géographique.
 
-### Variables
+Model 6 — Action
 
-The model uses the following explanatory variables:
+Détermination d'une action à partir du scénario sismique et des résultats des modèles.
 
-- `mag` — earthquake magnitude
-- `depth` — earthquake depth
-- `sig` — USGS significance index
-- `latitude`
-- `longitude`
-- `tsunami`
+Model 7 — Pertes économiques
 
-Target variable:
+Prédiction des pertes économiques à partir des données USGS et PAGER.
 
-- `economic_loss` — estimated economic loss from USGS PAGER
+Version 1
 
-### Preprocessing
+Variables utilisées :
 
-Economic losses are highly skewed, ranging from $0 to several billion dollars.
+magnitude ;
+profondeur ;
+SIG ;
+latitude ;
+longitude ;
+tsunami.
 
-A logarithmic transformation was therefore applied:
+Trois modèles ont été testés :
 
-`log1p(economic_loss)`
+Linear Regression ;
+Random Forest ;
+Gradient Boosting.
 
-The dataset was divided into:
+Résultats :
 
-- 80% training data
-- 20% test data
+Modèle	MAE	RMSE	R²
+Linear Regression	1.6604	3.0105	0.5117
+Random Forest	1.0040	2.4327	0.6812
+Gradient Boosting	1.0387	2.2755	0.7210
+Version 2 — PAGER
 
-### Algorithms
+La V2 ajoute les informations d'exposition provenant de PAGER.
 
-Three regression algorithms were evaluated:
+Le dataset contient 734 événements avec une estimation économique PAGER disponible.
 
-1. Linear Regression
-2. Random Forest Regressor
-3. Gradient Boosting Regressor
+Les variables utilisées sont :
 
-### Model Performance
+magnitude ;
+profondeur ;
+MMI maximale ;
+population exposée aux niveaux MMI 5 à 10 ;
+exposition économique aux niveaux MMI 5 à 10.
 
-| Model | MAE | RMSE | R² |
-|---|---:|---:|---:|
-| Linear Regression | 1.6604 | 3.0105 | 0.5117 |
-| Random Forest | 1.0040 | 2.4327 | 0.6812 |
-| **Gradient Boosting** | **1.0387** | **2.2755** | **0.7210** |
+La V2 utilise deux modèles :
 
-The metrics above are calculated on the logarithmically transformed target.
+un modèle de classification pour déterminer si une perte économique positive est prévue ;
+un modèle de régression pour estimer le montant de la perte.
 
-**Gradient Boosting** achieved the best overall performance, with an R² of **0.7210** and the lowest RMSE.
+Validation croisée à 5 plis :
 
-### Feature Importance
+Random Forest
 
-The Gradient Boosting model identified the following feature importances:
+MAE : 3.0464
+RMSE : 3.7642
+R² : 0.6014
 
-| Variable | Importance |
-|---|---:|
-| `sig` | 68.84% |
-| `mag` | 12.12% |
-| `longitude` | 10.44% |
-| `latitude` | 5.41% |
-| `depth` | 2.88% |
-| `tsunami` | 0.31% |
+Gradient Boosting
 
-### Saved Model
+MAE : 3.0304
+RMSE : 3.8553
+R² : 0.5838
 
-The trained model is available at:
+Les fichiers principaux de la V2 sont :
 
-`models/economic_loss_gradient_boosting.pkl`
+data/economic_loss_model_v2_2025.csv
 
-The final modeling dataset is available at:
+models/economic_loss_v2_classifier.pkl
 
-`data/economic_loss_model_2025.csv`
+models/economic_loss_v2_regressor.pkl
 
-The downloaded PAGER economic-loss dataset is available at:
+Exemple
 
-`data/pager_economic_losses_2025.csv`
+Pour l'événement USGS us7000pn9s :
 
-### Important Limitation
+Magnitude : 7.7
+Profondeur : 10 km
+MMI maximale : 10
+Latitude : 22.0110
+Longitude : 95.9363
 
-The model predicts **USGS PAGER economic-loss estimates**, not confirmed final economic losses.
+L'application a produit une estimation de :
 
-The results should therefore be interpreted as an experimental Machine Learning approximation of PAGER estimates rather than an exact prediction of the financial damage caused by a future earthquake.
+10,249,856,333.48 $ US
 
+Cette valeur est une estimation du modèle basée sur les données PAGER. Elle ne représente pas une perte économique finale confirmée.
+
+Expérimentation — Scénario futur
+
+Une expérimentation a été réalisée pour essayer de prédire les pertes économiques d'un séisme hypothétique avec :
+
+latitude ;
+longitude ;
+magnitude ;
+profondeur.
+
+Le premier modèle a obtenu un R² d'environ 0.13.
+
+Avec la MMI observée, le R² était d'environ 0.68.
+
+La MMI prédite avait une corrélation de 0.8429 avec la MMI réelle.
+
+Cependant, lorsque la MMI prédite a été utilisée pour prédire les pertes économiques :
+
+MAE : 5.0753
+RMSE : 5.8793
+R² : 0.0913
+
+Cette approche n'est donc pas utilisée comme modèle principal de l'application.
+
+Données
+
+Les données utilisées dans le projet proviennent principalement de l'USGS et de PAGER.
+
+Technologies
+Python
+Pandas
+NumPy
+Scikit-learn
+Jupyter Notebook
+Streamlit
+Folium
+Random Forest
+Gradient Boosting
+Git
+GitHub
+Installation
+git clone https://github.com/tarekalsemaan/USGS-Earthquake-AI.git
+cd USGS-Earthquake-AI
+pip install -r requirements.txt
+Lancer l'application
+streamlit run map/app.py
+Limites
+
+Les pertes économiques utilisées dans le projet correspondent aux estimations PAGER disponibles.
+
+Les résultats sont des estimations de Machine Learning et ne représentent pas nécessairement les pertes économiques finales réelles.
+
+Les données PAGER ne sont pas disponibles pour tous les séismes.
+
+Les modèles ont été réalisés dans le cadre de ce projet et ne remplacent pas les systèmes officiels d'évaluation des séismes et des dommages.
+
+GitHub
+
+https://github.com/tarekalsemaan/USGS-Earthquake-AI
