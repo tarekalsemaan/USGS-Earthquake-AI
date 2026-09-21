@@ -13,3 +13,5 @@ pydeck
 geopy
 folium
 streamlit-folium
+mlflow
+mlflow.sklearn
