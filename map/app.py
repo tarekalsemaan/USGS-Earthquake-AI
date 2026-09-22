@@ -10,7 +10,7 @@ from streamlit_folium import st_folium
 
 
 # ============================================================
-# PAGE
+# PAGE CONFIGURATION
 # ============================================================
 
 st.set_page_config(
@@ -20,172 +20,215 @@ st.set_page_config(
 
 
 # ============================================================
-# MODELS
+# LOAD DAMAGE MODEL
 # ============================================================
 
 damage_model = joblib.load(
     "models/damage_random_forest.joblib"
 )
 
-economic_loss_classifier = joblib.load(
-    "models/economic_loss_v2_classifier.pkl"
+
+# ============================================================
+# LOAD MODEL 7 — ECONOMIC LOSS
+# ============================================================
+
+economic_loss_artifact = joblib.load(
+    "models/economic_loss_gradient_boosting.pkl"
 )
 
-economic_loss_regressor = joblib.load(
-    "models/economic_loss_v2_regressor.pkl"
+economic_loss_model = economic_loss_artifact["model"]
+
+economic_loss_features = economic_loss_artifact["features"]
+
+economic_loss_target = economic_loss_artifact["target"]
+
+economic_loss_target_transform = (
+    economic_loss_artifact["target_transform"]
+)
+
+economic_loss_inverse_transform = (
+    economic_loss_artifact["inverse_transform"]
 )
 
 
 # ============================================================
-# USGS PAGER
+# ECONOMIC LOSS INVERSE TRANSFORMATION
 # ============================================================
 
-def load_usgs_pager_data(event_id):
+def inverse_economic_loss(value):
+    """
+    Convert the Model 7 prediction back to the
+    original economic-loss scale.
+
+    The transformation information is stored directly
+    inside the Model 7 model artifact.
+    """
+
+    if callable(economic_loss_inverse_transform):
+
+        result = economic_loss_inverse_transform(
+            value
+        )
+
+        if np.isscalar(result):
+            return float(result)
+
+        return float(
+            np.asarray(result).reshape(-1)[0]
+        )
+
+    transform_name = str(
+        economic_loss_inverse_transform
+    ).lower()
+
+    if (
+        "expm1" in transform_name
+        or "log1p" in transform_name
+    ):
+
+        return float(
+            np.expm1(value)
+        )
+
+    if (
+        transform_name in [
+            "none",
+            "identity",
+            "no_transform"
+        ]
+    ):
+
+        return float(value)
+
+    # Model 7 currently uses log1p.
+    # Keep a safe fallback for the stored artifact.
+    if (
+        "log" in transform_name
+    ):
+
+        return float(
+            np.expm1(value)
+        )
+
+    return float(value)
+
+
+# ============================================================
+# LOAD USGS EVENT
+# ============================================================
+
+def load_usgs_event(event_id):
 
     event_id = event_id.strip()
 
-    event_url = (
+    if not event_id:
+        raise ValueError(
+            "Veuillez entrer un identifiant USGS."
+        )
+
+    url = (
         "https://earthquake.usgs.gov/fdsnws/event/1/query"
         f"?eventid={event_id}&format=geojson"
     )
 
     response = requests.get(
-        event_url,
-        timeout=15
+        url,
+        timeout=20
     )
 
     response.raise_for_status()
 
-    event_data = response.json()
+    data = response.json()
 
-    properties = event_data["properties"]
-    geometry = event_data["geometry"]
-
-    mag = properties["mag"]
-
-    longitude = geometry["coordinates"][0]
-    latitude = geometry["coordinates"][1]
-    depth = geometry["coordinates"][2]
-
-    products = properties.get(
-        "products",
-        {}
-    )
-
-    if "losspager" not in products:
-
+    if (
+        "properties" not in data
+        or "geometry" not in data
+    ):
         raise ValueError(
-            "Aucune donnée PAGER disponible pour ce séisme."
+            "Événement USGS introuvable."
         )
 
-    pager_product = products["losspager"][0]
+    properties = data["properties"]
 
-    contents = pager_product["contents"]
+    geometry = data["geometry"]
 
-    if "json/exposures.json" not in contents:
+    coordinates = geometry.get(
+        "coordinates",
+        []
+    )
 
+    if len(coordinates) < 3:
         raise ValueError(
-            "Les données d'exposition PAGER ne sont pas disponibles."
+            "Les coordonnées de l'événement "
+            "USGS sont indisponibles."
         )
 
-    if "json/event.json" not in contents:
+    longitude = coordinates[0]
 
+    latitude = coordinates[1]
+
+    depth = coordinates[2]
+
+    magnitude = properties.get(
+        "mag"
+    )
+
+    sig = properties.get(
+        "sig"
+    )
+
+    tsunami = properties.get(
+        "tsunami"
+    )
+
+    if magnitude is None:
         raise ValueError(
-            "Les données PAGER de l'événement ne sont pas disponibles."
+            "La magnitude de l'événement "
+            "USGS est indisponible."
         )
 
-    exposures_url = contents[
-        "json/exposures.json"
-    ]["url"]
-
-    pager_event_url = contents[
-        "json/event.json"
-    ]["url"]
-
-    exposure_response = requests.get(
-        exposures_url,
-        timeout=15
-    )
-
-    exposure_response.raise_for_status()
-
-    exposures = exposure_response.json()
-
-    pager_response = requests.get(
-        pager_event_url,
-        timeout=15
-    )
-
-    pager_response.raise_for_status()
-
-    pager_event = pager_response.json()
-
-    maxmmi = float(
-        pager_event["pager"]["maxmmi"]
-    )
-
-    population = exposures[
-        "population_exposure"
-    ]
-
-    economic = exposures[
-        "economic_exposure"
-    ]
-
-    population_exposure = population[
-        "aggregated_exposure"
-    ]
-
-    economic_exposure = economic[
-        "aggregated_exposure"
-    ]
-
-    result = {
+    return {
         "event_id": event_id,
-        "mag": float(mag),
+        "mag": float(magnitude),
         "depth": float(depth),
+        "sig": float(
+            sig if sig is not None else 0
+        ),
         "latitude": float(latitude),
         "longitude": float(longitude),
-        "maxmmi": maxmmi
+        "tsunami": int(
+            tsunami if tsunami is not None else 0
+        )
     }
-
-    for mmi_level in range(5, 11):
-
-        index = mmi_level - 1
-
-        result[
-            f"population_mmi_{mmi_level}"
-        ] = float(
-            population_exposure[index]
-        )
-
-        result[
-            f"economic_exposure_mmi_{mmi_level}"
-        ] = float(
-            economic_exposure[index]
-        )
-
-    return result
 
 
 # ============================================================
-# SESSION
+# SESSION STATE
 # ============================================================
 
 if "latitude" not in st.session_state:
+
     st.session_state.latitude = 45.5017
 
+
 if "longitude" not in st.session_state:
+
     st.session_state.longitude = -73.5673
 
+
 if "damage_prediction" not in st.session_state:
+
     st.session_state.damage_prediction = None
 
+
 if "economic_prediction" not in st.session_state:
+
     st.session_state.economic_prediction = None
 
-if "pager_data" not in st.session_state:
-    st.session_state.pager_data = None
+
+if "economic_event" not in st.session_state:
+
+    st.session_state.economic_event = None
 
 
 # ============================================================
@@ -213,13 +256,14 @@ st.sidebar.write(
 
 
 # ============================================================
-# MODEL 1 — DAMAGE
+# MODEL 5 — DAMAGE PREDICTION
 # ============================================================
 
 if model_choice == "Prédiction des dommages":
 
     st.title(
-        "USGS Earthquake AI — Prédiction des dommages"
+        "USGS Earthquake AI — "
+        "Prédiction des dommages"
     )
 
     st.write(
@@ -228,10 +272,9 @@ if model_choice == "Prédiction des dommages":
         "puis lancez la prédiction."
     )
 
-
-    # --------------------------------------------------------
+    # ========================================================
     # DATE
-    # --------------------------------------------------------
+    # ========================================================
 
     st.subheader(
         "1. Choisir une date"
@@ -242,15 +285,9 @@ if model_choice == "Prédiction des dommages":
         value=date.today()
     )
 
-    st.caption(
-        "La date identifie le scénario. "
-        "Elle n'est pas utilisée directement par le modèle."
-    )
-
-
-    # --------------------------------------------------------
+    # ========================================================
     # MAP
-    # --------------------------------------------------------
+    # ========================================================
 
     st.subheader(
         "2. Choisir un emplacement"
@@ -292,17 +329,18 @@ if model_choice == "Prédiction des dommages":
         ]
     )
 
-    if map_data and map_data.get(
-        "last_clicked"
+    if (
+        map_data
+        and map_data.get("last_clicked")
     ):
 
-        clicked_latitude = map_data[
-            "last_clicked"
-        ]["lat"]
+        clicked_latitude = (
+            map_data["last_clicked"]["lat"]
+        )
 
-        clicked_longitude = map_data[
-            "last_clicked"
-        ]["lng"]
+        clicked_longitude = (
+            map_data["last_clicked"]["lng"]
+        )
 
         location_changed = (
             abs(
@@ -330,7 +368,6 @@ if model_choice == "Prédiction des dommages":
 
             st.rerun()
 
-
     col_lat, col_lon = st.columns(2)
 
     col_lat.metric(
@@ -349,10 +386,9 @@ if model_choice == "Prédiction des dommages":
         )
     )
 
-
-    # --------------------------------------------------------
-    # INPUTS
-    # --------------------------------------------------------
+    # ========================================================
+    # DAMAGE INPUTS
+    # ========================================================
 
     st.subheader(
         "3. Caractéristiques du séisme"
@@ -440,10 +476,9 @@ if model_choice == "Prédiction des dommages":
             f"{st.session_state.longitude:.4f}"
         )
 
-
-    # --------------------------------------------------------
-    # PREDICTION
-    # --------------------------------------------------------
+    # ========================================================
+    # DAMAGE PREDICTION
+    # ========================================================
 
     st.subheader(
         "4. Prédiction"
@@ -465,11 +500,14 @@ if model_choice == "Prédiction des dommages":
                     "depth": depth,
                     "mmi": mmi,
                     "cdi_imputed": cdi,
-                    "felt_log_imputed": felt_log_imputed,
+                    "felt_log_imputed":
+                        felt_log_imputed,
                     "sig": sig,
                     "tsunami": tsunami,
-                    "latitude": st.session_state.latitude,
-                    "longitude": st.session_state.longitude
+                    "latitude":
+                        st.session_state.latitude,
+                    "longitude":
+                        st.session_state.longitude
                 }
             ]
         )
@@ -482,10 +520,9 @@ if model_choice == "Prédiction des dommages":
             prediction
         )
 
-
-    # --------------------------------------------------------
+    # ========================================================
     # DAMAGE RESULT
-    # --------------------------------------------------------
+    # ========================================================
 
     if (
         st.session_state.damage_prediction
@@ -570,7 +607,7 @@ if model_choice == "Prédiction des dommages":
 
 
 # ============================================================
-# MODEL 2 — ECONOMIC LOSS V2
+# MODEL 7 — ECONOMIC LOSS
 # ============================================================
 
 else:
@@ -582,22 +619,19 @@ else:
 
     st.write(
         "Entrez l'identifiant d'un séisme USGS. "
-        "L'application récupère automatiquement "
-        "les données PAGER et ShakeMap nécessaires "
-        "au modèle."
+        "L'application récupère les caractéristiques "
+        "du séisme nécessaires au modèle Model 7."
     )
 
     st.info(
-        "Le modèle V2 estime les pertes à partir "
-        "des données USGS PAGER / ShakeMap. "
-        "Il s'agit d'une estimation de Machine Learning "
-        "et non d'une perte économique réelle confirmée."
+        "Model 7 utilise un modèle Gradient Boosting "
+        "entraîné à partir des caractéristiques "
+        "sismiques disponibles."
     )
 
-
-    # --------------------------------------------------------
+    # ========================================================
     # EVENT ID
-    # --------------------------------------------------------
+    # ========================================================
 
     st.subheader(
         "1. Séisme USGS"
@@ -613,10 +647,9 @@ else:
         "Exemple de test : us7000pn9s"
     )
 
-
-    # --------------------------------------------------------
-    # LOAD PAGER + PREDICT
-    # --------------------------------------------------------
+    # ========================================================
+    # ANALYSIS
+    # ========================================================
 
     if st.button(
         "Analyser le séisme",
@@ -626,138 +659,125 @@ else:
         try:
 
             with st.spinner(
-                "Chargement des données USGS PAGER..."
+                "Chargement des données USGS..."
             ):
 
-                pager_data = load_usgs_pager_data(
+                event_data = load_usgs_event(
                     event_id
                 )
 
-            st.session_state.pager_data = pager_data
+            # ------------------------------------------------
+            # BUILD MODEL 7 INPUT
+            # ------------------------------------------------
 
             economic_features = pd.DataFrame(
                 [
                     {
                         "mag":
-                            pager_data["mag"],
+                            event_data["mag"],
 
                         "depth":
-                            pager_data["depth"],
+                            event_data["depth"],
 
-                        "maxmmi":
-                            pager_data["maxmmi"],
+                        "sig":
+                            event_data["sig"],
 
-                        "population_mmi_5":
-                            pager_data["population_mmi_5"],
+                        "latitude":
+                            event_data["latitude"],
 
-                        "population_mmi_6":
-                            pager_data["population_mmi_6"],
+                        "longitude":
+                            event_data["longitude"],
 
-                        "population_mmi_7":
-                            pager_data["population_mmi_7"],
-
-                        "population_mmi_8":
-                            pager_data["population_mmi_8"],
-
-                        "population_mmi_9":
-                            pager_data["population_mmi_9"],
-
-                        "population_mmi_10":
-                            pager_data["population_mmi_10"],
-
-                        "economic_exposure_mmi_5":
-                            pager_data[
-                                "economic_exposure_mmi_5"
-                            ],
-
-                        "economic_exposure_mmi_6":
-                            pager_data[
-                                "economic_exposure_mmi_6"
-                            ],
-
-                        "economic_exposure_mmi_7":
-                            pager_data[
-                                "economic_exposure_mmi_7"
-                            ],
-
-                        "economic_exposure_mmi_8":
-                            pager_data[
-                                "economic_exposure_mmi_8"
-                            ],
-
-                        "economic_exposure_mmi_9":
-                            pager_data[
-                                "economic_exposure_mmi_9"
-                            ],
-
-                        "economic_exposure_mmi_10":
-                            pager_data[
-                                "economic_exposure_mmi_10"
-                            ]
+                        "tsunami":
+                            event_data["tsunami"]
                     }
                 ]
             )
 
-            # Stage 1
-            has_loss = (
-                economic_loss_classifier.predict(
+            # ------------------------------------------------
+            # USE THE EXACT FEATURES STORED IN THE ARTIFACT
+            # ------------------------------------------------
+
+            missing_features = [
+                feature
+                for feature
+                in economic_loss_features
+                if feature
+                not in economic_features.columns
+            ]
+
+            if missing_features:
+
+                raise ValueError(
+                    "Variables requises par le modèle "
+                    f"absentes : {missing_features}"
+                )
+
+            economic_features = (
+                economic_features[
+                    economic_loss_features
+                ]
+            )
+
+            # ------------------------------------------------
+            # MODEL 7 PREDICTION
+            # ------------------------------------------------
+
+            prediction_transformed = (
+                economic_loss_model.predict(
                     economic_features
                 )[0]
             )
 
-            # Stage 2
-            if has_loss == 0:
+            # ------------------------------------------------
+            # RETURN TO DOLLAR SCALE
+            # ------------------------------------------------
 
-                economic_prediction = 0.0
-
-            else:
-
-                prediction_log = (
-                    economic_loss_regressor.predict(
-                        economic_features
-                    )[0]
+            economic_prediction = (
+                inverse_economic_loss(
+                    prediction_transformed
                 )
+            )
 
-                economic_prediction = float(
-                    np.expm1(
-                        prediction_log
-                    )
-                )
-
-                economic_prediction = max(
-                    0.0,
-                    economic_prediction
-                )
+            economic_prediction = max(
+                0.0,
+                economic_prediction
+            )
 
             st.session_state.economic_prediction = (
                 economic_prediction
             )
 
+            st.session_state.economic_event = (
+                event_data
+            )
+
         except Exception as error:
 
             st.session_state.economic_prediction = None
-            st.session_state.pager_data = None
+
+            st.session_state.economic_event = None
 
             st.error(
-                f"Impossible de charger les données "
-                f"USGS PAGER : {error}"
+                "Impossible de charger ou "
+                "d'analyser le séisme USGS : "
+                f"{error}"
             )
 
-
-    # --------------------------------------------------------
+    # ========================================================
     # ECONOMIC RESULT
-    # --------------------------------------------------------
+    # ========================================================
 
     if (
         st.session_state.economic_prediction
         is not None
         and
-        st.session_state.pager_data
+        st.session_state.economic_event
         is not None
     ):
 
-        pager_data = (
-            st.session_state.pager_data
+        event_data = (
+            st.session_state.economic_event
         )
 
         economic_prediction = (
@@ -765,8 +785,12 @@ else:
         )
 
         st.success(
-            "Données USGS PAGER chargées avec succès."
+            "Données USGS chargées avec succès."
         )
+
+        # ====================================================
+        # EARTHQUAKE INFORMATION
+        # ====================================================
 
         st.subheader(
             "2. Informations du séisme"
@@ -776,33 +800,37 @@ else:
 
         col1.metric(
             "Magnitude",
-            pager_data["mag"]
+            event_data["mag"]
         )
 
         col2.metric(
             "Profondeur",
-            f'{pager_data["depth"]:.1f} km'
+            f'{event_data["depth"]:.1f} km'
         )
 
         col3.metric(
-            "MMI maximale",
-            pager_data["maxmmi"]
+            "SIG",
+            int(event_data["sig"])
         )
 
         st.write(
             f'Latitude : '
-            f'{pager_data["latitude"]:.4f}'
+            f'{event_data["latitude"]:.4f}'
         )
 
         st.write(
             f'Longitude : '
-            f'{pager_data["longitude"]:.4f}'
+            f'{event_data["longitude"]:.4f}'
         )
 
+        st.write(
+            f'Tsunami : '
+            f'{"Oui" if event_data["tsunami"] == 1 else "Non"}'
+        )
 
-        # ----------------------------------------------------
-        # RESULT
-        # ----------------------------------------------------
+        # ====================================================
+        # MODEL RESULT
+        # ====================================================
 
         st.subheader(
             "3. Résultat du modèle"
@@ -814,15 +842,15 @@ else:
         )
 
         st.caption(
-            "Estimation produite par le modèle V2 "
-            "entraîné à partir des estimations "
-            "économiques USGS PAGER."
+            "Estimation produite par le modèle "
+            "Gradient Boosting de Model 7. "
+            "Il s'agit d'une estimation de Machine Learning "
+            "et non d'une perte économique réelle confirmée."
         )
 
-
-        # ----------------------------------------------------
+        # ====================================================
         # MAP
-        # ----------------------------------------------------
+        # ====================================================
 
         st.subheader(
             "4. Localisation du séisme"
@@ -830,16 +858,16 @@ else:
 
         economic_map = folium.Map(
             location=[
-                pager_data["latitude"],
-                pager_data["longitude"]
+                event_data["latitude"],
+                event_data["longitude"]
             ],
             zoom_start=6
         )
 
         folium.CircleMarker(
             location=[
-                pager_data["latitude"],
-                pager_data["longitude"]
+                event_data["latitude"],
+                event_data["longitude"]
             ],
             radius=15,
             color="purple",
@@ -853,16 +881,23 @@ else:
             popup=folium.Popup(
                 f"""
                 <b>USGS Event ID :</b>
-                {pager_data["event_id"]}<br>
+                {event_data["event_id"]}<br>
 
                 <b>Magnitude :</b>
-                {pager_data["mag"]}<br>
+                {event_data["mag"]}<br>
 
                 <b>Profondeur :</b>
-                {pager_data["depth"]:.1f} km<br>
+                {event_data["depth"]:.1f} km<br>
 
-                <b>MMI maximale :</b>
-                {pager_data["maxmmi"]}<br>
+                <b>SIG :</b>
+                {int(event_data["sig"])}<br>
+
+                <b>Tsunami :</b>
+                {
+                    "Oui"
+                    if event_data["tsunami"] == 1
+                    else "Non"
+                }<br>
 
                 <b>Pertes estimées :</b>
                 {economic_prediction:,.2f} $ US
