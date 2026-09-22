@@ -39,7 +39,7 @@ jobs:
 
       - name: Convert notebook to HTML report
         run: |
-          jupyter nbconvert --to html output/07_Model_Economic_Loss_output.ipynb --output output/07_Model_Economic_Loss_report.html
+          jupyter nbconvert --to html output/07_Model_Economic_Loss_output.ipynb --output 07_Model_Economic_Loss_report.html
 
       - name: Upload notebook report
         uses: actions/upload-artifact@v4
