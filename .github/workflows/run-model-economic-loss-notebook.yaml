@@ -32,9 +32,10 @@ jobs:
           pip install papermill nbconvert
 
       - name: Execute notebook with Papermill
+        working-directory: notebooks
         run: |
-          mkdir -p output
-          papermill notebooks/07_Model_Economic_Loss.ipynb output/07_Model_Economic_Loss_output.ipynb
+          mkdir -p ../output
+          papermill 07_Model_Economic_Loss.ipynb ../output/07_Model_Economic_Loss_output.ipynb
 
       - name: Convert notebook to HTML report
         run: |
