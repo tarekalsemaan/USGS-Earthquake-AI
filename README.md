@@ -30,14 +30,125 @@ Prédiction du Peak Ground Acceleration (PGA).
 
 ### Model 5 — Dommages
 
-Prédiction du niveau de dommages :
+Le modèle Damage est un modèle de classification destiné à estimer le niveau de dommages d'un séisme.
+
+La variable cible `Damage_Level` contient trois classes :
 
 - Faible
 - Modéré
 - Sévère
 
-Les principales variables utilisées sont la magnitude, la profondeur, la MMI, le CDI, le nombre de signalements, le SIG, le tsunami et la position géographique.
+Les classes sont construites à partir des informations USGS PAGER afin d'éviter de définir directement le niveau de dommages à partir de la magnitude.
 
+#### Données utilisées
+
+Le modèle travaille sur les événements pour lesquels une alerte PAGER est disponible.
+
+Le dataset contient 904 événements PAGER :
+
+- 865 événements — Faible
+- 25 événements — Modéré
+- 14 événements — Sévère
+
+La distribution des classes est donc fortement déséquilibrée.
+
+Les variables utilisées pour la classification sont :
+
+- magnitude (`mag`)
+- profondeur (`depth`)
+- MMI (`mmi`)
+- CDI (`cdi`)
+- nombre de signalements (`felt`)
+- SIG (`sig`)
+- tsunami (`tsunami`)
+- latitude (`latitude`)
+- longitude (`longitude`)
+
+#### Prétraitement
+
+Les variables `CDI` et `FELT` contiennent des valeurs manquantes.
+
+Les deux variables sont manquantes ensemble dans 451 observations.
+
+Pour `FELT`, une transformation logarithmique `log1p()` est utilisée afin de réduire l'influence des valeurs très élevées.
+
+Les valeurs manquantes sont ensuite remplacées par la médiane.
+
+Après le prétraitement, aucune valeur manquante ne reste dans les variables utilisées par le modèle.
+
+#### Séparation des données
+
+Les données sont séparées en :
+
+- 80 % pour l'entraînement
+- 20 % pour le test
+
+La séparation est stratifiée afin de conserver les trois classes dans les deux ensembles.
+
+Résultat :
+
+- 723 observations pour l'entraînement
+- 181 observations pour le test
+
+#### Algorithmes testés
+
+Plusieurs algorithmes de classification sont étudiés :
+
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- Random Forest
+
+KNN utilise des variables normalisées avec `StandardScaler`.
+
+Les modèles basés sur les arbres utilisent les variables originales après prétraitement.
+
+#### Résultat KNN
+
+Accuracy :
+
+**96,13 %**
+
+Le modèle obtient une bonne accuracy globale, mais le Recall de la classe `Sévère` est de **33 %**.
+
+Cela montre que l'accuracy seule ne suffit pas pour évaluer ce problème fortement déséquilibré.
+
+#### Résultat Decision Tree
+
+Accuracy :
+
+**98,34 %**
+
+Le Decision Tree utilise `class_weight='balanced'` afin de mieux prendre en compte les classes minoritaires.
+
+Résultats sur le jeu de test :
+
+- Faible : Recall 99 %
+- Modéré : Recall 80 %
+- Sévère : Recall 67 %
+
+Le modèle détecte donc mieux les classes minoritaires que KNN.
+
+#### Attention au déséquilibre des classes
+
+Le dataset contient beaucoup plus d'événements `Faible` que d'événements `Modéré` ou `Sévère`.
+
+La performance doit donc être analysée avec plusieurs métriques :
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Matrice de confusion
+
+Le Recall de la classe `Sévère` est particulièrement important pour analyser la capacité du modèle à détecter les événements à impact élevé.
+
+#### Objectif du modèle
+
+L'objectif n'est pas simplement d'obtenir une accuracy élevée.
+
+Le modèle doit être capable de distinguer les événements à faible impact des événements présentant un niveau de dommages plus important, tout en tenant compte du fort déséquilibre des classes.
+
+Les résultats du notebook montrent l'importance de comparer plusieurs algorithmes plutôt que de se baser uniquement sur l'accuracy.
 ### Model 6 — Action
 
 Détermination d'une action à partir du scénario sismique et des résultats des modèles.
