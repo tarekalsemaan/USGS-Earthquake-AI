@@ -1,0 +1,43 @@
+name: Run Model_Risk_Factors
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'notebooks/04_Model_Risk_Factors.ipynb'
+      - 'data/usgs_earthquakes_2025.csv'
+      - 'requirements.txt'
+
+jobs:
+  execute-notebook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute notebook with Papermill
+        run: |
+          mkdir -p output
+          papermill notebooks/04_Model_Risk_Factors.ipynb output/04_Model_Risk_Factors_output.ipynb
+
+      - name: Convert notebook to HTML report
+        run: |
+          jupyter nbconvert --to html output/04_Model_Risk_Factors_output.ipynb --output Model_Risk_Factors.html
+
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-risk-factors-notebook-report
+          path: output/Model_Risk_Factors.html
