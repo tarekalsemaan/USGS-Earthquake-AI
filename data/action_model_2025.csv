@@ -1,0 +1,905 @@
+﻿event_id,place,mag,depth,mmi,cdi,sig,tsunami,Damage_Level,Production_Action,Production_Priority,Production_Warning,Production_Reason
+nc75202001,"8 km SSE of Deep Springs, CA",4.54,11.6,4.456,3.4,364,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q9fs,"98 km NNW of Tatsugō, Japan",5.4,10.0,4.712,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q9f3,"56 km NNE of Barkhan, Pakistan",5.2,10.0,6.342,8.6,419,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q9b5,Scotia Sea,6.6,10.0,0.0,,670,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000q99p,"161 km NNW of Houma, Tonga",5.5,229.0,3.002,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q97d,"65 km E of Sarangani, Philippines",6.0,99.77,5.092,6.2,594,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q8tw,southern Mid-Atlantic Ridge,6.2,10.0,0.0,1.0,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q8l7,"276 km SSE of Port Blair, India",5.4,10.0,3.67,2.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+pr2025175000,"77 km NNE of Punta Cana, Dominican Republic",5.7,68.0,4.39,6.0,1100,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q8be,"95 km SE of Kirakira, Solomon Islands",5.5,39.859,4.604,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q8bd,east of the Philippine Islands,6.2,10.0,0.0,3.4,596,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q89a,"34 km NNW of Dededo Village, Guam",5.4,146.154,3.727,3.4,453,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0257yh436m,"38 km SSW of Skwentna, Alaska",3.6,94.0,2.907,3.1,200,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qlnz,"82 km SE of Nemuro, Japan",6.0,18.0,4.449,2.2,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ql8u,"42 km N of Finschhafen, Papua New Guinea",5.5,37.0,4.409,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ql4i,"84 km ESE of Nemuro, Japan",5.9,19.0,4.356,1.0,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ql15,"232 km SW of Riverton, New Zealand",5.4,10.0,3.286,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ql02,"22 km S of Puerto El Triunfo, El Salvador",5.4,79.464,4.502,4.7,458,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qkzh,"123 km SW of El Palmarcito, Mexico",5.8,9.0,3.786,2.0,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qkg7,"37 km WSW of Callao, Peru",5.6,40.0,5.748,5.4,755,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000qka3,Carlsberg Ridge,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qk90,southern East Pacific Rise,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qk7h,southern East Pacific Rise,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qk4v,Kuril Islands,6.0,35.0,3.872,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75195021,"51 km WNW of Petrolia, CA",4.08,8.99,3.1,4.7,278,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+hv74696217,"10 km SSW of Volcano, Hawaii",3.39,30.58,4.088,3.7,181,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qjrq,Pacific-Antarctic Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qjr3,Pacific-Antarctic Ridge,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qjm5,"75 km NW of Fort St. John, Canada",4.4,10.744,4.47,4.3,301,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qjj5,"67 km S of Hualien City, Taiwan",5.9,29.331,5.447,4.7,565,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0257egu4bq,"25 km ESE of Skwentna, Alaska",3.9,15.5,3.784,3.4,422,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025lgul,"57 km S of Whites City, New Mexico",3.7,6.9458,4.204,3.9,212,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qja6,South Sandwich Islands region,5.6,11.592,3.091,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qj9w,South Sandwich Islands region,5.4,15.227,3.071,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qj0l,western Indian-Antarctic Ridge,5.5,10.0,0.0,0.0,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qj0h,western Indian-Antarctic Ridge,5.9,9.0,0.0,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qiz0,"24 km E of Clayton, Idaho",4.3,7.033,4.191,4.6,297,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qixr,"15 km NE of Paratebueno, Colombia",6.3,9.0,8.272,8.2,972,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000qisj,western Indian-Antarctic Ridge,6.2,10.0,0.0,,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qiq1,"6 km WNW of Karyes, Greece",5.4,10.093,7.956,7.8,491,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qipm,"288 km SSE of Ushuaia, Argentina",5.3,10.0,3.288,1.0,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qinr,Mid-Indian Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qiix,"17 km NW of Stanley, Idaho",3.9,12.95,3.809,3.1,237,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qiig,"299 km WSW of Houma, Tonga",5.9,359.0,2.507,2.2,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qigd,"45 km SW of Diego de Almagro, Chile",6.4,75.0,7.031,7.3,684,1,Modéré,Évaluation prioritaire,Moyenne,Avertissement tsunami,Niveau de dommages modéré.
+hv74689562,"18 km ESE of Naalehu, Hawaii",3.93,37.07,3.578,3.2,239,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00898573,"40 km SSW of Caliente, Nevada",4.0,4.3,4.281,3.8,260,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qi0w,"297 km S of Burica, Panama",5.6,10.0,2.769,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qi0n,"16 km NNW of Stanley, Idaho",3.9,12.421,3.797,4.1,236,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qhmg,"15 km NNW of Stanley, Idaho",4.0,13.846,3.951,4.1,251,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qhl8,"17 km NNW of Stanley, Idaho",4.0,10.0,4.069,3.4,251,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qhiq,"8 km SSW of İçmeler, Turkey",5.8,72.0,5.755,5.6,745,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qhaf,"68 km SSE of Hiroo, Japan",5.8,27.0,4.238,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qh5j,Kermadec Islands region,6.2,10.0,3.428,,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qh59,Kermadec Islands region,6.0,10.0,3.166,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qh35,Kermadec Islands region,6.1,10.0,3.258,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qh1r,"78 km S of Kushiro, Japan",6.0,21.0,4.221,3.1,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qgts,southwest of Africa,6.2,10.0,0.0,,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qgsb,"49 km E of Shikotan, Russia",5.4,60.428,4.466,1.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qgeq,"63 km SSE of Inarajan Village, Guam",5.8,28.0,4.633,5.6,573,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qgdb,Revilla Gigedo Islands region,5.4,10.0,3.383,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qgd9,"41 km SW of Sola, Vanuatu",5.9,190.0,3.679,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qgb5,Revilla Gigedo Islands region,5.8,10.0,3.692,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qga6,Revilla Gigedo Islands region,5.8,10.0,3.712,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q1ni,"249 km S of Pundong, Indonesia",5.3,10.0,0.0,3.1,433,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75186621,"31 km W of Petrolia, CA",4.63,2.92,3.607,4.9,379,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75186616,"29 km W of Petrolia, CA",3.78,4.98,2.661,,220,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000q1h3,"33 km S of Camiña, Chile",5.7,105.0,4.57,4.2,521,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q1e7,"187 km SSW of ‘Ohonua, Tonga",6.0,48.0,3.522,2.7,555,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75186201,"33 km W of Petrolia, CA",4.1,5.73,2.336,3.4,263,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q14k,west of Macquarie Island,6.1,10.0,0.0,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q0yk,"33 km SW of Urakawa, Japan",5.4,48.0,4.212,2.7,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q0w7,"21 km S of Bengkulu, Indonesia",5.7,47.0,5.809,6.3,507,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q0re,South Indian Ocean,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q0pq,"66 km SE of Emporeío, Greece",6.2,64.0,6.849,7.0,1223,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000q0gl,"251 km SSE of Ushuaia, Argentina",5.2,10.0,3.93,4.3,418,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+hv74676927,"18 km SE of Pāhala, Hawaii",4.18,32.44,3.899,4.0,300,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q0bm,"89 km ENE of Angoram, Papua New Guinea",6.5,16.819,7.531,7.7,662,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000q09z,northern Mid-Atlantic Ridge,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000q053,southeast of Easter Island,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0256aquus7,"35 km SE of Fox River, Alaska",3.9,41.9,3.227,3.4,239,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pztw,"5 km W of San Pedro, Peru",5.9,101.0,5.616,6.1,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pzcp,Pacific-Antarctic Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pzaa,"152 km NNW of Baukau, Timor Leste",5.9,476.627,2.318,2.8,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00897585,"57 km NE of Valmy, Nevada",3.9,7.6,3.848,3.8,237,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pz41,"142 km W of Neiafu, Tonga",6.4,260.0,3.556,2.7,632,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pz2p,"20 km SSE of Fry, Greece",6.0,76.202,6.168,6.1,1122,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pz23,"240 km SW of La Cruz de Loreto, Mexico",5.9,11.902,3.497,2.7,537,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pyzs,"Bonin Islands, Japan region",5.6,445.198,1.081,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pyqf,"79 km SSE of Pangai, Tonga",5.4,10.0,3.913,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pyq7,"126 km W of Rikaze, China",5.5,9.0,7.955,7.9,663,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000pyn1,"5 km N of Port-Vila, Vanuatu",5.9,60.0,6.329,5.6,567,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pyjn,"19 km ENE of Blangpidie, Indonesia",5.7,85.754,4.294,7.4,535,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+se60605931,"21 km SE of Greenback, Tennessee",4.1,25.36,4.679,4.8,739,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000py39,Macquarie Island region,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pxx7,"12 km NNW of Cañaveral, Peru",5.4,45.0,4.416,6.0,453,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pxwq,southeast of Easter Island,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pxjh,central East Pacific Rise,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pxj7,"50 km SSE of Isangel, Vanuatu",5.5,102.0,4.034,3.8,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000px8h,"37 km ESE of Hualien City, Taiwan",5.6,27.0,4.512,4.9,488,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000px7i,"5 km NNE of Nuevo León, Mexico",5.8,261.0,3.029,3.8,520,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000px6v,southern East Pacific Rise,6.0,10.0,0.0,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025iqwk,"59 km S of Whites City, New Mexico",5.4,7.5354,6.745,5.3,979,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwvy,"158 km W of Gorontalo, Indonesia",5.9,92.0,4.375,6.4,541,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwu9,"62 km SSW of Vanimo, Papua New Guinea",5.2,10.0,6.339,6.0,421,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwrl,"266 km SSE of Ushuaia, Argentina",5.3,10.0,3.168,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwpu,"289 km SSE of Ushuaia, Argentina",6.4,8.0,4.057,5.7,634,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pwl6,"279 km S of Ushuaia, Argentina",5.3,10.0,3.132,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwl0,"262 km SSE of Ushuaia, Argentina",5.6,10.0,3.518,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwkz,"278 km SSE of Ushuaia, Argentina",5.7,10.0,3.51,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwl1,"228 km S of Ushuaia, Argentina",5.4,10.0,3.389,2.7,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwt4,"256 km SSE of Ushuaia, Argentina",5.5,10.0,3.457,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwkn,2025 Drake Passage Earthquake,7.4,10.0,5.159,8.9,890,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pwjw,"118 km SE of Panguna, Papua New Guinea",5.8,43.0,4.307,2.7,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwdl,"56 km S of Tinogasta, Argentina",5.4,11.0,7.154,6.8,456,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+uu80106731,"4 km WNW of Independence, Utah",3.94,13.8,4.025,3.8,619,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pw2m,"101 km E of Kimbe, Papua New Guinea",5.4,74.502,4.428,0.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ci41140272,"91 km SSW of Alberto Oviedo Mota, B.C., MX",3.98016704865122,7.83,3.787,3.3,246,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pvtr,Macquarie Island region,6.8,18.957,3.92,1.0,711,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pvta,Kermadec Islands region,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pvt7,"285 km SW of Bluff, New Zealand",6.2,10.595,3.94,,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0255gxqhup,"29 km SW of Hope, Alaska",4.5,41.5,3.636,4.1,722,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pvqh,"39 km E of Kandrian, Papua New Guinea",5.4,35.0,4.819,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pvfd,"65 km N of Namuac, Philippines",5.6,18.0,4.712,5.0,484,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pvfb,"66 km N of Claveria, Philippines",5.5,20.0,4.92,1.0,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pvd8,west of Macquarie Island,5.9,10.0,0.0,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0255c5z643,"3 km WSW of Ninilchik, Alaska",4.2,62.1,3.52,3.5,348,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pv06,"19 km NE of Esmeraldas, Ecuador",6.3,18.0,7.42,7.3,695,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000pux2,southeast Indian Ridge,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75170586,"56 km WNW of Petrolia, CA",4.22,10.06,2.755,3.8,282,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pufs,"24 km SE of Marmara Ereğlisi, Turkey",6.2,12.736,8.039,7.3,1684,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+ak02556vvgv8,"6 km NW of Willow, Alaska",4.5,40.8,3.905,4.5,762,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pua3,"92 km NNW of Sola, Vanuatu",5.7,197.0,3.342,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pu7q,"135 km N of Lae, Papua New Guinea",5.7,199.0,3.289,3.3,501,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pu62,"271 km SE of Pondaguitan, Philippines",6.2,104.0,4.11,3.3,594,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pu5z,"122 km SSW of Banjar, Indonesia",5.2,41.502,3.831,3.1,418,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q7ex,"152 km WSW of Fakfak, Indonesia",5.4,10.0,5.12,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q78n,"96 km NNE of Hihifo, Tonga",5.5,36.899,3.872,4.2,467,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q78l,"39 km SW of Malisbeng, Philippines",5.9,12.0,4.933,7.4,561,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q787,central Mid-Atlantic Ridge,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak02550hbqgs,"23 km NW of Ninilchik, Alaska",3.9,80.8,3.333,4.1,250,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+ak02550duu6u,"20 km WNW of Tyonek, Alaska",4.5,90.5,3.527,3.8,692,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000q76g,"58 km SSW of Ashkāsham, Afghanistan",5.7,98.0,3.851,4.6,509,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q72m,"156 km SE of Ust’-Kamchatsk Staryy, Russia",5.4,10.0,3.787,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6yt,"15 km E of Jackson, Wyoming",3.9,3.564,4.157,3.9,309,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6xh,"66 km SSE of San Pedro de Atacama, Chile",5.6,137.0,3.864,3.4,484,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pwmg,"243 km S of Nusa Dua, Indonesia",5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6n2,"48 km ESE of Modisi, Indonesia",5.5,21.676,4.402,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6kn,south of the Kermadec Islands,5.4,58.661,2.502,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6fi,southern Mid-Atlantic Ridge,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6cs,southeast Indian Ridge,6.6,10.0,0.0,0.0,670,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6c3,"66 km NNW of Pārūn, Afghanistan",5.6,99.0,3.87,5.0,540,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q6br,"37 km SSW of Maguling, Philippines",5.6,10.0,4.212,3.7,487,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ci40925991,"5 km S of Julian, CA",5.21,14.29,6.375,6.1,1028,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000q5tp,south of the Fiji Islands,6.5,271.0,3.076,0.0,650,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000q5re,northwest of the Kuril Islands,5.9,369.0,2.433,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q5q8,"42 km ESE of Rasht, Tajikistan",5.8,8.0,7.896,7.3,673,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000q5q0,"46 km E of Lae, Papua New Guinea",5.4,63.058,4.657,3.2,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q5ps,"41 km S of Kyaukse, Burma (Myanmar)",5.3,10.0,8.086,8.3,1023,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us6000q5ka,"104 km ESE of Kokopo, Papua New Guinea",6.1,52.0,4.907,3.4,574,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q52k,"73 km SE of Agats, Indonesia",5.3,35.0,5.853,2.3,433,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q526,Easter Island region,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q519,"162 km ESE of Kimbe, Papua New Guinea",5.3,10.0,4.248,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q4vv,central Mid-Atlantic Ridge,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q4rh,"46 km NNE of Yonakuni, Japan",5.3,123.918,3.635,4.2,448,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q4lv,"64 km SE of Sinabang, Indonesia",5.8,18.0,5.427,2.0,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q4gt,"156 km SSW of Severo-Kuril’sk, Russia",5.3,59.051,4.007,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q4di,north of Severnaya Zemlya,5.0,10.0,0.0,,385,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q48h,South Sandwich Islands region,5.6,24.567,3.282,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q48d,South Sandwich Islands region,5.5,27.985,3.494,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q47u,"184 km ESE of Kimbe, Papua New Guinea",5.4,10.0,3.877,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q47k,Reykjanes Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q66u,"176 km ESE of Kimbe, Papua New Guinea",5.4,10.0,4.262,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q41n,"184 km ESE of Kimbe, Papua New Guinea",6.9,9.0,5.967,5.3,739,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000q3w4,"81 km WNW of Hihifo, Tonga",5.6,201.0,3.168,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q3qi,Reykjanes Ridge,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q3nw,Reykjanes Ridge,6.9,10.0,0.0,,732,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000q3l2,Balleny Islands region,5.5,10.0,2.594,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000q3iu,"149 km WNW of Tobelo, Indonesia",5.8,44.0,3.744,3.4,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000ppga,"46 km NNW of Attu Station, Alaska",5.5,14.015,4.614,,465,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000ppfy,"56 km ENE of Nishinoomote, Japan",6.1,29.0,4.652,6.4,581,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000ppd9,Pacific-Antarctic Ridge,6.3,10.0,0.0,0.0,611,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pp7n,"207 km NE of Lospalos, Timor Leste",5.7,143.585,3.574,4.3,504,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00895440,"57 km NE of Valmy, Nevada",3.64,6.0,3.661,5.9,207,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pp13,"67 km SSW of Tambolaka, Indonesia",5.6,11.867,4.336,3.4,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pnvv,"53 km SSE of Pangai, Tonga",5.9,27.136,4.361,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pnvp,"72 km SSE of Pangai, Tonga",6.2,17.0,4.4,,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pntq,"61 km SSE of Pangai, Tonga",7.0,29.0,6.108,7.1,773,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pnf2,central Mid-Atlantic Ridge,6.6,12.323,5.536,1.0,671,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pn9z,Burma (Myanmar),6.7,10.0,8.978,9.1,2105,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us7000pn9s,"2025 Mandalay, Burma (Myanmar) Earthquake",7.7,10.0,9.953,9.1,2910,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us7000pn8m,"61 km NW of Isangel, Vanuatu",5.7,37.0,4.208,2.7,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pn7g,central Mid-Atlantic Ridge,6.1,10.0,5.147,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pmxp,South Sandwich Islands region,5.7,123.592,3.239,2.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pmm9,"57 km ENE of La Tirana, Chile",5.3,99.584,4.801,5.1,448,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pmfb,"177 km W of Riverton, New Zealand",5.4,10.0,3.574,2.7,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pmem,"170 km WSW of Riverton, New Zealand",6.7,21.0,4.992,5.2,728,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000plu1,"88 km SSE of Adak, Alaska",5.6,20.0,3.825,,482,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000plrn,south of the Fiji Islands,5.5,347.281,1.742,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pllx,"87 km SSE of Adak, Alaska",5.9,26.674,3.998,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pllu,"88 km SSE of Adak, Alaska",6.2,17.0,4.246,3.6,594,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pllt,"124 km SSE of Burica, Panama",6.2,10.0,4.638,6.1,641,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000plf7,Mid-Indian Ridge,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000plea,"36 km SSE of Witherlea, New Zealand",4.4,10.0,4.36,4.1,299,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+pr2025079004,"1 km ESE of Indios, Puerto Rico",4.4,13.0,3.985,5.4,349,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pzxi,South Sandwich Islands region,5.7,24.071,3.253,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pzwx,"94 km SSE of Adak, Alaska",5.4,35.0,3.774,3.3,449,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000pzwb,"93 km SSE of Adak, Alaska",5.6,17.0,3.744,3.7,484,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000pznk,South Sandwich Islands region,5.6,36.839,2.913,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75150752,"5 km WNW of Dublin, CA",3.86,10.91,4.306,4.1,639,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pzf4,"41 km ENE of Sibolga, Indonesia",5.4,46.856,4.836,5.6,464,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pzdn,"142 km ENE of Masohi, Indonesia",5.8,18.0,5.479,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pzam,Revilla Gigedo Islands region,5.5,10.0,3.383,2.0,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75149826,"9 km NNE of Lake Pillsbury, CA",4.18,10.63,3.963,4.2,318,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pz7g,"44 km NNW of Āwash, Ethiopia",5.4,10.0,7.71,4.8,471,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+hv74634117,"53 km W of Hawaiian Ocean View, Hawaii",4.41,38.76,3.606,3.8,351,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pyyq,"5 km W of San Pedro Tidaá, Mexico",5.6,62.0,4.339,5.0,508,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pyxv,South Sandwich Islands region,5.9,13.0,3.721,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pysg,"228 km N of Palu, Indonesia",5.4,27.644,4.642,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pybu,"105 km E of Barcelona, Philippines",5.5,9.0,3.684,2.0,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+pr2025071001,"3 km SSE of Indios, Puerto Rico",3.85,14.0,3.338,4.1,236,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000py97,"Nicobar Islands, India region",6.0,23.0,3.876,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000py4l,"126 km WNW of Iñapari, Peru",5.6,648.298,1.187,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000py3p,Western Caribbean Sea,5.4,10.0,3.253,3.1,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pxvx,"34 km NE of Olonkinbyen, Svalbard and Jan Mayen",6.5,10.0,8.229,8.3,656,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+ci41075584,"10 km NW of Malibu, CA",4.06,11.38,4.28,4.0,654,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000pxxd,Balleny Islands region,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pxpv,"74 km ENE of Tatsugō, Japan",5.7,26.0,4.079,2.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pxnp,"63 km ENE of Tatsugō, Japan",5.7,24.0,4.237,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pxef,"76 km W of Banda Aceh, Indonesia",5.0,65.385,4.137,,385,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pxeb,"12 km NNW of Cayarani, Peru",5.4,114.325,4.067,2.9,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000px89,"98 km S of Calama, Chile",6.0,96.0,5.51,7.9,582,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+uw62079456,"14 km SW of Blyn, Washington",3.89,42.35,2.943,3.6,329,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000px0a,"60 km SSE of Santa Gertrudis Miramar, Mexico",5.5,28.681,4.222,3.8,467,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pwz6,"64 km E of Wāngjing, India",5.4,88.157,4.259,4.6,459,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pwrk,"114 km WSW of Norman Wells, Canada",4.0,9.601,3.76,,246,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+uw62078906,"2025 Orcas Island, Washington",4.5,15.81,4.227,4.2,732,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+tx2025ehit,"51 km S of Whites City, New Mexico",4.2,6.9202,4.219,3.8,280,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pw69,"236 km W of Tual, Indonesia",5.6,126.0,3.182,2.7,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025edml,"26 km SW of Ackerly, Texas",4.8,6.8115,5.491,5.8,914,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pvwf,"11 km SSW of Kodāri̇̄, Nepal",5.0,10.0,5.672,6.4,589,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pvty,east of the South Sandwich Islands,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pvm4,"153 km ESE of Ust’-Kamchatsk Staryy, Russia",5.8,8.142,4.155,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pvj5,"38 km ESE of Shingū, Japan",5.8,388.0,2.643,4.3,520,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pvgx,"45 km E of Modisi, Indonesia",6.1,21.726,5.546,3.4,573,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+pr2025056002,"102 km NNE of Punta Cana, Dominican Republic",5.85,46.0,3.87,5.6,747,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pv78,"237 km SW of George Town, Cayman Islands",5.4,10.0,2.881,4.1,451,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pfmk,"85 km SE of Lata, Solomon Islands",6.0,36.0,4.737,1.0,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pfjq,"122 km SSE of Panguna, Papua New Guinea",5.4,35.0,4.359,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pfjc,"126 km WNW of Gizo, Solomon Islands",5.6,35.0,4.244,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pfih,"Off the coast of Aisen, Chile",5.4,10.0,3.383,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pfbs,"28 km W of Squamish, Canada",4.8,10.0,5.535,4.5,804,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000peye,"68 km NE of Grande Cache, Canada",4.7,10.0,4.674,4.1,352,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pexi,West Chile Rise,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pexc,"71 km NNW of Hihifo, Tonga",5.5,111.0,3.994,3.4,467,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000penh,"285 km NE of Samarai, Papua New Guinea",5.5,10.0,6.478,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pemi,"148 km WSW of Fakfak, Indonesia",5.7,13.0,4.753,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000peiq,"94 km W of Diego de Almagro, Chile",5.6,31.0,4.16,3.4,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025dkql,"52 km SSW of Whites City, New Mexico",4.7,3.8953,4.595,5.0,387,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pe6v,"66 km S of San Juan, Peru",5.5,10.0,4.215,2.0,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025deqh,"53 km NW of Toyah, Texas",5.0,6.0999,5.745,5.3,915,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pdvt,"32 km W of Kosh-Agach, Russia",5.7,13.0,6.693,4.6,507,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pdu6,"5 km NNW of Metahāra, Ethiopia",5.9,25.0,7.675,8.2,543,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75133062,"10 km NNW of Avenal, CA",4.25,11.92,4.486,4.3,296,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025215oy3m,"155 km SSW of Akhiok, Alaska",5.7,13.3,3.962,2.0,500,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pd2h,"110 km NW of Fort St. John, Canada",4.0,10.0,3.933,,246,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75132032,"69 km WNW of Petrolia, CA",4.46,10.0,3.206,4.3,386,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75131617,"26 km W of Petrolia, CA",4.1,19.77,3.473,4.1,318,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pctm,Mid-Indian Ridge,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pck3,"80 km S of Panguna, Papua New Guinea",5.4,35.0,4.618,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pck0,"70 km WNW of Port-Vila, Vanuatu",5.3,10.0,4.17,3.4,433,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pcjx,"53 km WNW of Port-Vila, Vanuatu",5.9,18.0,5.704,4.9,540,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pcdl,"210 km SSW of George Town, Cayman Islands",7.6,14.326,4.949,7.3,1182,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pc2p,south of the Fiji Islands,5.9,65.0,0.0,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pc0e,"southwest of Sumatra, Indonesia",5.8,21.0,3.823,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pbt5,"170 km SE of Sarangani, Philippines",5.2,56.008,4.786,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0251no5hd4,"25 km SSW of Susitna, Alaska",4.1,5.1,5.387,3.8,639,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pbfb,"44 km SW of Nueva Concepción, Guatemala",5.6,58.159,4.65,5.8,577,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pbdp,"96 km NNW of Ternate, Indonesia",5.5,99.0,4.098,3.1,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pb59,West Chile Rise,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pb3j,"146 km N of Tobelo, Indonesia",5.9,103.0,4.059,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pb2l,"132 km E of Tatsugō, Japan",5.4,10.0,3.466,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pb0i,southeast of the Loyalty Islands,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pax1,"286 km WNW of Port McNeill, Canada",4.2,10.0,2.554,,271,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000pahy,"32 km W of Archidona, Ecuador",5.5,8.0,6.132,7.2,484,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000paai,"145 km E of Kirakira, Solomon Islands",5.4,10.0,3.695,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pa9d,"58 km SSE of Blangpidie, Indonesia",5.7,53.0,4.488,5.6,502,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000pa8p,central Mid-Atlantic Ridge,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025cbgl,"18 km ENE of Falls City, Texas",4.6,6.8365,5.391,5.3,753,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000p9yj,"12 km ENE of Yujing, Taiwan",5.1,10.0,5.145,4.6,412,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000p9qx,South Atlantic Ocean,5.2,10.0,4.899,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+uu80100206,"24 km SSW of Mammoth, Wyoming",3.74,8.24,4.961,4.9,232,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmsr,"208 km W of Gorontalo, Indonesia",5.4,99.753,4.179,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmru,"22 km NE of Kopuaranga, New Zealand",5.2,46.425,4.832,5.0,440,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmqw,Kermadec Islands region,5.8,13.0,2.769,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmpq,southeast of Easter Island,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmkg,"26 km NW of Clayton, Idaho",4.2,9.19,4.12,5.4,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmgt,"86 km SSW of Unalaska, Alaska",5.6,59.0,4.428,4.2,501,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+nc75123321,"56 km WNW of Petrolia, CA",4.13,7.04,2.794,3.8,266,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmf8,"58 km NNW of Banff, Canada",3.7,4.0,3.636,4.5,213,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pmct,"2 km SW of Yujing, Taiwan",5.2,10.0,5.749,6.9,435,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pm5y,"150 km S of Kavieng, Papua New Guinea",5.7,10.0,3.922,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ci41034376,"18 km W of Delta, B.C., MX",4.37,14.74,4.24,3.8,333,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000plst,"190 km NE of Sola, Vanuatu",5.6,598.0,2.114,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000plrc,"8 km E of Siocon, Philippines",5.4,62.013,4.463,4.7,453,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000plql,"3 km NNW of San Francisco, Philippines",5.7,9.0,6.665,7.0,521,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000plel,"83 km NW of Rabaul, Papua New Guinea",5.5,10.0,4.194,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pldh,southern Mid-Atlantic Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pldf,"33 km WNW of Agat Village, Guam",5.5,130.0,4.944,4.3,485,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pl8h,"10 km NE of Yujing, Taiwan",6.0,16.0,6.189,8.0,748,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pl89,Easter Island region,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pl78,"6 km WSW of Talisay, Philippines",5.4,100.0,4.141,4.1,456,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pl6q,"62 km S of Lata, Solomon Islands",5.5,36.358,4.243,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pk9u,"26 km SE of Lata, Solomon Islands",5.7,42.0,4.395,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025ou0514,"91 km S of Port Alexander, Alaska",4.4,24.4,2.343,3.1,304,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pjym,central Mid-Atlantic Ridge,5.6,10.0,0.0,5.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pjxl,"43 km ENE of Nichinan, Japan",5.3,37.94,4.26,3.4,433,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pjny,"15 km SE of Miyazaki, Japan",6.8,39.0,6.277,7.4,742,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000pjlq,"20 km W of Taguisa, Philippines",5.4,541.546,1.637,3.5,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pjk4,"237 km E of Levuka, Fiji",5.0,608.249,1.054,2.0,385,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pjig,"18 km SE of Aquila, Mexico",6.2,39.0,6.003,5.7,966,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pj4s,"31 km SSW of Bahía Solano, Colombia",5.6,18.0,4.551,1.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pixh,"10 km E of Acajutla, El Salvador",5.8,95.0,4.247,5.2,545,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025aoxt,"56 km S of Whites City, New Mexico",4.2,5.946,4.474,3.1,275,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pijd,"Southern Qinghai, China",5.5,10.0,6.746,8.5,653,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000pida,"Izu Islands, Japan region",5.6,358.0,2.225,3.4,485,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pks1,"96 km NNE of Lobuche, Nepal",5.4,10.0,6.031,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pi9w,2025 Southern Tibetan Plateau Earthquake,7.1,10.0,9.212,9.1,2787,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+ak025a6euyz,"25 km WNW of Susitna, Alaska",3.6,67.6,2.899,2.8,215,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pi09,"56 km SSE of La Libertad, El Salvador",6.2,46.0,5.793,5.4,663,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000phrk,"52 km N of Āwash, Ethiopia",5.7,8.0,8.362,8.1,671,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000phnz,"45 km NNE of Āwash, Ethiopia",5.5,10.0,8.789,8.0,481,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000phce,South Sandwich Islands region,5.5,86.0,3.648,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000phc9,"71 km NW of Rabaul, Papua New Guinea",5.1,10.0,4.03,,400,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000phap,"84 km NNW of Calama, Chile",6.1,99.0,5.281,6.3,606,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ph16,"72 km NW of Rabaul, Papua New Guinea",5.4,10.0,4.045,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pgzq,Balleny Islands region,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75111126,"4 km NW of Cobb, CA",4.65,1.42,6.915,6.0,756,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000pgv4,South Sandwich Islands region,6.1,70.0,4.22,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000pgsd,"153 km S of Isangel, Vanuatu",5.5,22.0,3.56,3.4,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rlhy,"97 km N of Yakutat, Alaska",5.1,5.0,6.223,2.4,401,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rlha,"19 km NNE of Wadomari, Japan",5.5,11.0,5.337,3.4,468,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75287861,"15 km NNW of Susanville, CA",4.7,6.78,5.96,6.4,568,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rl85,"107 km N of Yakutat, Alaska",4.2,8.585,4.567,,271,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000rl5h,"124 km N of Yakutat, Alaska",4.2,5.0,4.683,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rl57,"43 km W of Puerto Santa, Peru",6.2,58.0,5.844,5.7,693,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000rl2n,"29 km ESE of Yilan, Taiwan",6.6,63.0,6.114,5.6,916,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000rl1p,"37 km NW of Añatuya, Argentina",5.6,593.431,1.718,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkyz,"193 km S of Bengkulu, Indonesia",5.4,25.0,5.318,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkxv,"115 km N of Yakutat, Alaska",4.1,5.0,4.365,,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkvl,"Izu Islands, Japan region",4.7,492.848,1.0,,340,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkvc,"129 km ESE of Alo, Wallis and Futuna",5.6,10.0,3.861,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkqm,"103 km E of Yokohama, Japan",5.6,54.143,3.661,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkkk,"216 km SW of Merizo Village, Guam",5.7,12.0,3.012,2.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkjm,"2025 Taitung, Taiwan Earthquake",6.0,8.0,6.707,6.0,600,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00908879,"61 km NE of Valmy, Nevada",3.97,6.0,4.038,3.1,243,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rkfp,"54 km N of Port-Olry, Vanuatu",5.6,157.0,3.518,3.6,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rwht,"108 km N of Yakutat, Alaska",4.5,5.0,5.139,,312,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rwgh,"45 km NNE of Goroka, Papua New Guinea",6.5,107.0,6.039,5.7,657,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rwdr,"111 km N of Yakutat, Alaska",4.1,5.0,4.516,,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rwcs,"139 km E of Barcelona, Philippines",5.6,9.0,3.511,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rwbl,"132 km WNW of Ternate, Indonesia",5.5,44.0,4.4,2.2,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rwa2,"114 km N of Yakutat, Alaska",4.1,5.0,4.555,,259,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+nc75283691,"5 km SE of San Ramon, CA",3.9,10.03,3.932,3.8,614,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rw94,"57 km ENE of Misawa, Japan",5.4,57.224,4.073,3.4,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rw5u,Balleny Islands region,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rvx4,"138 km NE of Labasa, Fiji",5.7,10.0,6.668,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak2025ywfjok,"28 km WNW of Elfin Cove, Alaska",4.0,4.6,3.664,,246,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rvnm,"93 km ESE of Petropavlovsk-Kamchatsky, Russia",5.9,38.0,4.378,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rvmn,"92 km SW of Basco, Philippines",5.5,18.0,4.087,2.7,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rvkl,"148 km SSE of Burica, Panama",5.6,10.0,3.769,3.4,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rvhm,"278 km SSE of Alo, Wallis and Futuna",5.4,400.264,2.164,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rvhe,South Sandwich Islands region,5.6,35.0,3.388,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rv5e,"70 km WSW of Lithakiá, Greece",5.4,16.436,3.562,2.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rv4q,"90 km SSE of San Jose Village, Northern Mariana Islands",5.6,80.0,3.865,4.3,496,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rv1u,"229 km SE of Petropavlovsk-Kamchatsky, Russia",5.7,34.0,3.488,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ruxv,"184 km SE of Petropavlovsk-Kamchatsky, Russia",5.3,10.0,3.261,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75279971,"6 km W of Glen Ellen, CA",4.03,3.13,5.238,4.9,740,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rure,"111 km N of Yakutat, Alaska",4.2,5.0,4.64,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000run8,"75 km W of Ollagüe, Chile",5.4,90.292,4.207,4.3,455,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rumi,"Rat Islands, Aleutian Islands, Alaska",5.5,108.0,3.492,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rucc,"125 km S of Honchō, Japan",5.3,32.637,3.482,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ruc4,"117 km NE of Kuji, Japan",6.7,19.0,4.761,5.0,701,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000ru8c,"110 km N of Yakutat, Alaska",4.3,5.867,4.578,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtw5,"108 km ENE of Hachinohe, Japan",5.7,33.0,3.705,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtve,"121 km N of Yakutat, Alaska",4.7,5.942,5.465,2.2,340,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtva,"120 km N of Yakutat, Alaska",4.0,1.416,4.679,,246,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtv5,"117 km N of Yakutat, Alaska",4.3,5.0,4.628,2.0,285,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtuk,"5 km WNW of Cepitá, Colombia",5.5,164.124,3.849,4.1,510,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtl6,"93 km N of Yakutat, Alaska",4.0,5.0,4.475,,246,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtja,"100 km N of Yakutat, Alaska",4.1,5.0,4.488,,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtj4,"109 km NE of Kuji, Japan",5.6,47.786,3.517,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtiu,"109 km N of Yakutat, Alaska",4.3,4.192,4.708,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtie,"129 km S of Honchō, Japan",6.6,19.0,4.511,3.8,672,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtgd,"127 km S of Honchō, Japan",6.0,22.788,3.906,1.0,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtg8,South Sandwich Islands region,5.5,29.994,3.636,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtfx,"112 km N of Yakutat, Alaska",4.5,7.366,4.903,,312,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rtdz,"93 km ENE of Hachinohe, Japan",5.5,35.0,3.85,2.2,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtdt,"2025 Aomori Prefecture, Japan Earthquake",7.6,40.72,6.911,9.0,1122,1,Modéré,Évaluation prioritaire,Moyenne,Avertissement tsunami,Niveau de dommages modéré.
+us6000rta2,"99 km N of Yakutat, Alaska",3.7,2.821,4.304,1.0,211,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt9w,"89 km N of Yakutat, Alaska",5.8,10.0,6.734,,518,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt9d,"108 km N of Yakutat, Alaska",4.8,5.0,5.873,2.7,355,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt9a,"109 km N of Yakutat, Alaska",5.1,5.0,6.107,2.7,402,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt6y,"105 km N of Yakutat, Alaska",4.6,5.769,5.26,2.5,327,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt6x,"95 km N of Yakutat, Alaska",4.3,6.331,4.516,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt6u,"98 km N of Yakutat, Alaska",4.2,8.44,4.547,,271,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt6j,"116 km N of Yakutat, Alaska",4.6,5.0,5.383,,326,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt68,"72 km SE of Severo-Kuril’sk, Russia",5.6,59.342,4.038,0.0,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt5j,"113 km N of Yakutat, Alaska",3.9,5.0,4.246,,234,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt58,"99 km N of Yakutat, Alaska",4.2,5.0,4.619,,271,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt4z,"60 km NW of Port-Olry, Vanuatu",5.2,10.0,6.218,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt4b,"116 km N of Yakutat, Alaska",4.1,5.0,4.478,,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt47,"113 km N of Yakutat, Alaska",3.9,5.0,4.369,,234,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt42,"111 km N of Yakutat, Alaska",4.4,5.0,5.037,,298,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rke0,"108 km NNW of Yakutat, Alaska",4.5,5.0,5.141,,312,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt3v,"111 km N of Yakutat, Alaska",4.1,5.232,4.541,,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt3u,"112 km N of Yakutat, Alaska",3.9,3.345,4.398,,234,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt3s,"94 km N of Yakutat, Alaska",3.8,5.0,4.348,,222,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt3f,"118 km N of Yakutat, Alaska",3.9,3.947,4.425,,234,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt2i,"124 km N of Yakutat, Alaska",4.2,5.0,4.629,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt20,"121 km N of Yakutat, Alaska",4.3,5.0,4.932,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt1y,"114 km N of Yakutat, Alaska",5.2,7.321,5.605,2.2,417,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt1x,"101 km N of Yakutat, Alaska",4.1,5.0,4.581,1.0,259,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt1m,"113 km N of Yakutat, Alaska",4.2,4.0,4.624,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt1j,"100 km N of Yakutat, Alaska",4.4,5.0,4.73,,298,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt1d,"113 km N of Yakutat, Alaska",4.2,5.0,4.753,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt0z,"100 km N of Yakutat, Alaska",4.3,5.0,4.747,,284,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt0p,"110 km N of Yakutat, Alaska",4.5,5.0,4.789,2.2,312,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rt04,"103 km N of Yakutat, Alaska",4.3,5.0,4.624,,284,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rszu,"100 km N of Yakutat, Alaska",4.4,5.0,4.685,,298,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rszl,"111 km N of Yakutat, Alaska",4.3,5.0,4.565,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rszq,"117 km NNW of Yakutat, Alaska",3.4,5.0,4.192,,178,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rszk,"111 km N of Yakutat, Alaska",4.4,5.0,4.715,,298,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rsz9,"97 km N of Yakutat, Alaska",4.5,5.0,5.34,,312,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsz5,"110 km N of Yakutat, Alaska",4.6,7.439,4.819,,326,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsym,"99 km N of Yakutat, Alaska",4.2,10.0,4.455,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsyi,"94 km N of Yakutat, Alaska",4.1,10.0,4.435,,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rta9,"125 km N of Yakutat, Alaska",3.3,9.286,3.932,,168,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsy9,"111 km N of Yakutat, Alaska",4.4,5.0,4.963,,298,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsz6,"116 km NNW of Yakutat, Alaska",4.2,5.0,4.383,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsyw,"93 km NNE of Yakutat, Alaska",4.3,8.723,4.533,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsyv,"105 km N of Yakutat, Alaska",4.4,5.0,5.169,,298,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rtjn,"112 km N of Yakutat, Alaska",3.6,5.0,3.902,,199,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsyu,"112 km N of Yakutat, Alaska",4.4,5.0,5.126,,298,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsyn,"92 km N of Yakutat, Alaska",4.1,5.0,4.609,0.0,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsyj,"96 km N of Yakutat, Alaska",4.9,5.0,6.049,,369,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt8r,"118 km N of Yakutat, Alaska",4.0,5.0,4.417,,246,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak2025xzwrbu,"88 km NNE of Yakutat, Alaska",5.087666993181132,10.75879955291748,5.782,3.8,403,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rsyg,"91 km NNE of Yakutat, Alaska",4.3,5.0,4.799,,284,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rt8h,"98 km NNE of Yakutat, Alaska",4.4,1.467,5.233,,298,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsy4,"93 km NNE of Yakutat, Alaska",5.2,5.0,6.283,1.0,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rsy1,2025 Hubbard Glacier Earthquake,7.0,10.317,8.443,6.3,1384,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rsti,"201 km SW of José María Morelos, Mexico",5.5,10.0,3.259,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rfr9,Drake Passage,5.2,10.0,0.0,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rfgy,"136 km NNW of Tumxuk, China",5.8,9.0,7.43,3.2,654,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000rfg1,Pacific-Antarctic Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rs3k,Fiji region,5.6,620.0,1.431,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000renh,Kermadec Islands region,5.3,36.374,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rena,west of Macquarie Island,5.8,10.0,0.0,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rekp,west of Macquarie Island,5.9,10.0,0.0,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rehl,"7 km S of Amatenango de la Frontera, Mexico",5.8,153.161,3.833,3.4,520,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rea0,"131 km WNW of Hihifo, Tonga",5.6,263.0,2.784,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75270551,"5 km S of San Juan Bautista, CA",4.04,8.2,4.305,4.3,430,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+nc75270531,"6 km S of San Juan Bautista, CA",3.72,8.02,3.501,4.8,238,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak2025xjbvhj,"12 km WNW of Susitna, Alaska",6.0,69.43339538574219,5.933,5.8,1134,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000re2g,"54 km WNW of Sinabang, Indonesia",6.4,17.0,6.779,7.2,635,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75269596,"8 km E of Gilroy, CA",3.98,2.92,4.79,3.9,602,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+hv74837442,"15 km SSE of Fern Forest, Hawaii",4.4,5.84,4.634,4.4,455,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rdmx,"3 km SE of Pondaguitan, Philippines",5.4,71.508,4.181,3.8,452,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000rdmh,"10 km N of Aso, Japan",5.3,10.0,6.604,6.7,442,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75268551,"1 km NNW of The Geysers, CA",3.93,1.98,4.585,3.9,280,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rq0u,central Mid-Atlantic Ridge,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rq2y,"116 km WSW of Edd, Eritrea",5.4,3.0,7.031,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rq2x,"116 km WSW of Edd, Eritrea",5.5,3.0,7.153,1.0,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpxa,"67 km SSW of Adak, Alaska",5.5,33.0,4.304,3.8,467,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpwf,"72 km NNE of Maba, Indonesia",5.3,10.0,6.435,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak2025wzudcl,"11 km WNW of Beluga, Alaska",4.8,81.3,3.662,4.3,683,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpql,"206 km SE of Severo-Kuril’sk, Russia",5.6,12.0,3.172,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpjb,south of the Fiji Islands,5.6,515.967,1.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpja,"133 km E of Miyako, Japan",5.5,11.0,3.426,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpht,"14 km ESE of Tungi, Bangladesh",5.4,27.0,5.85,5.9,1234,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000rpc0,south of the Fiji Islands,5.4,109.129,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpai,"24 km E of Ambon, Indonesia",5.8,130.856,3.909,2.2,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpa3,"86 km NNW of Ternate, Indonesia",5.1,132.062,3.688,,400,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rp1a,"55 km WSW of Puerto Cortés, Costa Rica",5.5,10.0,5.143,3.8,468,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75265261,"7 km W of Templeton, CA",4.11,4.92,5.009,5.9,850,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rnxp,Mid-Indian Ridge,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rntu,"110 km E of Miyako, Japan",5.2,17.622,3.367,3.4,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rng1,"39 km NNE of Moosonee, Canada",4.1,10.838,4.388,3.8,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rneu,"200 km SE of Sarangani, Philippines",5.3,35.0,4.638,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rnd3,"214 km WNW of Hihifo, Tonga",5.7,5.177,5.351,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rn4x,Pacific-Antarctic Ridge,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmwv,Greenland Sea,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmvh,"111 km E of Miyako, Japan",5.3,35.0,3.553,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmki,"21 km N of Antofagasta, Chile",5.4,52.408,4.954,5.3,459,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmk2,"129 km E of Yamada, Japan",6.0,11.0,3.758,3.1,555,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmjg,"101 km ESE of Yamada, Japan",5.4,10.0,3.607,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmj3,"136 km E of Yamada, Japan",5.3,9.114,3.281,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmia,"19 km N of Yigo Village, Guam",5.3,106.009,4.155,4.3,458,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmfg,"173 km SSE of Vilyuchinsk, Russia",5.3,27.718,3.696,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmex,"129 km E of Miyako, Japan",5.7,10.0,3.431,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmet,"123 km E of Yamada, Japan",5.4,10.0,3.407,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmep,"117 km E of Yamada, Japan",6.4,10.0,4.219,3.8,635,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmeh,"124 km E of Yamada, Japan",5.6,10.0,3.362,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmed,"125 km E of Yamada, Japan",5.9,10.0,3.668,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmee,"110 km E of Yamada, Japan",5.5,10.0,3.613,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmea,"122 km E of Yamada, Japan",6.8,18.0,4.74,4.8,724,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rmdj,"143 km NE of Port Blair, India",5.4,132.652,3.631,2.7,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmaw,"126 km E of Yamada, Japan",5.6,16.186,3.354,3.1,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rmai,"119 km E of Yamada, Japan",5.4,12.152,3.425,1.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rm7z,Fiji region,5.6,496.098,1.916,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rm2p,"75 km NNE of Santa Rosalía, Mexico",5.6,10.0,4.283,3.3,488,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rls2,South Sandwich Islands region,5.6,23.0,3.334,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlji,"107 km S of Severo-Kuril’sk, Russia",5.7,71.01,4.193,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlim,"73 km S of Gorontalo, Indonesia",5.9,114.629,4.16,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlik,"149 km SE of Petropavlovsk-Kamchatsky, Russia",6.0,28.0,3.904,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlcd,"191 km WSW of Merizo Village, Guam",6.0,65.0,3.448,3.8,558,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlc6,"153 km SE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.537,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlbm,"136 km SE of Petropavlovsk-Kamchatsky, Russia",5.5,10.0,3.798,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rlbe,"155 km SE of Petropavlovsk-Kamchatsky, Russia",5.9,20.0,3.779,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rl8b,"123 km ENE of Ozernovskiy, Russia",5.3,68.205,4.437,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rl7b,"111 km W of Copiapó, Chile",5.5,24.772,4.117,3.8,467,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rl5i,"142 km SE of Petropavlovsk-Kamchatsky, Russia",6.1,29.0,4.035,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rpn4,"149 km SE of Petropavlovsk-Kamchatsky, Russia",5.7,35.0,3.634,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rl55,"131 km SE of Petropavlovsk-Kamchatsky, Russia",5.9,22.0,3.9,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rl31,"30 km SE of Mazār-e Sharīf, Afghanistan",6.2,28.0,7.183,6.3,1042,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us6000rl2n,"13 km WSW of Mabinay, Philippines",5.5,114.908,4.037,4.3,473,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rktg,southeast Indian Ridge,5.9,8.0,0.0,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rkpc,south of the Fiji Islands,5.4,529.356,1.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025dxe5mlz,"48 km ESE of Fox River, Alaska",5.4,23.6,4.943,5.6,1009,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rkc0,Kermadec Islands region,5.5,288.531,2.327,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rk65,"107 km WNW of Höfn, Iceland",5.4,10.0,7.574,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rk5r,off the coast of Oregon,5.4,10.0,0.0,2.2,451,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rk4f,southern Mid-Atlantic Ridge,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjx3,Banda Sea,6.4,142.0,4.304,3.1,635,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjvf,"102 km ESE of Severo-Kuril’sk, Russia",5.6,31.0,3.792,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjsu,"7 km SE of Sındırgı, Turkey",6.0,8.0,8.059,7.7,799,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000rjr7,"157 km E of Beauséjour, Guadeloupe",5.4,10.0,2.642,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjqj,"166 km E of Beauséjour, Guadeloupe",5.7,10.0,3.174,3.4,503,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjq8,"164 km E of Beauséjour, Guadeloupe",6.5,9.0,3.866,4.3,702,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rjkv,"57 km NW of Pante Makasar, Timor Leste",6.2,75.0,5.286,4.1,595,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjhm,"194 km SSE of Lata, Solomon Islands",6.0,34.0,4.269,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjgf,southeast Indian Ridge,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rjf1,"78 km S of Severo-Kuril’sk, Russia",5.3,60.22,4.1,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025dnijfwa,"14 km SE of Skwentna, Alaska",4.6,66.5,3.654,4.1,599,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rj9f,"41 km SSE of Nemuro, Japan",5.7,34.0,4.644,2.2,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000riuj,"213 km WSW of Tual, Indonesia",5.6,85.0,3.608,2.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000risn,"183 km SSE of Vilyuchinsk, Russia",5.6,16.0,3.647,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ril5,"21 km SSW of Quepos, Costa Rica",5.9,20.0,5.523,5.3,650,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rik7,"19 km WNW of Piñas, Ecuador",5.5,77.13,4.821,4.6,477,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ri9x,"93 km ESE of Santiago, Philippines",5.8,10.0,4.055,2.7,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+hv74809096,"17 km NW of Kalaoa, Hawaii",4.15,43.46,3.372,3.4,306,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000ri11,"16 km E of Aras-asan, Philippines",5.4,55.726,4.671,5.0,456,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rhs3,"48 km ESE of Khandūd, Afghanistan",5.5,8.0,6.406,2.0,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rhqe,"182 km WNW of Abepura, Indonesia",5.1,46.31,5.228,,400,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rhpx,"81 km E of Petropavlovsk-Kamchatsky, Russia",5.1,68.877,4.497,,400,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rhns,"3 km N of Union, Philippines",6.0,32.0,6.221,6.1,571,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rhg5,"192 km WNW of Abepura, Indonesia",6.4,18.0,7.284,5.5,632,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rhf2,Drake Passage,6.3,8.0,0.0,1.0,611,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rha2,south of the Kermadec Islands,5.4,10.0,5.783,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rh9m,"33 km WSW of Ovalle, Chile",5.6,37.151,4.458,5.6,499,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rh9c,"299 km SSE of Fais, Micronesia",5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025ugmcqg,"57 km S of Whites City, New Mexico",3.9,5.8435,4.559,2.0,234,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgz6,"53 km E of Baculin, Philippines",5.5,35.0,4.295,2.0,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgul,"State of Yap, Federated States of Micronesia",5.9,10.0,0.0,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025d517bzx,"30 km ESE of Kasilof, Alaska",4.2,45.9,2.991,3.8,295,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgst,"217 km SSW of Severo-Kuril’sk, Russia",5.5,60.257,4.276,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgrd,"4 km ESE of Tambongon, Philippines",5.8,10.0,7.102,7.3,651,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+tx2025ubulqx,"5 km WSW of Westbrook, Texas",4.3,5.2734,4.843,4.3,308,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rglb,"55 km NE of Mek'ele, Ethiopia",5.6,10.0,7.421,4.5,487,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgkr,"3 km ESE of Bacolod, Philippines",6.0,67.657,5.093,5.3,573,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgk9,South Sandwich Islands region,5.6,44.856,3.354,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgjt,"64 km SE of Severo-Kuril’sk, Russia",5.8,48.0,4.174,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgj4,"28 km E of Santiago, Philippines",5.5,31.0,4.677,3.8,468,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgil,South Sandwich Islands region,5.5,51.03,3.51,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rghy,"74 km ENE of Petropavlovsk-Kamchatsky, Russia",5.7,75.086,4.358,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rggf,Drake Passage,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgge,Drake Passage,5.7,10.0,0.0,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rgf4,Drake Passage,7.6,5.639,3.941,9.0,893,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rg2s,"52 km SE of Severo-Kuril’sk, Russia",5.6,66.9,4.165,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rg2r,"12 km SE of Santiago, Philippines",6.7,47.0,6.351,7.0,746,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rg2a,"Kepulauan Babar, Indonesia",5.4,159.477,3.403,1.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rg29,"223 km NNE of Fais, Micronesia",5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rg02,"35 km ESE of Manay, Philippines",5.5,72.22,4.047,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfyw,"27 km ESE of San Ignacio, Philippines",5.6,67.847,4.011,2.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfye,"139 km SE of Lorengau, Papua New Guinea",6.3,10.0,4.73,2.0,611,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfx2,"36 km ESE of Manay, Philippines",5.9,63.43,4.279,3.4,537,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfwz,"12 km E of Santiago, Philippines",7.4,59.425,7.367,9.0,1155,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rftu,southwest of Africa,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rft9,"121 km E of Ozernovskiy, Russia",6.1,56.51,5.328,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfs1,"208 km N of Daocheng, China",5.5,10.0,6.638,7.3,654,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000rfjc,South Sandwich Islands region,5.6,10.0,2.871,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfhk,"100 km ENE of Norsup, Vanuatu",5.7,10.0,6.915,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rfbw,"20 km SSE of Yangī Qal‘ah, Afghanistan",5.1,10.0,5.99,,650,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000rfb2,"17 km W of Lae, Papua New Guinea",6.6,98.0,5.606,5.5,710,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+pr2025280001,"15 km SSE of Guánica, Puerto Rico",3.69,11.0,2.811,2.0,210,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rf2j,south of the Fiji Islands,5.6,581.934,1.537,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rezr,"46 km NNE of Kanysh-Kyya, Kyrgyzstan",4.9,10.0,6.422,3.8,380,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rexs,"129 km E of McCarthy, Alaska",4.6,12.151,4.449,2.7,327,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000resn,"48 km ENE of Tomioka, Japan",5.9,54.164,4.378,4.6,560,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rerp,northern East Pacific Rise,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rei1,"177 km SE of Vilyuchinsk, Russia",6.1,19.0,3.969,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+hv74791302,"2 km SSW of Pāhala, Hawaii",3.86,29.53,3.312,3.4,237,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000recz,"15 km WSW of El Hoyo, Argentina",5.7,559.2,2.016,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000re62,"60 km W of Ovalle, Chile",5.4,25.0,4.739,3.4,451,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rdz7,"199 km NE of Lospalos, Timor Leste",5.6,146.835,3.419,1.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rdta,"31 km ESE of Kalianget, Indonesia",6.0,19.498,6.35,4.6,581,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rdrz,"8 km ESE of Calape, Philippines",6.9,10.0,8.944,9.1,1592,1,Sévère,Intervention prioritaire,Haute,Avertissement tsunami,Niveau de dommages sévère.
+us6000rdnq,"89 km E of Petropavlovsk-Kamchatsky, Russia",5.5,42.0,4.454,3.8,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rdf2,"16 km NNW of Simav, Turkey",5.2,10.0,7.123,6.9,435,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rdex,south of the Fiji Islands,5.5,573.583,1.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ok2025szyg,"8 km NW of Prague, Oklahoma",3.59,6.34,4.561,4.7,238,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rdan,"90 km WNW of Sola, Vanuatu",5.5,33.0,4.159,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rd1w,"239 km W of Bandon, Oregon",5.9,10.0,0.0,2.5,543,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000rcyv,"72 km SSW of Isangel, Vanuatu",5.4,49.94,3.885,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rcsb,"183 km SSW of Emiliano Zapata, Mexico",5.7,10.0,3.513,1.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rcrj,"19 km E of Mene Grande, Venezuela",5.3,12.195,7.789,4.3,664,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000rcqw,"25 km ENE of Mene Grande, Venezuela",6.3,14.0,7.744,5.2,766,1,Modéré,Évaluation prioritaire,Moyenne,Avertissement tsunami,Niveau de dommages modéré.
+us6000rcnw,"5 km ENE of Mene Grande, Venezuela",6.2,9.0,7.827,8.6,859,1,Modéré,Évaluation prioritaire,Moyenne,Avertissement tsunami,Niveau de dommages modéré.
+us6000rcdc,"47 km SSW of San Juan, Peru",5.6,12.0,4.148,2.5,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rc9h,Kermadec Islands region,5.2,65.3,4.24,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rc4t,"172 km SSE of Vilyuchinsk, Russia",5.6,17.0,3.699,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rc2r,"173 km SSE of Vilyuchinsk, Russia",5.5,17.0,3.786,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qxtz,"180 km SW of José María Morelos, Mexico",5.4,10.0,3.24,2.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75240492,"2 km ESE of Berkeley, CA",4.29,7.58,4.793,4.4,723,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qxp1,"122 km SW of Adak, Alaska",5.5,30.0,4.849,3.7,467,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qxm7,"166 km E of Petropavlovsk-Kamchatsky, Russia",5.6,10.0,3.773,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qxcr,"176 km E of Petropavlovsk-Kamchatsky, Russia",5.9,13.0,3.968,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000rge8,"98 km ESE of Ozernovskiy, Russia",6.0,58.287,5.038,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qxcd,"109 km ESE of Ozernovskiy, Russia",5.9,45.0,4.429,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qxat,"164 km SE of Petropavlovsk-Kamchatsky, Russia",5.5,10.0,3.589,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx91,South Sandwich Islands region,5.4,10.0,3.061,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+hv74779207,"3 km SW of Pāhala, Hawaii",4.06,31.07,3.587,4.3,266,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx7a,"42 km ENE of La Tirana, Chile",5.5,96.269,5.014,4.9,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx5t,"165 km ESE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.583,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx5p,"170 km E of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.745,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx52,"151 km E of Petropavlovsk-Kamchatsky, Russia",5.5,35.0,4.05,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx4q,"140 km E of Petropavlovsk-Kamchatsky, Russia",5.7,47.898,4.035,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx4p,"164 km ESE of Petropavlovsk-Kamchatsky, Russia",5.2,10.0,3.524,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx3d,"144 km E of Petropavlovsk-Kamchatsky, Russia",5.5,35.714,4.071,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx33,"156 km ESE of Petropavlovsk-Kamchatsky, Russia",5.6,10.0,3.595,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx2y,"38 km WNW of Bacnotan, Philippines",5.4,35.0,4.42,4.8,456,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx2s,"160 km ESE of Petropavlovsk-Kamchatsky, Russia",5.5,10.0,3.852,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx2r,"146 km E of Petropavlovsk-Kamchatsky, Russia",5.4,32.356,4.001,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx2q,"144 km E of Petropavlovsk-Kamchatsky, Russia",5.8,10.0,4.17,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx2n,Scotia Sea,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qx2g,"140 km E of Petropavlovsk-Kamchatsky, Russia",7.8,27.0,8.302,8.0,1021,1,Sévère,Intervention prioritaire,Haute,Avertissement tsunami,Niveau de dommages sévère.
+us7000qx1z,"26 km S of Nabire, Indonesia",6.0,28.0,6.812,6.5,558,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qwst,"66 km SE of Petropavlovsk-Kamchatsky, Russia",5.4,54.177,4.116,4.6,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qwir,"208 km SE of Kokopo, Papua New Guinea",6.0,31.0,4.074,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qwch,"144 km ESE of Petropavlovsk-Kamchatsky, Russia",6.0,15.0,4.199,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qw56,"11 km ESE of Udalguri, India",5.5,29.0,6.215,6.0,1072,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us7000qw4k,"5 km N of Frontino, Colombia",5.4,10.0,6.36,5.7,470,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qvx7,South Sandwich Islands region,5.4,34.514,3.294,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qvw5,"105 km E of Petropavlovsk-Kamchatsky, Russia",7.4,58.0,8.022,8.2,861,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qvrf,Tristan da Cunha region,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+uu80117176,"10 km W of Maeser, Utah",4.13,68.34,3.638,3.2,321,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qv0n,Mid-Indian Ridge,5.3,10.0,3.815,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000quwy,"174 km WSW of Port Orford, Oregon",5.7,10.0,3.616,4.1,520,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000quvp,Vanuatu region,6.4,10.0,3.89,3.1,630,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qukk,"264 km WNW of Port McNeill, Canada",4.1,10.0,2.249,2.0,259,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qug7,"81 km SSW of Nikolski, Alaska",5.4,37.69,3.558,,449,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qufv,"35 km NE of Hicks Bay, New Zealand",5.0,43.92,3.784,2.2,385,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qu91,"44 km NNW of Salinas, Ecuador",5.4,3.061,5.444,5.9,451,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qtst,"40 km WSW of Asadābād, Afghanistan",5.6,16.505,7.909,7.9,2066,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us7000qtpj,"85 km W of San Antonio de los Cobres, Argentina",5.9,182.0,3.778,6.1,546,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qtm0,"92 km SSW of Nikolski, Alaska",5.9,18.0,3.911,4.1,536,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+ak025b7povrc,"133 km SE of Old Harbor, Alaska",5.6,12.0,3.154,,482,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qsvj,"35 km WSW of Asadābād, Afghanistan",6.0,8.0,9.393,8.8,2149,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us7000qsu5,South Sandwich Islands region,5.6,67.461,3.631,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00903513,"51 km NE of Valmy, Nevada",3.86,5.9287,4.319,,229,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qsly,"110 km SE of Lata, Solomon Islands",5.5,60.034,4.457,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00903475,"61 km NNE of Valmy, Nevada",4.0,4.2,4.336,4.0,252,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nn00903470,"51 km NE of Valmy, Nevada",4.8,8.1,5.692,5.6,385,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qsjm,"31 km NW of Waikawa, New Zealand",4.3,72.906,3.741,5.0,312,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qrw3,"53 km E of Onagawa Chō, Japan",5.5,51.698,4.115,4.4,476,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qru7,"260 km W of Adak, Alaska",5.1,81.285,3.936,,400,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qrj0,"237 km W of Adak, Alaska",5.9,130.0,4.297,1.0,536,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qr8h,"92 km E of Severo-Kuril’sk, Russia",6.0,40.0,4.952,5.0,556,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qr6h,"21 km ENE of Novokayakent, Russia",5.4,66.28,6.962,6.7,659,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000qqxt,"230 km E of Levuka, Fiji",5.6,614.102,1.46,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qqx7,"174 km S of Severo-Kuril’sk, Russia",5.6,31.0,3.588,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r3l7,east of the Kuril Islands,6.1,9.0,0.0,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r3g6,Fiji region,5.4,352.442,2.277,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r3f5,"154 km SE of Petropavlovsk-Kamchatsky, Russia",5.2,10.0,3.407,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r3dw,"147 km SE of Petropavlovsk-Kamchatsky, Russia",5.3,35.0,3.545,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r3bg,"57 km SSE of Sinabang, Indonesia",5.8,18.0,5.832,8.3,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r3at,"88 km SW of Acajutla, El Salvador",6.0,17.0,5.021,5.3,576,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r39a,"85 km E of Severo-Kuril’sk, Russia",5.4,45.0,4.26,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r385,south of Tonga,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r30q,"41 km ENE of Port-Vila, Vanuatu",5.4,213.944,3.179,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r2xq,2025 Southern Drake Passage Earthquake,7.5,10.0,4.669,7.2,876,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000r2uz,"62 km SE of Ōfunato, Japan",5.6,40.0,3.954,3.4,485,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r2s3,"165 km SE of Vilyuchinsk, Russia",5.8,10.0,3.662,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r22u,Balleny Islands region,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r222,south of Tonga,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r201,"267 km SSE of Ushuaia, Argentina",5.2,10.0,3.585,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1yq,south of Tonga,5.6,12.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1uh,"96 km NE of Hihifo, Tonga",5.2,42.226,4.007,2.7,417,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1ud,"Off the coast of Aisen, Chile",5.6,10.0,0.0,1.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1qp,"109 km WNW of Tobelo, Indonesia",5.5,20.1,4.08,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1p8,"87 km SSW of Puerto San José, Guatemala",5.4,10.0,3.951,2.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1n6,south of the Fiji Islands,5.3,10.0,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1n3,"13 km NNW of Poso, Indonesia",5.8,8.0,8.917,8.8,675,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000r1mt,"32 km ESE of Takanabe, Japan",5.5,30.0,5.578,7.9,470,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1l5,southeast of the Loyalty Islands,5.6,11.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1vi,Mid-Indian Ridge,5.4,10.0,3.963,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0yd,"93 km ESE of Petropavlovsk-Kamchatsky, Russia",5.7,43.0,4.21,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0y7,Balleny Islands region,5.4,10.0,3.039,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0sa,"115 km SSE of Lata, Solomon Islands",6.3,44.99,5.063,5.7,611,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+nc75223077,"6 km NW of The Geysers, CA",4.05,3.38,4.126,4.6,264,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0l4,"151 km E of Neiafu, Tonga",5.6,24.0,3.409,2.2,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r09q,"36 km SSE of Hastings, New Zealand",4.6,35.0,4.594,4.7,342,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r04e,"190 km N of Dili, Timor Leste",5.4,524.126,1.483,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r03i,"93 km NNE of Hihifo, Tonga",5.6,36.0,3.804,2.7,484,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r02g,"82 km S of Akkeshi, Japan",5.4,35.0,4.074,3.4,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r01m,"195 km WNW of Abepura, Indonesia",6.3,14.0,7.695,7.8,622,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qzqn,"138 km SW of Manuel Ávila Camacho (Ponte Duro), Mexico",5.8,9.0,3.688,3.4,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qznb,"10 km WSW of Bigadiç, Turkey",6.1,10.0,9.023,7.9,1188,0,Sévère,Intervention prioritaire,Haute,Aucun avertissement tsunami,Niveau de dommages sévère.
+us6000qzkp,"84 km ESE of Inarajan Village, Guam",5.2,10.0,3.645,3.1,419,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qzki,"103 km ESE of Inarajan Village, Guam",5.9,16.0,3.764,4.4,558,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qzin,"104 km SSW of Champerico, Guatemala",5.9,9.0,3.982,4.8,542,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qzh9,"265 km ESE of Severo-Kuril’sk, Russia",6.0,11.0,3.597,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025a2kno5b,"13 km ESE of Ninilchik, Alaska",4.0,46.8,3.692,3.4,306,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qywk,"74 km E of Kokopo, Papua New Guinea",5.9,19.0,6.793,4.6,537,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qyt7,"16 km NNW of Yonakuni, Japan",5.5,113.505,3.92,4.1,474,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak025a0u3q2q,"24 km WSW of Petersville, Alaska",4.6,87.7,3.753,3.6,406,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qyki,"189 km SSE of Vilyuchinsk, Russia",5.5,10.0,3.63,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qykf,"167 km SSE of Vilyuchinsk, Russia",5.8,16.0,3.891,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qy6g,"131 km SSE of Bam, Iran",5.6,76.745,4.302,3.1,484,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxzw,"202 km S of Severo-Kuril’sk, Russia",6.2,16.0,3.93,1.0,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxxc,"151 km ESE of Petropavlovsk-Kamchatsky, Russia",5.6,9.0,3.634,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxw9,western Indian-Antarctic Ridge,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxvr,"156 km ESE of Petropavlovsk-Kamchatsky, Russia",5.6,10.0,3.597,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxt4,"123 km E of Severo-Kuril’sk, Russia",6.8,30.0,6.881,7.5,717,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qxsv,Pacific-Antarctic Ridge,6.3,10.0,0.0,7.8,611,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxsd,Pacific-Antarctic Ridge,5.8,10.0,0.0,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxpd,"4 km S of Xagacía, Mexico",5.8,62.566,4.896,6.3,557,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxp3,"99 km SE of Severo-Kuril’sk, Russia",5.0,55.875,3.84,,385,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxn6,"165 km SSE of Vilyuchinsk, Russia",6.0,17.0,4.058,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxme,"169 km SSE of Vilyuchinsk, Russia",5.4,28.403,3.672,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxja,"96 km SE of Akkeshi, Japan",5.4,25.169,4.044,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxj2,"154 km SE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.457,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxi9,"32 km SE of Severo-Kuril’sk, Russia",5.6,79.264,4.175,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxhm,"24 km SE of Severo-Kuril’sk, Russia",5.4,88.462,4.235,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxgb,"191 km E of Petropavlovsk-Kamchatsky, Russia",5.5,10.0,3.639,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxfn,"215 km ESE of Severo-Kuril’sk, Russia",6.1,10.0,3.769,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxae,"104 km S of Vilyuchinsk, Russia",5.6,23.0,4.716,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qx9t,"158 km ESE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.626,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qx9r,"174 km SE of Vilyuchinsk, Russia",5.9,19.0,3.772,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qx98,"122 km E of Severo-Kuril’sk, Russia",5.7,23.0,3.957,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qx8k,"106 km ESE of Petropavlovsk-Kamchatsky, Russia",5.7,28.0,4.268,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qx6a,"187 km E of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.565,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qx2r,"167 km ESE of Petropavlovsk-Kamchatsky, Russia",5.7,14.0,3.691,1.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ci41249496,"6 km NW of Rialto, CA",4.37238430493943,5.26,4.481,5.6,854,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwy7,"178 km SSE of Vilyuchinsk, Russia",5.2,10.0,3.55,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwxr,"158 km ESE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.532,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwvb,"131 km SE of Severo-Kuril’sk, Russia",5.5,43.871,3.661,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwuv,"100 km SSE of Severo-Kuril’sk, Russia",5.4,36.975,3.968,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwuh,"222 km SE of Severo-Kuril’sk, Russia",6.2,15.0,3.756,0.0,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwrs,"161 km ESE of Petropavlovsk-Kamchatsky, Russia",5.8,10.0,3.763,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwr5,"144 km SE of Petropavlovsk-Kamchatsky, Russia",5.7,17.0,3.672,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwqx,"172 km ESE of Petropavlovsk-Kamchatsky, Russia",5.1,25.289,3.589,,400,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwqs,"121 km SE of Severo-Kuril’sk, Russia",5.3,33.667,3.621,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwqm,"223 km SE of Severo-Kuril’sk, Russia",5.6,10.0,3.179,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwle,"134 km SE of Severo-Kuril’sk, Russia",5.6,10.0,3.498,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwlc,"256 km ESE of Ozernovskiy, Russia",5.7,10.0,3.424,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwk1,"138 km SE of Severo-Kuril’sk, Russia",6.0,35.0,3.864,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwiq,"135 km ESE of Severo-Kuril’sk, Russia",5.9,23.309,3.788,7.0,537,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1cz,"199 km SSE of Vilyuchinsk, Russia",5.4,35.0,3.534,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwfe,"183 km SE of Vilyuchinsk, Russia",6.1,10.445,3.898,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwex,South Sandwich Islands region,5.5,126.3,3.312,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwd7,"202 km S of Severo-Kuril’sk, Russia",5.6,10.0,3.369,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwbi,"193 km SSE of Vilyuchinsk, Russia",5.4,10.0,3.517,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwbf,"4 km SSW of Turangi, New Zealand",4.9,125.573,3.086,,369,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwbb,"155 km E of Ozernovskiy, Russia",5.4,10.0,4.088,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwb4,"122 km E of Severo-Kuril’sk, Russia",5.6,61.759,3.992,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwah,"152 km S of Severo-Kuril’sk, Russia",5.6,35.0,3.585,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw9z,"154 km ESE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.637,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw94,"132 km SSE of Vilyuchinsk, Russia",5.5,35.0,4.116,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw8v,"139 km SE of Severo-Kuril’sk, Russia",5.4,10.0,3.428,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw92,"155 km ESE of Petropavlovsk-Kamchatsky, Russia",5.3,10.0,3.912,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1gk,"152 km E of Petropavlovsk-Kamchatsky, Russia",5.5,24.949,3.973,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw8r,"146 km SSE of Vilyuchinsk, Russia",5.5,35.0,3.958,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw8p,"158 km E of Petropavlovsk-Kamchatsky, Russia",5.3,27.95,3.888,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw87,"93 km E of Severo-Kuril’sk, Russia",5.9,37.52,4.337,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw86,"256 km ESE of Petropavlovsk-Kamchatsky, Russia",5.7,10.0,3.413,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw7l,"151 km SSE of Vilyuchinsk, Russia",5.3,35.0,3.841,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw7h,"99 km ESE of Severo-Kuril’sk, Russia",5.5,35.0,3.957,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw7g,"178 km SE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.313,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw7f,"136 km ESE of Ozernovskiy, Russia",5.6,35.0,3.936,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw7d,"141 km ESE of Petropavlovsk-Kamchatsky, Russia",5.4,10.0,3.782,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw7b,"128 km SE of Petropavlovsk-Kamchatsky, Russia",5.3,35.0,3.671,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw75,"144 km S of Vilyuchinsk, Russia",5.7,35.0,4.119,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw74,"181 km SSE of Vilyuchinsk, Russia",5.7,10.0,3.558,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw73,"161 km SSE of Vilyuchinsk, Russia",5.1,38.813,3.643,,400,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw6z,"127 km SSE of Vilyuchinsk, Russia",5.7,35.0,4.059,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw6y,"131 km SE of Petropavlovsk-Kamchatsky, Russia",5.4,35.0,3.727,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1d7,"161 km ESE of Ozernovskiy, Russia",5.4,35.0,3.789,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw6s,"126 km SE of Vilyuchinsk, Russia",6.2,35.0,4.282,,591,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r1em,"159 km SE of Vilyuchinsk, Russia",5.8,25.681,3.809,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw6q,"125 km SE of Petropavlovsk-Kamchatsky, Russia",6.9,36.622,6.246,6.6,736,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000r0pw,"177 km ESE of Ozernovskiy, Russia",5.7,10.0,3.729,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw6m,"117 km ESE of Petropavlovsk-Kamchatsky, Russia",5.4,35.0,3.973,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw6g,"176 km SE of Vilyuchinsk, Russia",5.6,10.0,3.425,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwi3,"138 km S of Severo-Kuril’sk, Russia",5.7,35.0,3.862,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0qb,"166 km SSE of Vilyuchinsk, Russia",5.4,10.0,3.658,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0pv,"113 km E of Severo-Kuril’sk, Russia",5.4,39.461,4.091,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwhh,"155 km S of Severo-Kuril’sk, Russia",5.7,10.0,3.626,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0qg,"184 km ESE of Ozernovskiy, Russia",5.8,10.0,3.805,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0ql,"103 km SE of Vilyuchinsk, Russia",5.7,35.0,3.95,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qwhj,"165 km SSE of Vilyuchinsk, Russia",6.0,35.0,4.184,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0qc,"124 km ENE of Ozernovskiy, Russia",6.0,35.0,5.39,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0q2,"128 km SSE of Vilyuchinsk, Russia",5.9,35.0,4.242,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0xt,"137 km ENE of Petropavlovsk-Kamchatsky, Russia",5.9,42.734,4.528,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0xw,"78 km SE of Petropavlovsk-Kamchatsky, Russia",6.1,25.423,4.712,,572,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000r0y5,"94 km SE of Petropavlovsk-Kamchatsky, Russia",6.3,16.375,4.783,,611,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw60,"2025 Kamchatka Peninsula, Russia Earthquake",8.8,35.0,8.529,9.1,2114,1,Sévère,Intervention prioritaire,Haute,Avertissement tsunami,Niveau de dommages sévère.
+nc75216737,"74 km WNW of Ferndale, CA",4.51,9.22,2.676,3.4,355,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw5x,"9 km SE of Comapa, Guatemala",5.2,10.0,6.094,6.4,419,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qw59,"6 km SE of Comapa, Guatemala",5.7,10.0,6.804,5.4,656,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000qw58,"4 km WNW of Jerez, Guatemala",5.6,11.913,6.693,8.6,701,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us6000qw1a,south of the Fiji Islands,6.6,553.0,2.301,,670,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qw18,south of the Fiji Islands,5.8,550.0,1.16,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qvup,Macquarie Island region,5.4,33.218,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qvsl,Macquarie Island region,5.3,34.854,0.0,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qvvp,Macquarie Island region,5.8,10.0,0.0,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qvsf,Macquarie Island region,7.0,31.0,3.791,,754,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qvpp,"264 km WNW of Sabang, Indonesia",6.4,21.0,4.757,3.4,638,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qvj2,"23 km N of Dutch Harbor, Alaska",5.3,83.0,4.148,4.8,447,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+nc75215702,"89 km WNW of Petrolia, CA",4.2,10.0,1.746,,271,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qvbw,Macquarie Island region,6.2,17.0,0.0,0.0,591,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qv9l,"61 km NNE of Sorong, Indonesia",5.6,10.0,4.997,2.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qv9g,"Rat Islands, Aleutian Islands, Alaska",5.3,89.851,3.849,,432,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000qv7n,"130 km WNW of Tobelo, Indonesia",5.8,80.0,3.958,2.7,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qv3y,west of Macquarie Island,5.7,10.0,0.0,2.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qv1b,west of Macquarie Island,6.2,10.0,0.0,7.8,592,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0259gvb2cb,"4 km WSW of Diamond Ridge, Alaska",3.6,61.4,3.154,4.3,210,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000quzf,"58 km NE of Wainui, New Zealand",4.9,10.0,3.906,4.1,371,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000quyn,Azores-Cape St. Vincent Ridge,5.5,10.0,0.0,2.8,468,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000quy1,"187 km SSE of Mata-Utu, Wallis and Futuna",6.6,314.151,3.592,,670,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us6000quxr,"165 km E of Petropavlovsk-Kamchatsky, Russia",5.8,10.0,3.958,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000quxn,"163 km E of Petropavlovsk-Kamchatsky, Russia",6.0,14.0,4.177,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000quqk,"Pagan region, Northern Mariana Islands",5.4,144.0,3.502,2.7,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qun0,"38 km WSW of Angoram, Papua New Guinea",5.7,108.0,3.927,5.0,502,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0259fark6t,"79 km NW of Yakutat, Alaska",3.7,13.0,3.817,,211,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qulk,"69 km NNE of Masamba, Indonesia",5.6,10.0,7.023,2.2,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qulb,"64 km S of Poso, Indonesia",5.5,10.0,6.845,6.7,467,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qugg,"109 km W of Gorontalo, Indonesia",6.3,142.0,4.484,4.6,613,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qubl,"148 km ENE of Masohi, Indonesia",5.2,10.0,4.88,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000quaf,south of the Fiji Islands,5.6,532.691,1.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qu9h,"149 km E of Petropavlovsk-Kamchatsky, Russia",5.4,28.0,3.923,2.7,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0259bz9uv1,"13 km E of Fox River, Alaska",3.5,36.1,2.974,2.8,192,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qu2u,Chagos Archipelago region,5.5,10.0,0.0,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qu2r,"154 km ESE of Petropavlovsk-Kamchatsky, Russia",6.0,12.308,3.979,,554,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qu1q,"156 km ESE of Petropavlovsk-Kamchatsky, Russia",5.3,10.0,3.583,,432,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qtxh,"94 km ENE of Kainantu, Papua New Guinea",5.8,94.0,4.219,5.0,526,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qe51,"91 km SSE of Sand Point, Alaska",6.2,40.0,5.088,5.4,605,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qdz8,"163 km E of Petropavlovsk-Kamchatsky, Russia",5.9,10.0,4.075,,536,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdz2,"143 km E of Petropavlovsk-Kamchatsky, Russia",6.5,34.991,5.224,4.7,650,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdz0,"162 km ESE of Petropavlovsk-Kamchatsky, Russia",5.7,10.0,3.771,,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdzf,"162 km E of Petropavlovsk-Kamchatsky, Russia",5.6,10.0,3.748,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdyw,"153 km ESE of Petropavlovsk-Kamchatsky, Russia",6.6,10.0,4.804,5.4,671,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us6000qxca,"150 km ESE of Petropavlovsk-Kamchatsky, Russia",5.6,10.0,3.737,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdyl,"2025 Eastern Kamchatka, Russia Earthquake",7.4,34.0,7.578,7.7,2018,1,Sévère,Intervention prioritaire,Haute,Avertissement tsunami,Niveau de dommages sévère.
+us7000qdye,"134 km E of Petropavlovsk-Kamchatsky, Russia",6.6,23.0,5.393,3.8,671,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qdxz,"100 km SSW of Basco, Philippines",5.5,45.853,4.381,5.8,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdwb,"30 km E of Qarnābād, Iran",5.1,10.0,6.525,5.4,406,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qduj,"127 km ENE of Kinablangan, Philippines",5.4,10.0,3.42,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdue,northern East Pacific Rise,5.6,10.0,0.0,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qdu5,northern East Pacific Rise,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qddu,"28 km ENE of Shwebo, Burma (Myanmar)",5.1,10.0,6.768,4.3,652,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000qd6b,"76 km S of Tambolaka, Indonesia",5.6,24.0,4.22,5.5,484,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qd4n,"96 km SSE of Sand Point, Alaska",5.6,35.0,3.929,,482,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qd56,"93 km SSE of Sand Point, Alaska",5.4,43.905,4.048,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qd1y,"2025 Sand Point, Alaska Earthquake",7.3,38.0,6.694,7.4,962,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qd00,"57 km E of Atka, Alaska",5.0,69.829,4.275,3.4,386,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qctd,near the north coast of Greenland,5.8,8.0,7.517,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qcrv,"Kermadec Islands, New Zealand",5.7,48.15,4.184,2.0,500,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qcqe,"2 km SW of Piddig, Philippines",5.4,50.0,5.44,5.8,454,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qcp2,Kuril Islands,5.8,74.0,4.229,,518,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qclp,"206 km S of Burica, Panama",6.2,10.0,3.985,2.2,592,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qcik,"180 km WSW of Tual, Indonesia",6.7,70.687,5.748,4.9,715,1,Faible,Surveillance,Faible,Avertissement tsunami,Niveau de dommages faible.
+us7000qcet,"285 km SSE of Port Blair, India",5.2,10.771,3.347,,416,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0258ve2yvm,"34 km ESE of Susitna North, Alaska",4.4,34.1,3.349,3.8,329,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ci41019687,"12 km WNW of Calipatria, CA",4.34,11.21,4.874,5.3,314,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qbgp,"107 km SSW of Bandar Lampung, Indonesia",5.1,79.767,4.261,4.4,403,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qbfv,"3 km SSW of Amatitlán, Guatemala",5.7,10.0,6.941,7.4,768,0,Modéré,Évaluation prioritaire,Moyenne,Aucun avertissement tsunami,Niveau de dommages modéré.
+us7000qb4s,"213 km WSW of Riverton, New Zealand",6.2,22.0,4.601,5.3,604,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qb20,"77 km NE of ‘Ohonua, Tonga",5.5,10.0,4.067,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qazs,"53 km N of Moyobamba, Peru",5.1,10.0,6.555,4.3,401,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qayf,"103 km N of Tatsugō, Japan",5.5,10.0,5.356,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qavc,"50 km NNW of Sabang, Indonesia",5.5,10.0,4.146,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qarl,"107 km NNW of Tatsugō, Japan",5.4,10.0,4.318,1.0,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qamr,"256 km SSE of Ushuaia, Argentina",5.6,10.0,3.535,1.0,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0258go7zsl,"25 km SW of Skwentna, Alaska",4.4,99.9,3.415,3.1,324,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+ak0258gl4e9k,"28 km SSE of Port Graham, Alaska",3.9,57.4,3.288,3.1,238,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qaeh,Pacific-Antarctic Ridge,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qadp,"104 km N of Tatsugō, Japan",5.5,10.0,4.454,,465,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qad7,"100 km E of Ollagüe, Chile",5.4,194.757,3.542,2.5,450,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qa5h,"189 km ENE of Levuka, Fiji",5.6,526.92,1.851,,482,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qa5e,"98 km NNW of Tatsugō, Japan",5.6,10.0,5.921,2.2,483,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qa4b,south of the Fiji Islands,5.4,10.0,0.0,,449,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
+us7000qa3y,"88 km W of San Antonio, Chile",5.5,10.0,4.052,2.5,466,0,Faible,Surveillance,Faible,Aucun avertissement tsunami,Niveau de dommages faible.
