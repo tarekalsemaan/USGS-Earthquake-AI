@@ -58,9 +58,19 @@ Les données sont séparées en :
 
 | Modèle | Accuracy | Recall Sévère | F1 Sévère |
 |---|---:|---:|---:|
-| KNN | 96,1 % | 0,33 | 0,50 |
-| Decision Tree | 98,3 % | 0,67 | 0,67 |
-| Random Forest | 98,9 % | 0,67 | 0,80 |
+| KNN | 97,8 % | 0.68 | 0.70 |
+| Decision Tree | 96,1 % | 0.87 | 0.73 |
+| Random Forest | 96,9 % | 0.87 | 0.75 |
+
+### Champion
+
+Le modèle retenu est **Random Forest**.
+
+Accuracy sur le jeu de test : **98,9 %**
+
+
+La validation croisée est utilisée pour vérifier la stabilité des résultats.
+
 
 ---
 
