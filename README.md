@@ -66,8 +66,11 @@ Les données sont séparées en :
 
 Le modèle retenu est **Random Forest**.
 
-Accuracy sur le jeu de test : **98,9 %**
+Point important à préciser :
 
+Le modèle a un très bon score global, mais la classe “Élevé” reste difficile à prédire correctement à cause du déséquilibre des données.
+
+Donc le score macro F1 est plus pertinent que l’accuracy pour juger le modèle.
 
 La validation croisée est utilisée pour vérifier la stabilité des résultats.
 
