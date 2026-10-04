@@ -27,6 +27,42 @@ Les principales variables utilisées sont :
 Toutes les informations ne sont pas disponibles pour tous les séismes. Le nombre d'observations utilisées varie donc selon le modèle.
 
 ---
+## Modèle de risques des zones
+
+**Notebook :** `02_Model_Risk_Zone.ipynb`
+
+L'objectif est de prédire les zone selon niveau de risque d'un séisme.
+
+Trois classes sont utilisées :
+
+- Faible
+- Moyen
+- Élévé
+
+Les classes sont basées sur les alertes l'USGS.
+
+29062 séismes disposent des informations nécessaires.
+
+| Classe | Nombre |
+|---|---:|
+| Faible | 10831 |
+| Moyen | 18087 |
+| Élévé | 144 |
+
+Les données sont séparées en :
+
+- Entraînement : **23249 séismes**
+- Test : **5813 séismes**
+
+### Modèles testés
+
+| Modèle | Accuracy | Recall Sévère | F1 Sévère |
+|---|---:|---:|---:|
+| KNN | 96,1 % | 0,33 | 0,50 |
+| Decision Tree | 98,3 % | 0,67 | 0,67 |
+| Random Forest | 98,9 % | 0,67 | 0,80 |
+
+---
 
 ## Modèle de dommages
 
