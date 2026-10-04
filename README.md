@@ -31,13 +31,13 @@ Toutes les informations ne sont pas disponibles pour tous les séismes. Le nombr
 
 **Notebook :** `02_Model_Risk_Zone.ipynb`
 
-L'objectif est de prédire les zone selon niveau de risque d'un séisme.
+L'objectif vise a prédire les zones selon niveau de risque sisméque.
 
-Trois classes sont utilisées :
+Trois classes de risque sont utilisées :
 
 - Faible
 - Moyen
-- Élévé
+- Élevé
 
 Les classes sont basées sur les alertes l'USGS.
 
@@ -47,7 +47,7 @@ Les classes sont basées sur les alertes l'USGS.
 |---|---:|
 | Faible | 10831 |
 | Moyen | 18087 |
-| Élévé | 144 |
+| Élevé | 144 |
 
 Les données sont séparées en :
 
