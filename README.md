@@ -27,7 +27,7 @@ Les principales variables utilisées sont :
 Toutes les informations ne sont pas disponibles pour tous les séismes. Le nombre d'observations utilisées varie donc selon le modèle.
 
 ---
-## Modèle de risques des zones
+## Modèle de zones de risque 
 
 **Notebook :** `02_Model_Risk_Zone.ipynb`
 
