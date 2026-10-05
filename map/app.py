@@ -1,4 +1,5 @@
 import sys
+import os
 from pathlib import Path
 
 # ============================================================
@@ -147,9 +148,9 @@ def inverse_economic_loss(value):
 
     if (
 
-        "expm1" in transform_name
+            "expm1" in transform_name
 
-        or "log1p" in transform_name
+            or "log1p" in transform_name
 
     ):
 
@@ -163,15 +164,15 @@ def inverse_economic_loss(value):
 
     if (
 
-        transform_name in [
+            transform_name in [
 
-            "none",
+        "none",
 
-            "identity",
+        "identity",
 
-            "no_transform"
+        "no_transform"
 
-        ]
+    ]
 
     ):
 
@@ -185,7 +186,7 @@ def inverse_economic_loss(value):
 
     if (
 
-        "log" in transform_name
+            "log" in transform_name
 
     ):
 
@@ -417,7 +418,9 @@ model_choice = st.sidebar.radio(
 
         "Prédiction des dommages",
 
-        "Prédiction des pertes économiques"
+        "Prédiction des pertes économiques",
+
+        "Prédiction de la sévérité"
 
     ]
 
@@ -573,9 +576,9 @@ if model_choice == "Prédiction des dommages":
 
     if (
 
-        map_data
+            map_data
 
-        and map_data.get("last_clicked")
+            and map_data.get("last_clicked")
 
     ):
 
@@ -596,23 +599,23 @@ if model_choice == "Prédiction des dommages":
 
         location_changed = (
 
-            abs(
+                abs(
 
-                clicked_latitude
+                    clicked_latitude
 
-                - st.session_state.latitude
+                    - st.session_state.latitude
 
-            ) > 0.0001
+                ) > 0.0001
 
-            or
+                or
 
-            abs(
+                abs(
 
-                clicked_longitude
+                    clicked_longitude
 
-                - st.session_state.longitude
+                    - st.session_state.longitude
 
-            ) > 0.0001
+                ) > 0.0001
 
         )
 
@@ -638,7 +641,6 @@ if model_choice == "Prédiction des dommages":
 
             # Reset Model 6 — Action
             st.session_state.action_result = None
-
 
             st.rerun()
 
@@ -855,9 +857,9 @@ if model_choice == "Prédiction des dommages":
 
     if st.button(
 
-        "Prédire les dommages",
+            "Prédire les dommages",
 
-        type="primary"
+            type="primary"
 
     ):
 
@@ -931,9 +933,9 @@ if model_choice == "Prédiction des dommages":
 
     if (
 
-        st.session_state.damage_prediction
+            st.session_state.damage_prediction
 
-        is not None
+            is not None
 
     ):
 
@@ -1076,10 +1078,10 @@ if model_choice == "Prédiction des dommages":
         )
 
 
-# ============================================================
+        # ============================================================
 
-# MODEL 6 — ACTION
-# ============================================================
+        # MODEL 6 — ACTION
+        # ============================================================
 
         # Model 6 uses the Damage_Level produced by Model 5
         # and the tsunami indicator as a complementary warning.
@@ -1123,7 +1125,7 @@ if model_choice == "Prédiction des dommages":
 # ============================================================
 
 
-else:
+elif model_choice == "Prédiction des pertes économiques":
 
 
     st.title(
@@ -1198,9 +1200,9 @@ else:
 
     if st.button(
 
-        "Analyser le séisme",
+            "Analyser le séisme",
 
-        type="primary"
+            type="primary"
 
     ):
 
@@ -1210,7 +1212,7 @@ else:
 
             with st.spinner(
 
-                "Chargement des données USGS..."
+                    "Chargement des données USGS..."
 
             ):
 
@@ -1288,7 +1290,7 @@ else:
 
                 if feature
 
-                not in economic_features.columns
+                   not in economic_features.columns
 
             ]
 
@@ -1404,15 +1406,15 @@ else:
 
     if (
 
-        st.session_state.economic_prediction
+            st.session_state.economic_prediction
 
-        is not None
+            is not None
 
-        and
+            and
 
-        st.session_state.economic_event
+            st.session_state.economic_event
 
-        is not None
+            is not None
 
     ):
 
@@ -1630,11 +1632,11 @@ else:
 
                 {
 
-                    "Oui"
+                "Oui"
 
-                    if event_data["tsunami"] == 1
+                if event_data["tsunami"] == 1
 
-                    else "Non"
+                else "Non"
 
                 }<br>
 
@@ -1665,3 +1667,45 @@ else:
             returned_objects=[]
 
         )
+# ============================================================
+# MODEL 3 — SEVERITY PREDICTION
+# ============================================================
+
+elif model_choice == "Prédiction de la sévérité":
+
+    st.title("USGS Earthquake AI — Prédiction de la sévérité")
+    st.write("Ce modèle estime la **significance** d’un séisme.")
+
+    # Load model 3
+    model_path = os.path.join(os.path.dirname(__file__), "..", "models", "best_regressor_random_forest.pkl")
+    if not os.path.exists(model_path):
+        st.error(f"Fichier introuvable : {model_path}")
+        st.stop()
+
+    rf_model = joblib.load(model_path)
+
+    # Inputs
+    st.subheader("Caractéristiques du séisme")
+    mag = st.number_input("Magnitude", 0.0, 10.0, 5.0)
+    depth_km = st.number_input("Profondeur (km)", 0.0, 800.0, 10.0)
+    rms = st.number_input("RMS", 0.0, 10.0, 0.5)
+    gap = st.number_input("Gap", 0.0, 360.0, 100.0)
+    dmin = st.number_input("Distance minimale (dmin)", 0.0, 10.0, 1.0)
+    nst = st.number_input("Nombre de stations (nst)", 0, 1000, 30)
+    latitude = st.number_input("Latitude", -90.0, 90.0, 45.0)
+    longitude = st.number_input("Longitude", -180.0, 180.0, -73.0)
+
+    if st.button("Prédire la sévérité", type="primary"):
+        X_input = pd.DataFrame([{
+            "magnitude": mag,
+            "nst": nst,
+            "dmin": dmin,
+            "rms": rms,
+            "gap": gap,
+            "longitude": longitude,
+            "latitude": latitude,
+            "depth_km": depth_km
+        }])
+
+        prediction = rf_model.predict(X_input)[0]
+        st.success(f"Sévérité prédite : {prediction:.2f}")
