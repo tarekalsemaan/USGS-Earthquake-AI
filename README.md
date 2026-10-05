@@ -73,10 +73,26 @@ Le modèle a un très bon score global, mais la classe “Élevé” reste diffi
 Donc le score macro F1 est plus pertinent que l’accuracy pour juger le modèle.
 
 La validation croisée est utilisée pour vérifier la stabilité des résultats.
+
 ---
 ## Modèle de classification facteur de risque 
 
 **Notebook :** `04_Model_Risk_Factors.ipynb`
+
+
+Les classes sont basées sur les alertes l'USGS.
+
+29062 séismes disposent des informations nécessaires.
+
+| Classe | Nombre |
+|---|---:|
+| Risque Modéré ou Faible | 20093 |
+| Faible Profondeur | 8704 |
+| Risque Tsunami | 141 |
+| Forte Exposition | 85 |
+| Forte Secousse | 39 |
+
+
 
 ### Modèles testés
 
