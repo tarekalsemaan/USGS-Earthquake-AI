@@ -16,3 +16,4 @@ streamlit-folium
 mlflow
 shap
 xgboost
+lightgbm
