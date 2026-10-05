@@ -27,7 +27,7 @@ Les principales variables utilisées sont :
 Toutes les informations ne sont pas disponibles pour tous les séismes. Le nombre d'observations utilisées varie donc selon le modèle.
 
 ---
-## Modèle de zones de risque 
+## Modèle de classification des zones de risque 
 
 **Notebook :** `02_Model_Risk_Zone.ipynb`
 
@@ -73,7 +73,22 @@ Le modèle a un très bon score global, mais la classe “Élevé” reste diffi
 Donc le score macro F1 est plus pertinent que l’accuracy pour juger le modèle.
 
 La validation croisée est utilisée pour vérifier la stabilité des résultats.
+---
+## Modèle de classification facteur de risque 
 
+**Notebook :** `04_Model_Risk_Factors.ipynb`
+
+### Modèles testés
+
+| Modèle | Accuracy | Recall Sévère | F1 Sévère |
+|---|---:|---:|---:|
+| LightGBM | 97,8 % | 0.68 | 0.70 |
+| XGBoost | 96,1 % | 0.87 | 0.73 |
+| Random Forest | 96,9 % | 0.87 | 0.75 |
+
+### Champion
+
+Le modèle retenu est **LightGBM**.
 
 ---
 
